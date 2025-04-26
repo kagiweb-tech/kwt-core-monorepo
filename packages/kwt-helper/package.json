@@ -1,0 +1,45 @@
+{
+  "name": "kwt-helper",
+  "version": "1.0.0",
+  "description": "Helper for kagiweb-tech projects",
+  "main": "bin/index.js",
+  "_bin": "./bin/index.js",
+  "bin": {
+    "kwtech": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node bin/index.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc -p ./tsconfig.json",
+    "lint": "eslint . --ext .ts",
+    "test": "jest"
+  },
+  "author": {
+    "name": "Gilbert D. Cuerbo",
+    "email": "gilbert.cuerbo@gmail.com",
+    "url": "https://gilbertgit95.github.io/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@eslint/js": "^9.25.1",
+    "@types/bcrypt": "^5.0.0",
+    "@types/jest": "^29.5.1",
+    "@types/node": "^20.2.1",
+    "@types/prompts": "^2.4.4",
+    "@typescript-eslint/eslint-plugin": "^8.31.0",
+    "@typescript-eslint/parser": "^8.31.0",
+    "eslint": "^9.25.1",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@kagiweb-tech/api-core-a": "workspace:*",
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.0.3",
+    "mongoose": "^7.2.0",
+    "prompts": "^2.4.2"
+  }
+}

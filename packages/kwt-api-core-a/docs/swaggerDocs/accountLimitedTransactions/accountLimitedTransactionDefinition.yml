@@ -1,0 +1,33 @@
+type: object
+required:
+  - limit
+  - attempts
+  - type
+properties:
+  limit:
+    type: number
+  attempts:
+    type: bumber
+  type:
+    type: string
+    enum: [signin, otp-signin, forgot-pass, reset-pass, verify-contact]
+  key:
+    type: string
+  value:
+    type: string
+  expTime:
+    type: date
+  recipient:
+    type: string
+  disabled:
+    type: boolean
+
+example:
+  limit: 5
+  attempts: 0
+  type: reset-pass
+  key: 419188
+  value: test
+  expTime: 2023-09-08T02:31:09.082Z
+  recipient: app-admin
+  disabled: false

@@ -1,0 +1,43 @@
+type: object
+required:
+  - type
+  - value
+properties:
+  scope:
+    type: string
+    description: could be account or workspace
+    example: account
+  name:
+    type: string
+    enum: [api-route, ui-route, ui-module]
+    description: just a name use to identify the feature
+    example: get feature route
+  type:
+    type: string
+    description: use to identify type of feature.
+    example: api-route
+  tags:
+    type: array
+    items:
+      type: string
+    description: this will be use in UI to categorize the features
+    example:
+      - Server
+      - Api Route
+      - Get
+  value:
+    type: string
+    description: the actual value to use when checking internally in the application
+    example: '[GET]_\api\v1\systemInfo'
+  description:
+    type: string
+
+example:
+  description: Just a test route.
+  tags:
+      - account
+      - workspace
+  type: api-route
+  value: test/test-route
+  scope: account
+  name: Manager

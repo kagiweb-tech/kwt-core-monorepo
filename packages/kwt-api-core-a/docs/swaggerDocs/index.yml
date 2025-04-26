@@ -1,0 +1,27 @@
+openapi: 3.0.3
+info:
+  version: 1.0.0
+  title: API documenations using Swagger
+  description: Sample project which generates API documentaion using swagger.
+  contact:
+    name: Gilbert D. Cuerbo
+    email: gilbert.cuerbo@gmail.com
+  license:
+    name: MIT
+    url: https://github.com/gilbertgit95/kagiweb-api-core-a/blob/master/LICENSE
+servers:
+  - url: localhost:5000/api/core/v1/
+tags: 
+  $ref: ./tags.yml
+paths:
+  $ref: ./paths.yml
+security:
+  - BearerAuth: []
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+  schemas:
+    $ref: ./definitions.yml

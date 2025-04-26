@@ -1,0 +1,5711 @@
+[{
+  "_id": "abe53e67-c5aa-4403-95d1-1d8a391589dd",
+  "value": "GET - /api/v1/system",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/system",
+  "scope": "app",
+  "tags": [
+    "system"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "f7528b35-4400-4ab0-805c-c01021e97d05",
+  "value": "GET - /api/v1/features",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/features",
+  "scope": "app",
+  "tags": [
+    "features"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "5c44e2bc-4a4c-4f6f-8ce6-d4181a6a5982",
+  "value": "POST - /api/v1/features",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "POST - /api/v1/features",
+  "scope": "app",
+  "tags": [
+    "features"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "4d25e1b9-6cd4-4c2c-a757-7206a3c2082f",
+  "value": "GET - /api/v1/features/:featureId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/features/:featureId",
+  "scope": "app",
+  "tags": [
+    "features"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "44bf4be7-59a1-4cb2-a6d8-c45a1869b3cf",
+  "value": "PUT - /api/v1/features/:featureId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/features/:featureId",
+  "scope": "app",
+  "tags": [
+    "features"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "0cdd6a7a-9814-48ac-a0b1-c60c25030914",
+  "value": "DELETE - /api/v1/features/:featureId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/features/:featureId",
+  "scope": "app",
+  "tags": [
+    "features"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "58730eb7-5c71-4a92-92ea-49f20997704c",
+  "value": "GET - /api/v1/roles",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/roles",
+  "scope": "app",
+  "tags": [
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "b18f2ae1-e42d-40e5-89c9-b7ff4894e213",
+  "value": "POST - /api/v1/roles",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "POST - /api/v1/roles",
+  "scope": "app",
+  "tags": [
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "bce3db3c-7080-44a8-9d55-02fb52407dc8",
+  "value": "GET - /api/v1/roles/:roleId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/roles/:roleId",
+  "scope": "app",
+  "tags": [
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "539490be-1eed-4e32-8196-31d70af5c4df",
+  "value": "PUT - /api/v1/roles/:roleId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/roles/:roleId",
+  "scope": "app",
+  "tags": [
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "649f040b-beee-433a-bf33-7a15e9ab2933",
+  "value": "DELETE - /api/v1/roles/:roleId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/roles/:roleId",
+  "scope": "app",
+  "tags": [
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "ddaa0d9a-a4b8-4553-a033-824b3cdfe713",
+  "value": "GET - /api/v1/roles/:roleId/features",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/roles/:roleId/features",
+  "scope": "app",
+  "tags": [
+    "roles",
+    "features"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "b90713a8-0862-4eda-918a-ca3fe02d24ad",
+  "value": "POST - /api/v1/roles/:roleId/features",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "POST - /api/v1/roles/:roleId/features",
+  "scope": "app",
+  "tags": [
+    "roles",
+    "features"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "f5d9a3f4-12d0-40c6-8605-abfad0a011ab",
+  "value": "GET - /api/v1/roles/:roleId/features/:featureRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/roles/:roleId/features/:featureRefId",
+  "scope": "app",
+  "tags": [
+    "roles",
+    "features"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "deea3828-da78-406c-ace3-c2fa4d3e3d56",
+  "value": "PUT - /api/v1/roles/:roleId/features/:featureRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/roles/:roleId/features/:featureRefId",
+  "scope": "app",
+  "tags": [
+    "roles",
+    "features"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "64162168-6338-4f73-a5b2-b2564d146073",
+  "value": "DELETE - /api/v1/roles/:roleId/features/:featureRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/roles/:roleId/features/:featureRefId",
+  "scope": "app",
+  "tags": [
+    "roles",
+    "features"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "c746008a-7c0a-42be-81e1-f8c53963f66f",
+  "value": "PUT - /api/v1/roles/:roleId/cloneFeatures",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/roles/:roleId/cloneFeatures",
+  "scope": "app",
+  "tags": [
+    "roles",
+    "cloneFeatures"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "4582b22c-6e14-4fc9-a961-1096d774c239",
+  "value": "GET - /api/v1/accounts",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts",
+  "scope": "account",
+  "tags": [
+    "accounts"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "ffda9770-1722-4c0c-8145-dbe90b051a72",
+  "value": "POST - /api/v1/accounts",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "POST - /api/v1/accounts",
+  "scope": "account",
+  "tags": [
+    "accounts"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "a116072d-a0da-4ccc-a1bd-c8b3e3c72e9a",
+  "value": "GET - /api/v1/accounts/:accountId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId",
+  "scope": "account",
+  "tags": [
+    "accounts"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "ffb4e819-0451-4576-8f3c-5c944ec7bdd1",
+  "value": "PUT - /api/v1/accounts/:accountId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/accounts/:accountId",
+  "scope": "account",
+  "tags": [
+    "accounts"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "d6620d3e-fe88-4780-bbec-2ea9c49b2730",
+  "value": "DELETE - /api/v1/accounts/:accountId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/accounts/:accountId",
+  "scope": "account",
+  "tags": [
+    "accounts"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "3510e8e0-f89b-442c-bbfe-0f6fb705c28b",
+  "value": "GET - /api/v1/accounts/:accountId/roles",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/roles",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "0e94aedd-e692-43ad-a4f4-b5b3c56d8d61",
+  "value": "GET - /api/v1/accounts/:accountId/roles/:roleRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/roles/:roleRefId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "71d604a1-8003-4fb2-a017-0a9c11ea52f1",
+  "value": "POST - /api/v1/accounts/:accountId/roles",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "POST - /api/v1/accounts/:accountId/roles",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "b94d37e5-7b11-4e45-9b03-1dfea90e866d",
+  "value": "PUT - /api/v1/accounts/:accountId/roles/:roleRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/accounts/:accountId/roles/:roleRefId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "02f7df0f-7368-486d-882c-ffaf52128f3d",
+  "value": "DELETE - /api/v1/accounts/:accountId/roles/:roleRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/accounts/:accountId/roles/:roleRefId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "5e5433fd-4be4-4d21-8c87-6b5126f092b8",
+  "value": "GET - /api/v1/accounts/:accountId/accountInfos",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/accountInfos",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountInfos"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "8ca5f7df-aea3-412d-859a-303a6a4ffaba",
+  "value": "POST - /api/v1/accounts/:accountId/accountInfos",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "POST - /api/v1/accounts/:accountId/accountInfos",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountInfos"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "34e90389-fddc-40fc-b0ca-c72fe4daffad",
+  "value": "GET - /api/v1/accounts/:accountId/accountInfos/:accountInfoId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/accountInfos/:accountInfoId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountInfos"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "286ec041-dd87-4563-8c5d-0e68f5399b95",
+  "value": "PUT - /api/v1/accounts/:accountId/accountInfos/:accountInfoId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/accounts/:accountId/accountInfos/:accountInfoId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountInfos"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "5e0a1ec8-4ae4-4f2a-817b-74d10b3fc7b0",
+  "value": "DELETE - /api/v1/accounts/:accountId/accountInfos/:accountInfoId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/accounts/:accountId/accountInfos/:accountInfoId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountInfos"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "74eab579-bf00-45a8-ba25-ccdf05941de6",
+  "value": "GET - /api/v1/accounts/:accountId/accountConfigs",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/accountConfigs",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountConfigs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "571d4835-6ea8-47c1-ac0a-c439bcab6010",
+  "value": "GET - /api/v1/accounts/:accountId/accountConfigs/:accountConfigId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/accountConfigs/:accountConfigId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountConfigs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "fe0656a9-9e7a-4f8c-8bf3-68f64ba7b7d9",
+  "value": "PUT - /api/v1/accounts/:accountId/accountConfigs/:accountConfigId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/accounts/:accountId/accountConfigs/:accountConfigId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountConfigs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "6262fa13-3582-4dd6-b885-fa812b39dbb8",
+  "value": "GET - /api/v1/accounts/:accountId/contactInfos",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/contactInfos",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "contactInfos"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "b99ff7ce-83bc-4c65-a017-f4a4acc54fc8",
+  "value": "POST - /api/v1/accounts/:accountId/contactInfos",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "POST - /api/v1/accounts/:accountId/contactInfos",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "contactInfos"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "63454281-6b89-4319-bb07-eb010984936e",
+  "value": "GET - /api/v1/accounts/:accountId/contactInfos/:contactInfoId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/contactInfos/:contactInfoId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "contactInfos"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "3f737faa-fdae-47c2-85b2-5ac029c0fa28",
+  "value": "PUT - /api/v1/accounts/:accountId/contactInfos/:contactInfoId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/accounts/:accountId/contactInfos/:contactInfoId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "contactInfos"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "bef49038-b1c3-47d2-bf41-47b9eda3a007",
+  "value": "DELETE - /api/v1/accounts/:accountId/contactInfos/:contactInfoId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/accounts/:accountId/contactInfos/:contactInfoId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "contactInfos"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "92864dce-986c-4b57-8e97-d006719a89a3",
+  "value": "GET - /api/v1/accounts/:accountId/passwords",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/passwords",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "passwords"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "f23deb97-1af4-4c33-9801-df42dabf1cbf",
+  "value": "POST - /api/v1/accounts/:accountId/passwords",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "POST - /api/v1/accounts/:accountId/passwords",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "passwords"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "39c3ea5b-e523-4253-bf89-f357a2e4cbe1",
+  "value": "GET - /api/v1/accounts/:accountId/passwords/:passwordId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/passwords/:passwordId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "passwords"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "3255b4c4-54e7-4c34-bdc4-678b49279f22",
+  "value": "DELETE - /api/v1/accounts/:accountId/passwords/:passwordId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/accounts/:accountId/passwords/:passwordId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "passwords"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "50de46cf-25a7-4123-b925-f7a84c13dba8",
+  "value": "GET - /api/v1/accounts/:accountId/limitedTransactions",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/limitedTransactions",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "limitedTransactions"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "7946ad8c-5ced-494d-a122-1f2dd8b2fe77",
+  "value": "GET - /api/v1/accounts/:accountId/limitedTransactions/:limitedTransactionId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/limitedTransactions/:limitedTransactionId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "limitedTransactions"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "a8d4b51f-17b5-4a48-ae6d-90a4b181c9a5",
+  "value": "PUT - /api/v1/accounts/:accountId/limitedTransactions/:limitedTransactionId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/accounts/:accountId/limitedTransactions/:limitedTransactionId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "limitedTransactions"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "8a7bcc08-7a8a-4dab-bd8f-7805fdf906f8",
+  "value": "GET - /api/v1/accounts/:accountId/clientDevices",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/clientDevices",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "clientDevices"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "754bcd4a-ab98-4a9c-8fac-d4dd967dcdab",
+  "value": "POST - /api/v1/accounts/:accountId/clientDevices",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "POST - /api/v1/accounts/:accountId/clientDevices",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "clientDevices"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "b4a73344-6758-43b6-afb3-f54521d8cd1f",
+  "value": "GET - /api/v1/accounts/:accountId/clientDevices/:clientDeviceId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/clientDevices/:clientDeviceId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "clientDevices"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "5d72fd61-4f5b-4300-a095-146128fb4ff7",
+  "value": "PUT - /api/v1/accounts/:accountId/clientDevices/:clientDeviceId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/accounts/:accountId/clientDevices/:clientDeviceId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "clientDevices"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "922834f8-437b-4104-b4d1-edd0f9288f1a",
+  "value": "DELETE - /api/v1/accounts/:accountId/clientDevices/:clientDeviceId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/accounts/:accountId/clientDevices/:clientDeviceId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "clientDevices"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "094c56f6-9947-446b-810b-900af8c32ff0",
+  "value": "GET - /api/v1/accounts/:accountId/clientDevices/:clientDeviceId/accessTokens",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/clientDevices/:clientDeviceId/accessTokens",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "clientDevices",
+    "accessTokens"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "eaf7c25c-37af-461d-a1b1-8c21286de67a",
+  "value": "POST - /api/v1/accounts/:accountId/clientDevices/:clientDeviceId/accessTokens",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "POST - /api/v1/accounts/:accountId/clientDevices/:clientDeviceId/accessTokens",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "clientDevices",
+    "accessTokens"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "49e7202c-06fc-4ff3-95ed-d43fca296ce9",
+  "value": "GET - /api/v1/accounts/:accountId/clientDevices/:clientDeviceId/accessTokens/:accessTokenId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/clientDevices/:clientDeviceId/accessTokens/:accessTokenId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "clientDevices",
+    "accessTokens"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "e5f734b0-8be0-493d-b60c-af819584d62a",
+  "value": "PUT - /api/v1/accounts/:accountId/clientDevices/:clientDeviceId/accessTokens/:accessTokenId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/accounts/:accountId/clientDevices/:clientDeviceId/accessTokens/:accessTokenId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "clientDevices",
+    "accessTokens"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "768fd6a6-c1e5-4ead-8fd3-c7cacf8ed29f",
+  "value": "DELETE - /api/v1/accounts/:accountId/clientDevices/:clientDeviceId/accessTokens/:accessTokenId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/accounts/:accountId/clientDevices/:clientDeviceId/accessTokens/:accessTokenId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "clientDevices",
+    "accessTokens"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "d602d043-b623-4290-89e0-57c349f4ba09",
+  "value": "GET - /api/v1/accounts/:accountId/accountRefs",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/accountRefs",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountRefs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "940bd4f3-b7b5-49ca-bc84-7d5d5566d433",
+  "value": "POST - /api/v1/accounts/:accountId/accountRefs",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "POST - /api/v1/accounts/:accountId/accountRefs",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountRefs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "bc000c4e-6ae6-4a72-80a0-d4c732022efd",
+  "value": "GET - /api/v1/accounts/:accountId/accountRefs/:accountRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/accountRefs/:accountRefId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountRefs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "c88d36bf-0f1c-4124-9c4b-50b0ede80a90",
+  "value": "PUT - /api/v1/accounts/:accountId/accountRefs/:accountRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/accounts/:accountId/accountRefs/:accountRefId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountRefs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "9d318dc8-2d29-48c7-bf7d-3384355e0c0f",
+  "value": "DELETE - /api/v1/accounts/:accountId/accountRefs/:accountRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/accounts/:accountId/accountRefs/:accountRefId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountRefs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "65dec9ca-48e3-4d36-925c-577f4b28cbb0",
+  "value": "GET - /api/v1/accounts/:accountId/accountRefs/:accountRefId/accountConfigs",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/accountRefs/:accountRefId/accountConfigs",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountRefs",
+    "accountConfigs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "f7608043-026f-490f-92f8-fb8c008a756e",
+  "value": "GET - /api/v1/accounts/:accountId/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountRefs",
+    "accountConfigs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "0dbd33f2-d6f1-4fdb-8a1d-f69adbdbdbee",
+  "value": "PUT - /api/v1/accounts/:accountId/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/accounts/:accountId/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountRefs",
+    "accountConfigs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "3d7acfbf-5c48-45ec-b5e6-6d0673d9fc01",
+  "value": "GET - /api/v1/accounts/:accountId/accountRefs/:accountRefId/roles",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/accountRefs/:accountRefId/roles",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountRefs",
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "4a102862-f7ed-41a4-a93c-7aaf5cb34f55",
+  "value": "GET - /api/v1/accounts/:accountId/accountRefs/:accountRefId/roles/:roleRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/accountRefs/:accountRefId/roles/:roleRefId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountRefs",
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "abab1e1d-eb5b-4bd8-9685-b319fb962ae8",
+  "value": "POST - /api/v1/accounts/:accountId/accountRefs/:accountRefId/roles",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "POST - /api/v1/accounts/:accountId/accountRefs/:accountRefId/roles",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountRefs",
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "2505365b-dcb1-4f18-b713-705c8f81abd8",
+  "value": "PUT - /api/v1/accounts/:accountId/accountRefs/:accountRefId/roles/:roleRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/accounts/:accountId/accountRefs/:accountRefId/roles/:roleRefId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountRefs",
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "916aee38-719b-472d-a915-4182fc6207ff",
+  "value": "DELETE - /api/v1/accounts/:accountId/accountRefs/:accountRefId/roles/:roleRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/accounts/:accountId/accountRefs/:accountRefId/roles/:roleRefId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountRefs",
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "4b11c7a6-297a-4f53-ba9a-dcb7de77e05c",
+  "value": "GET - /api/v1/accounts/:accountId/workspaces",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/workspaces",
+  "scope": "workspace",
+  "tags": [
+    "accounts",
+    "workspaces"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "d962c04e-a7ac-408e-afa3-0c06406cb4f5",
+  "value": "POST - /api/v1/accounts/:accountId/workspaces",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "POST - /api/v1/accounts/:accountId/workspaces",
+  "scope": "workspace",
+  "tags": [
+    "accounts",
+    "workspaces"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "0ed71f16-7549-4daf-b828-11e25b6d2213",
+  "value": "GET - /api/v1/accounts/:accountId/workspaces/:workspaceId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/workspaces/:workspaceId",
+  "scope": "workspace",
+  "tags": [
+    "accounts",
+    "workspaces"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "a4160733-7a56-4e31-966d-8e8099c70aea",
+  "value": "PUT - /api/v1/accounts/:accountId/workspaces/:workspaceId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/accounts/:accountId/workspaces/:workspaceId",
+  "scope": "workspace",
+  "tags": [
+    "accounts",
+    "workspaces"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "c83d6a66-0fc2-498a-93fa-2a182a87ce1c",
+  "value": "DELETE - /api/v1/accounts/:accountId/workspaces/:workspaceId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/accounts/:accountId/workspaces/:workspaceId",
+  "scope": "workspace",
+  "tags": [
+    "accounts",
+    "workspaces"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "151e10a8-6b68-41f5-9458-7478ef64fdd5",
+  "value": "GET - /api/v1/accounts/:accountId/workspaces/:workspaceId/accountRefs",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/workspaces/:workspaceId/accountRefs",
+  "scope": "workspace",
+  "tags": [
+    "accounts",
+    "workspaces",
+    "accountRefs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "2d9982e2-1926-49c1-a859-8f6fd8c60f7c",
+  "value": "POST - /api/v1/accounts/:accountId/workspaces/:workspaceId/accountRefs",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "POST - /api/v1/accounts/:accountId/workspaces/:workspaceId/accountRefs",
+  "scope": "workspace",
+  "tags": [
+    "accounts",
+    "workspaces",
+    "accountRefs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "978edea7-7a1d-4947-a2d0-9958b0127a04",
+  "value": "GET - /api/v1/accounts/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId",
+  "scope": "workspace",
+  "tags": [
+    "accounts",
+    "workspaces",
+    "accountRefs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "23efc9d9-1c43-4fd9-a710-a8fb096feb51",
+  "value": "PUT - /api/v1/accounts/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/accounts/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId",
+  "scope": "workspace",
+  "tags": [
+    "accounts",
+    "workspaces",
+    "accountRefs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "e1084c0c-4b65-40cc-9681-8d2ca76325d4",
+  "value": "DELETE - /api/v1/accounts/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/accounts/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId",
+  "scope": "workspace",
+  "tags": [
+    "accounts",
+    "workspaces",
+    "accountRefs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "e66fbba7-0e68-472e-84f4-47ae6d1bb553",
+  "value": "GET - /api/v1/accounts/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId/accountConfigs",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId/accountConfigs",
+  "scope": "workspace",
+  "tags": [
+    "accounts",
+    "workspaces",
+    "accountRefs",
+    "accountConfigs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "b75e2608-9606-4d20-9c53-5d5d3e80439e",
+  "value": "GET - /api/v1/accounts/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "scope": "workspace",
+  "tags": [
+    "accounts",
+    "workspaces",
+    "accountRefs",
+    "accountConfigs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "e8fcaade-bf06-4a9d-81bf-4e2515ccda23",
+  "value": "PUT - /api/v1/accounts/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/accounts/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "scope": "workspace",
+  "tags": [
+    "accounts",
+    "workspaces",
+    "accountRefs",
+    "accountConfigs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "310fb187-b1d8-4aee-84e4-6dbd8c6098f9",
+  "value": "GET - /api/v1/accounts/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId/roles",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId/roles",
+  "scope": "workspace",
+  "tags": [
+    "accounts",
+    "workspaces",
+    "accountRefs",
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "83f9e4c8-9a1e-4307-bc4f-2dbbd13bde0f",
+  "value": "GET - /api/v1/accounts/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId/roles/:roleRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId/roles/:roleRefId",
+  "scope": "workspace",
+  "tags": [
+    "accounts",
+    "workspaces",
+    "accountRefs",
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "599d7b1e-8d48-4d8f-a040-96e30bd3aad6",
+  "value": "POST - /api/v1/accounts/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId/roles",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "POST - /api/v1/accounts/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId/roles",
+  "scope": "workspace",
+  "tags": [
+    "accounts",
+    "workspaces",
+    "accountRefs",
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "78aa7b28-ec54-4cc3-8e6f-3fcaa4af5714",
+  "value": "PUT - /api/v1/accounts/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId/roles/:roleRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/accounts/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId/roles/:roleRefId",
+  "scope": "workspace",
+  "tags": [
+    "accounts",
+    "workspaces",
+    "accountRefs",
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "bb569883-92df-4e76-9716-970bfb730991",
+  "value": "DELETE - /api/v1/accounts/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId/roles/:roleRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/accounts/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId/roles/:roleRefId",
+  "scope": "workspace",
+  "tags": [
+    "accounts",
+    "workspaces",
+    "accountRefs",
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "971ba54d-0419-4f02-bb2e-1f9ff8abb556",
+  "value": "GET - /api/v1/owner",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner",
+  "scope": "app",
+  "tags": [
+    "owner"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "1a79b78f-9020-4dc5-b054-a8c6737abdd6",
+  "value": "PUT - /api/v1/owner",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/owner",
+  "scope": "app",
+  "tags": [
+    "owner"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "3984853f-78f1-4092-9931-90fcf1fbb970",
+  "value": "GET - /api/v1/owner/roles",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/roles",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "af5cf696-ad98-4a91-8caf-89913cf3b650",
+  "value": "GET - /api/v1/owner/roles/:roleRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/roles/:roleRefId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "e6beb68d-9ceb-4fe6-853c-1c3ce2355885",
+  "value": "DELETE - /api/v1/owner/roles/:roleRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/owner/roles/:roleRefId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "2d57667c-2a7d-44c1-bf64-3752bb2c81af",
+  "value": "GET - /api/v1/owner/accountInfos",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/accountInfos",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountInfos"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "81b2d579-0dc3-4d9c-adc6-116c3767abeb",
+  "value": "POST - /api/v1/owner/accountInfos",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "POST - /api/v1/owner/accountInfos",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountInfos"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "044413c6-d919-49bd-b16c-e4ec2879c0fa",
+  "value": "GET - /api/v1/owner/accountInfos/:accountInfoId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/accountInfos/:accountInfoId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountInfos"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "c94d2687-346e-4994-a0fb-456dcdd63205",
+  "value": "PUT - /api/v1/owner/accountInfos/:accountInfoId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/owner/accountInfos/:accountInfoId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountInfos"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "ea36a2c9-cdc9-4da4-964b-a6df5c37ca3b",
+  "value": "DELETE - /api/v1/owner/accountInfos/:accountInfoId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/owner/accountInfos/:accountInfoId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountInfos"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "f486399b-9f5f-4d1c-8908-ebcf1e03877b",
+  "value": "GET - /api/v1/owner/accountConfigs",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/accountConfigs",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountConfigs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "1b751e43-99be-4601-8faf-3170e44054c3",
+  "value": "GET - /api/v1/owner/accountConfigs/:accountConfigId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/accountConfigs/:accountConfigId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountConfigs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "a4f8ccd9-1c4f-4ca8-be96-d3b1cf96337e",
+  "value": "PUT - /api/v1/owner/accountConfigs/:accountConfigId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/owner/accountConfigs/:accountConfigId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountConfigs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "67c03ff7-f98a-47a0-938a-1b807d244c55",
+  "value": "GET - /api/v1/owner/contactInfos",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/contactInfos",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "contactInfos"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "d5a5bf74-8d9b-448f-8c52-6ceb87516431",
+  "value": "POST - /api/v1/owner/contactInfos",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "POST - /api/v1/owner/contactInfos",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "contactInfos"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "f2b4f302-7132-4053-9f04-cd8d1af0f9d2",
+  "value": "GET - /api/v1/owner/contactInfos/:contactInfoId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/contactInfos/:contactInfoId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "contactInfos"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "c9aa9909-9d9b-4e9a-9655-d5a4b2ba8443",
+  "value": "PUT - /api/v1/owner/contactInfos/:contactInfoId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/owner/contactInfos/:contactInfoId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "contactInfos"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "76450ab0-672c-411f-8241-2cca9a43fd03",
+  "value": "DELETE - /api/v1/owner/contactInfos/:contactInfoId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/owner/contactInfos/:contactInfoId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "contactInfos"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "65d224cc-b1d1-4cc8-a143-022f27d83cc4",
+  "value": "GET - /api/v1/owner/passwords",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/passwords",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "passwords"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "110ebf8c-a577-4f92-a55c-9ac75528f1ee",
+  "value": "POST - /api/v1/owner/passwords",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "POST - /api/v1/owner/passwords",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "passwords"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "f6b5f579-20b2-4a8d-9acc-45c6b8b9abab",
+  "value": "GET - /api/v1/owner/passwords/:passwordId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/passwords/:passwordId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "passwords"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "44a613ce-7c47-4ffc-8c2c-5763afe252ec",
+  "value": "DELETE - /api/v1/owner/passwords/:passwordId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/owner/passwords/:passwordId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "passwords"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "9cd29b5c-edb8-48bc-826d-c7722918768e",
+  "value": "GET - /api/v1/owner/limitedTransactions",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/limitedTransactions",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "limitedTransactions"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "5414cb77-1d0d-49f2-80ae-99ae9c753058",
+  "value": "GET - /api/v1/owner/limitedTransactions/:limitedTransactionId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/limitedTransactions/:limitedTransactionId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "limitedTransactions"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "4ff2c26d-76f9-4d5a-a104-3c7248002f59",
+  "value": "PUT - /api/v1/owner/limitedTransactions/:limitedTransactionId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/owner/limitedTransactions/:limitedTransactionId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "limitedTransactions"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "58674842-32e6-4235-b649-b0ae3a85e919",
+  "value": "GET - /api/v1/owner/clientDevices",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/clientDevices",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "clientDevices"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "5e113d4a-1604-4932-afd4-8ee35818e5be",
+  "value": "POST - /api/v1/owner/clientDevices",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "POST - /api/v1/owner/clientDevices",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "clientDevices"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "d7eb2ca7-70c4-4446-8b03-a30492194091",
+  "value": "GET - /api/v1/owner/clientDevices/:clientDeviceId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/clientDevices/:clientDeviceId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "clientDevices"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "dfc6d6c6-e737-44e2-982d-d42be01f5b06",
+  "value": "PUT - /api/v1/owner/clientDevices/:clientDeviceId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/owner/clientDevices/:clientDeviceId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "clientDevices"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "b44a2c6d-4c4f-4be3-a238-5e1f8d59e7a3",
+  "value": "DELETE - /api/v1/owner/clientDevices/:clientDeviceId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/owner/clientDevices/:clientDeviceId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "clientDevices"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "b6803fb8-683f-461f-9c6c-ffe530063629",
+  "value": "GET - /api/v1/owner/clientDevices/:clientDeviceId/accessTokens",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/clientDevices/:clientDeviceId/accessTokens",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "clientDevices",
+    "accessTokens"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "cab7bb18-f804-4154-92ad-dc0fb436481e",
+  "value": "POST - /api/v1/owner/clientDevices/:clientDeviceId/accessTokens",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "POST - /api/v1/owner/clientDevices/:clientDeviceId/accessTokens",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "clientDevices",
+    "accessTokens"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "ec91bf92-244b-4e92-826e-d1c0c0066fdd",
+  "value": "GET - /api/v1/owner/clientDevices/:clientDeviceId/accessTokens/:accessTokenId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/clientDevices/:clientDeviceId/accessTokens/:accessTokenId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "clientDevices",
+    "accessTokens"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "3c6f6ce8-0757-441b-8516-60fb94b437f9",
+  "value": "PUT - /api/v1/owner/clientDevices/:clientDeviceId/accessTokens/:accessTokenId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/owner/clientDevices/:clientDeviceId/accessTokens/:accessTokenId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "clientDevices",
+    "accessTokens"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "35f13448-a622-48c0-8321-bcd48ab30840",
+  "value": "DELETE - /api/v1/owner/clientDevices/:clientDeviceId/accessTokens/:accessTokenId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/owner/clientDevices/:clientDeviceId/accessTokens/:accessTokenId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "clientDevices",
+    "accessTokens"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "1a33d464-30fb-4dce-a00f-3fbe5f094afe",
+  "value": "GET - /api/v1/owner/accountRefs",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/accountRefs",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountRefs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "7f4bd265-6702-4d4f-9974-14b7e141efb7",
+  "value": "POST - /api/v1/owner/accountRefs",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "POST - /api/v1/owner/accountRefs",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountRefs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "37cadd10-5dcf-4bed-b2ef-438df5491e8e",
+  "value": "GET - /api/v1/owner/accountRefs/:accountRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/accountRefs/:accountRefId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountRefs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "98a696bc-81ed-4b56-9a12-7525afcea9e3",
+  "value": "PUT - /api/v1/owner/accountRefs/:accountRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/owner/accountRefs/:accountRefId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountRefs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "c1cdbd4c-d589-434f-ba91-ce8a0ea6ccdf",
+  "value": "DELETE - /api/v1/owner/accountRefs/:accountRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/owner/accountRefs/:accountRefId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountRefs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "d79e7302-23fd-4f81-8011-ab204d08c1da",
+  "value": "GET - /api/v1/owner/accountRefs/:accountRefId/roles",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/accountRefs/:accountRefId/roles",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountRefs",
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "233bf012-0c1c-46a0-9120-2f51cf13e881",
+  "value": "GET - /api/v1/owner/accountRefs/:accountRefId/roles/:roleRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/accountRefs/:accountRefId/roles/:roleRefId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountRefs",
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "5893e865-aa0d-436e-ab88-9df7be69a6b2",
+  "value": "POST - /api/v1/owner/accountRefs/:accountRefId/roles",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "POST - /api/v1/owner/accountRefs/:accountRefId/roles",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountRefs",
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "dbeb61b3-0393-42c6-9af1-12314cd3f01e",
+  "value": "PUT - /api/v1/owner/accountRefs/:accountRefId/roles/:roleRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/owner/accountRefs/:accountRefId/roles/:roleRefId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountRefs",
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "e253c8a4-4f80-4c1d-86e4-f0a63aeb7381",
+  "value": "DELETE - /api/v1/owner/accountRefs/:accountRefId/roles/:roleRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/owner/accountRefs/:accountRefId/roles/:roleRefId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountRefs",
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "23b5f5e5-71ed-4a25-a200-4bbfef2dba64",
+  "value": "GET - /api/v1/owner/accountRefs/:accountRefId/accountConfigs",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/accountRefs/:accountRefId/accountConfigs",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountRefs",
+    "accountConfigs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "b45b105a-511e-467d-a9e4-071f3a517f46",
+  "value": "GET - /api/v1/owner/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountRefs",
+    "accountConfigs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "de171ab7-3ad3-4303-b1e4-f3f5402498da",
+  "value": "PUT - /api/v1/owner/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/owner/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountRefs",
+    "accountConfigs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "5f71bbb3-1d9d-4d7c-989f-a498aad046fe",
+  "value": "GET - /api/v1/owner/workspaces",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/workspaces",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "workspaces"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "ef896376-b7b3-4483-a03d-3752803bb209",
+  "value": "POST - /api/v1/owner/workspaces",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "POST - /api/v1/owner/workspaces",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "workspaces"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "ef891368-262a-4069-9d4a-4dfcce6752e3",
+  "value": "GET - /api/v1/owner/workspaces/:workspaceId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/workspaces/:workspaceId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "workspaces"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "38242a1a-5366-46a1-9dc5-f2cf2f612805",
+  "value": "PUT - /api/v1/owner/workspaces/:workspaceId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/owner/workspaces/:workspaceId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "workspaces"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "e7edc2ed-b7bf-40de-8f94-5c1d276a9f54",
+  "value": "DELETE - /api/v1/owner/workspaces/:workspaceId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/owner/workspaces/:workspaceId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "workspaces"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "4687927d-4343-420a-afeb-c10dbaf36cec",
+  "value": "GET - /api/v1/owner/workspaces/:workspaceId/accountRefs",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/workspaces/:workspaceId/accountRefs",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "workspaces",
+    "accountRefs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "d8c7560d-3928-4359-8288-d931a2bcac79",
+  "value": "POST - /api/v1/owner/workspaces/:workspaceId/accountRefs",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "POST - /api/v1/owner/workspaces/:workspaceId/accountRefs",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "workspaces",
+    "accountRefs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "08604bc7-0688-4bda-aaf7-ba9026499257",
+  "value": "GET - /api/v1/owner/workspaces/:workspaceId/accountRefs/:accountRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/workspaces/:workspaceId/accountRefs/:accountRefId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "workspaces",
+    "accountRefs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "92d2e3b3-15b6-4015-b468-1c336414f074",
+  "value": "PUT - /api/v1/owner/workspaces/:workspaceId/accountRefs/:accountRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/owner/workspaces/:workspaceId/accountRefs/:accountRefId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "workspaces",
+    "accountRefs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "5ce5d9d2-bb2e-4e13-b433-bcb79aabd7a0",
+  "value": "DELETE - /api/v1/owner/workspaces/:workspaceId/accountRefs/:accountRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/owner/workspaces/:workspaceId/accountRefs/:accountRefId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "workspaces",
+    "accountRefs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "e61a3e71-c0a9-440e-82c4-f53742c0c92b",
+  "value": "GET - /api/v1/owner/workspaces/:workspaceId/accountRefs/:accountRefId/accountConfigs",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/workspaces/:workspaceId/accountRefs/:accountRefId/accountConfigs",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "workspaces",
+    "accountRefs",
+    "accountConfigs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "284268a7-2192-4631-85fb-9fef2a737859",
+  "value": "GET - /api/v1/owner/workspaces/:workspaceId/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/workspaces/:workspaceId/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "workspaces",
+    "accountRefs",
+    "accountConfigs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "c86cca5a-fc76-4989-823d-e44423db4339",
+  "value": "PUT - /api/v1/owner/workspaces/:workspaceId/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/owner/workspaces/:workspaceId/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "workspaces",
+    "accountRefs",
+    "accountConfigs"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "66a683d8-2784-4d40-8d70-a0a8144b6b0c",
+  "value": "GET - /api/v1/owner/workspaces/:workspaceId/accountRefs/:accountRefId/roles",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/workspaces/:workspaceId/accountRefs/:accountRefId/roles",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "workspaces",
+    "accountRefs",
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "5832c86b-8070-4c90-9ef3-3f60136294e7",
+  "value": "GET - /api/v1/owner/workspaces/:workspaceId/accountRefs/:accountRefId/roles/:roleRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/workspaces/:workspaceId/accountRefs/:accountRefId/roles/:roleRefId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "workspaces",
+    "accountRefs",
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "b8cc8611-01c3-4905-8fb3-ede3a82375d1",
+  "value": "POST - /api/v1/owner/workspaces/:workspaceId/accountRefs/:accountRefId/roles",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "POST - /api/v1/owner/workspaces/:workspaceId/accountRefs/:accountRefId/roles",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "workspaces",
+    "accountRefs",
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "48c463cb-594d-4cb3-8618-8cd478e1676b",
+  "value": "PUT - /api/v1/owner/workspaces/:workspaceId/accountRefs/:accountRefId/roles/:roleRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/owner/workspaces/:workspaceId/accountRefs/:accountRefId/roles/:roleRefId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "workspaces",
+    "accountRefs",
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "3abcdd1d-26fe-4ae4-a5c4-53aca7ab8ce1",
+  "value": "DELETE - /api/v1/owner/workspaces/:workspaceId/accountRefs/:accountRefId/roles/:roleRefId",
+  "createdAt": {
+    "$date": "2025-01-22T14:14:56.668Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/owner/workspaces/:workspaceId/accountRefs/:accountRefId/roles/:roleRefId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "workspaces",
+    "accountRefs",
+    "roles"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "62ff1680-bba2-4950-b4fa-5db33503e134",
+  "name": "PRIVATE ROUTE - index",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "index"
+  ],
+  "value": "PRIVATE ROUTE - index",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.683Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:02.151Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "dc1ebcac-ad38-4f50-94be-520596c3ec80",
+  "name": "PRIVATE ROUTE - system",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "system"
+  ],
+  "value": "PRIVATE ROUTE - system",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.696Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.239Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "b9a54d01-2b35-4d59-b8dd-118aead298b0",
+  "name": "PRIVATE ROUTE - features",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "features"
+  ],
+  "value": "PRIVATE ROUTE - features",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.705Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.250Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "1ba51ae4-a0f5-4991-ab7f-429864577e1a",
+  "name": "PRIVATE ROUTE - features/create",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "features"
+  ],
+  "value": "PRIVATE ROUTE - features/create",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.716Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.275Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "25ce7898-bbf3-4782-b480-6b622148a755",
+  "name": "PRIVATE ROUTE - features/view/:featureId",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "features"
+  ],
+  "value": "PRIVATE ROUTE - features/view/:featureId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.723Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.338Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "9aef5030-eb5e-4171-85f6-0d8df4c7dd51",
+  "name": "PRIVATE ROUTE - features/edit/:featureId",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "features"
+  ],
+  "value": "PRIVATE ROUTE - features/edit/:featureId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.730Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.345Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "297188af-a01a-4d28-84f9-dc4728026035",
+  "name": "PRIVATE ROUTE - roles",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "roles"
+  ],
+  "value": "PRIVATE ROUTE - roles",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.737Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.351Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "c238bb7a-e41b-4464-b8cf-efdf92eb8cb6",
+  "name": "PRIVATE ROUTE - roles/create",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "roles"
+  ],
+  "value": "PRIVATE ROUTE - roles/create",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.743Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.357Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "57a37955-4eb2-4ba2-9140-f2ca898f42e1",
+  "name": "PRIVATE ROUTE - roles/view/:roleId",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "roles"
+  ],
+  "value": "PRIVATE ROUTE - roles/view/:roleId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.751Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.367Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "7726aea1-45cb-4329-a3f1-8cf71181f1c2",
+  "name": "PRIVATE ROUTE - roles/edit/:roleId",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "roles"
+  ],
+  "value": "PRIVATE ROUTE - roles/edit/:roleId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.761Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.373Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "1200d375-3f96-4b1c-bc26-55633bb178da",
+  "name": "PRIVATE ROUTE - roles/view/:roleId/features",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "roles",
+    "features"
+  ],
+  "value": "PRIVATE ROUTE - roles/view/:roleId/features",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.768Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.382Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "aa970800-5392-4e95-9211-b61c2536720e",
+  "name": "PRIVATE ROUTE - roles/edit/:roleId/features",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "roles",
+    "features"
+  ],
+  "value": "PRIVATE ROUTE - roles/edit/:roleId/features",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.777Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.389Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "b9bfe1c0-5b7b-4ce5-8415-8c89907a6bf1",
+  "name": "PRIVATE ROUTE - accounts",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts"
+  ],
+  "value": "PRIVATE ROUTE - accounts",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.785Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.396Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "1b79e851-3d92-41be-bea3-4eada825b9bb",
+  "name": "PRIVATE ROUTE - accounts/create",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts"
+  ],
+  "value": "PRIVATE ROUTE - accounts/create",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.791Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.405Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "6c1db6b7-de7d-4579-8a59-23a8996d3d18",
+  "name": "PRIVATE ROUTE - accounts/view/:accountId",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts"
+  ],
+  "value": "PRIVATE ROUTE - accounts/view/:accountId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.798Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.413Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "87fbc46d-1ec2-4e60-8aee-1aff896f3dd5",
+  "name": "PRIVATE ROUTE - accounts/edit/:accountId",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts"
+  ],
+  "value": "PRIVATE ROUTE - accounts/edit/:accountId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.805Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.420Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "35072dfc-3766-40a3-8dec-5e8f5230af1d",
+  "name": "PRIVATE ROUTE - accounts/view/:accountId/roles",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "roles"
+  ],
+  "value": "PRIVATE ROUTE - accounts/view/:accountId/roles",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.812Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.426Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "aa485ff3-17ae-4c0e-b43d-8a5232913272",
+  "name": "PRIVATE ROUTE - accounts/edit/:accountId/roles",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "roles"
+  ],
+  "value": "PRIVATE ROUTE - accounts/edit/:accountId/roles",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.820Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.432Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "cfcf925b-dda2-4c2a-89ad-2c8c543405c6",
+  "name": "PRIVATE ROUTE - accounts/view/:accountId/passwords",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "passwords"
+  ],
+  "value": "PRIVATE ROUTE - accounts/view/:accountId/passwords",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.827Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.438Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "000b1d56-3156-40ec-96ee-0805235e25fe",
+  "name": "PRIVATE ROUTE - accounts/create/:accountId/passwords",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "passwords"
+  ],
+  "value": "PRIVATE ROUTE - accounts/create/:accountId/passwords",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.834Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.444Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "1a4a57d5-b547-4d00-9d10-2006e79174f4",
+  "name": "PRIVATE ROUTE - accounts/view/:accountId/limitedTransactions",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "limitedTransactions"
+  ],
+  "value": "PRIVATE ROUTE - accounts/view/:accountId/limitedTransactions",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.839Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.451Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "3c5d65fa-ca4f-4ec0-835d-36a32740d6a9",
+  "name": "PRIVATE ROUTE - accounts/view/:accountId/limitedTransactions/:limitedTransactionId",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "limitedTransactions"
+  ],
+  "value": "PRIVATE ROUTE - accounts/view/:accountId/limitedTransactions/:limitedTransactionId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.845Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.459Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "21c4e8c2-63ac-481e-a1d3-170e0c2aee02",
+  "name": "PRIVATE ROUTE - accounts/edit/:accountId/limitedTransactions/:limitedTransactionId",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "limitedTransactions"
+  ],
+  "value": "PRIVATE ROUTE - accounts/edit/:accountId/limitedTransactions/:limitedTransactionId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.852Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.467Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "afe901e5-3be0-4c8d-a723-7e4a68ccb742",
+  "name": "PRIVATE ROUTE - accounts/view/:accountId/clientDevices",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "clientDevices"
+  ],
+  "value": "PRIVATE ROUTE - accounts/view/:accountId/clientDevices",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.858Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.472Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "44f9c067-aeef-40dc-bd06-d80e5b5c7e55",
+  "name": "PRIVATE ROUTE - accounts/create/:accountId/clientDevices",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "clientDevices"
+  ],
+  "value": "PRIVATE ROUTE - accounts/create/:accountId/clientDevices",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.864Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.478Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "6c45676a-e12a-4c46-be78-21627ef874a9",
+  "name": "PRIVATE ROUTE - accounts/view/:accountId/clientDevices/:clientDeviceId",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "clientDevices"
+  ],
+  "value": "PRIVATE ROUTE - accounts/view/:accountId/clientDevices/:clientDeviceId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.871Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.484Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "1619f8da-0256-4aa7-ad2c-a7b23594c4be",
+  "name": "PRIVATE ROUTE - accounts/edit/:accountId/clientDevices/:clientDeviceId",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "clientDevices"
+  ],
+  "value": "PRIVATE ROUTE - accounts/edit/:accountId/clientDevices/:clientDeviceId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.879Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.489Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "dab068de-f785-4985-b482-85530b36f68f",
+  "name": "PRIVATE ROUTE - accounts/view/:accountId/clientDevices/:clientDeviceId/clientDeviceTokens",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "clientDevices",
+    "clientDeviceTokens"
+  ],
+  "value": "PRIVATE ROUTE - accounts/view/:accountId/clientDevices/:clientDeviceId/clientDeviceTokens",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.905Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.495Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "270d96e5-867b-406e-bbca-927374c0ae88",
+  "name": "PRIVATE ROUTE - accounts/create/:accountId/clientDevices/:clientDeviceId/clientDeviceTokens",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "clientDevices",
+    "clientDeviceTokens"
+  ],
+  "value": "PRIVATE ROUTE - accounts/create/:accountId/clientDevices/:clientDeviceId/clientDeviceTokens",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.916Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.502Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "0b62d6d2-d16c-43a3-b243-2fc2bf48e3b3",
+  "name": "PRIVATE ROUTE - accounts/view/:accountId/clientDevices/:clientDeviceId/clientDeviceTokens/:clientDeviceTokenId",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "clientDevices",
+    "clientDeviceTokens"
+  ],
+  "value": "PRIVATE ROUTE - accounts/view/:accountId/clientDevices/:clientDeviceId/clientDeviceTokens/:clientDeviceTokenId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.928Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.507Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "d3fc6c8f-fa8f-4957-82cb-2884088fccbb",
+  "name": "PRIVATE ROUTE - accounts/edit/:accountId/clientDevices/:clientDeviceId/clientDeviceTokens/:clientDeviceTokenId",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "clientDevices",
+    "clientDeviceTokens"
+  ],
+  "value": "PRIVATE ROUTE - accounts/edit/:accountId/clientDevices/:clientDeviceId/clientDeviceTokens/:clientDeviceTokenId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.935Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.518Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "476b5cb8-9d53-498e-8971-c6e938a35dc7",
+  "name": "PRIVATE ROUTE - accounts/view/:accountId/contactInfos",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "contactInfos"
+  ],
+  "value": "PRIVATE ROUTE - accounts/view/:accountId/contactInfos",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.942Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.525Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "5a6c14cf-a056-419d-9648-6cd0058cd199",
+  "name": "PRIVATE ROUTE - accounts/view/:accountId/contactInfos/:contactInfoId",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "contactInfos"
+  ],
+  "value": "PRIVATE ROUTE - accounts/view/:accountId/contactInfos/:contactInfoId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.948Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.534Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "6dc2238e-6ebb-41fb-9b88-6288e2351de6",
+  "name": "PRIVATE ROUTE - accounts/edit/:accountId/contactInfos/:contactInfoId",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "contactInfos"
+  ],
+  "value": "PRIVATE ROUTE - accounts/edit/:accountId/contactInfos/:contactInfoId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.953Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.539Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "2faae524-e56d-4602-8ac2-9b1a8218a566",
+  "name": "PRIVATE ROUTE - accounts/create/:accountId/contactInfos",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "contactInfos"
+  ],
+  "value": "PRIVATE ROUTE - accounts/create/:accountId/contactInfos",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.958Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.545Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "6ad01627-c1bc-431f-a8df-132ab121cd36",
+  "name": "PRIVATE ROUTE - accounts/view/:accountId/accountInfos",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountInfos"
+  ],
+  "value": "PRIVATE ROUTE - accounts/view/:accountId/accountInfos",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.964Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.551Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "f28e8e44-c674-4c42-80cb-22446e9c25c1",
+  "name": "PRIVATE ROUTE - accounts/view/:accountId/accountInfos/:accountInfoId",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountInfos"
+  ],
+  "value": "PRIVATE ROUTE - accounts/view/:accountId/accountInfos/:accountInfoId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.969Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.557Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "5a015122-9a9c-42fe-beaf-d0236743102a",
+  "name": "PRIVATE ROUTE - accounts/edit/:accountId/accountInfos/:accountInfoId",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountInfos"
+  ],
+  "value": "PRIVATE ROUTE - accounts/edit/:accountId/accountInfos/:accountInfoId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.974Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.567Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "9aa0bcac-2b6a-4ae0-a68c-276b061d1ada",
+  "name": "PRIVATE ROUTE - accounts/create/:accountId/accountInfos",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountInfos"
+  ],
+  "value": "PRIVATE ROUTE - accounts/create/:accountId/accountInfos",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.979Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.572Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "ea56cbf0-bd38-4516-9002-33f886fcc7bd",
+  "name": "PRIVATE ROUTE - accounts/view/:accountId/accountConfigs",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountConfigs"
+  ],
+  "value": "PRIVATE ROUTE - accounts/view/:accountId/accountConfigs",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.984Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.578Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "39090cf2-02ed-401f-8067-0a66097bb60b",
+  "name": "PRIVATE ROUTE - accounts/view/:accountId/accountConfigs/:accountConfigId",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountConfigs"
+  ],
+  "value": "PRIVATE ROUTE - accounts/view/:accountId/accountConfigs/:accountConfigId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.989Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.585Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "f19f7d2f-c604-4e63-951c-45f39b73cb94",
+  "name": "PRIVATE ROUTE - accounts/edit/:accountId/accountConfigs/:accountConfigId",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountConfigs"
+  ],
+  "value": "PRIVATE ROUTE - accounts/edit/:accountId/accountConfigs/:accountConfigId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:40.995Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.591Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "d94e5d8f-8546-4e29-b2a4-8feb1971ec37",
+  "name": "PRIVATE ROUTE - accounts/view/:accountId/accountRefs",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountRefs"
+  ],
+  "value": "PRIVATE ROUTE - accounts/view/:accountId/accountRefs",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.001Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.599Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "378d687a-6dc7-4d83-aaea-28e7c62fc468",
+  "name": "PRIVATE ROUTE - accounts/create/:accountId/accountRefs",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountRefs"
+  ],
+  "value": "PRIVATE ROUTE - accounts/create/:accountId/accountRefs",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.007Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.604Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "ef47fae0-5eee-49ef-8e3d-da3909da90a9",
+  "name": "PRIVATE ROUTE - accounts/view/:accountId/accountRefs/:accountRefId",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountRefs"
+  ],
+  "value": "PRIVATE ROUTE - accounts/view/:accountId/accountRefs/:accountRefId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.012Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.610Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "22401bb8-573a-48d2-83a9-4ccc20893cd2",
+  "name": "PRIVATE ROUTE - accounts/edit/:accountId/accountRefs/:accountRefId",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountRefs"
+  ],
+  "value": "PRIVATE ROUTE - accounts/edit/:accountId/accountRefs/:accountRefId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.017Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.616Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "a4c0a087-4926-47b3-aced-bb783a80712f",
+  "name": "PRIVATE ROUTE - accounts/view/:accountId/accountRefs/:accountRefId/accountConfigs",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountRefs",
+    "accountConfigs"
+  ],
+  "value": "PRIVATE ROUTE - accounts/view/:accountId/accountRefs/:accountRefId/accountConfigs",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.022Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.624Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "90346cd5-6cf8-4725-8845-fbba002b4837",
+  "name": "PRIVATE ROUTE - accounts/view/:accountId/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountRefs",
+    "accountConfigs"
+  ],
+  "value": "PRIVATE ROUTE - accounts/view/:accountId/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.027Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.640Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "ca731066-11f5-41f9-9d29-937591ef072f",
+  "name": "PRIVATE ROUTE - accounts/edit/:accountId/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountRefs",
+    "accountConfigs"
+  ],
+  "value": "PRIVATE ROUTE - accounts/edit/:accountId/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.033Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.649Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "c1cdc0e7-fbf4-4f4f-a180-eebb90520bb7",
+  "name": "PRIVATE ROUTE - accounts/view/:accountId/accountRefs/:accountRefId/roles",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountRefs",
+    "roles"
+  ],
+  "value": "PRIVATE ROUTE - accounts/view/:accountId/accountRefs/:accountRefId/roles",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.038Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.655Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "15d35f62-6068-4b35-9a72-2bd9b3d4847b",
+  "name": "PRIVATE ROUTE - accounts/edit/:accountId/accountRefs/:accountRefId/roles",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accountRefs",
+    "roles"
+  ],
+  "value": "PRIVATE ROUTE - accounts/edit/:accountId/accountRefs/:accountRefId/roles",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.044Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.661Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "106a85da-63fd-4a8a-906b-84bf04eb30a7",
+  "name": "PRIVATE ROUTE - accounts/view/:accountId/workspaces",
+  "type": "ui-route",
+  "scope": "workspace",
+  "tags": [
+    "accounts",
+    "workspaces"
+  ],
+  "value": "PRIVATE ROUTE - accounts/view/:accountId/workspaces",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.050Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.669Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "34c08499-fe57-4d5c-b6a1-95a3204bcb85",
+  "name": "PRIVATE ROUTE - accounts/create/:accountId/workspaces",
+  "type": "ui-route",
+  "scope": "workspace",
+  "tags": [
+    "accounts",
+    "workspaces"
+  ],
+  "value": "PRIVATE ROUTE - accounts/create/:accountId/workspaces",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.057Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.675Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "36c6d9fb-4ddf-4f02-b096-f9d7a9bad964",
+  "name": "PRIVATE ROUTE - accounts/view/:accountId/workspaces/:workspaceId",
+  "type": "ui-route",
+  "scope": "workspace",
+  "tags": [
+    "accounts",
+    "workspaces"
+  ],
+  "value": "PRIVATE ROUTE - accounts/view/:accountId/workspaces/:workspaceId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.067Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.684Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "9a92930b-2c3b-4cbb-a4d3-36c681d66a4e",
+  "name": "PRIVATE ROUTE - accounts/edit/:accountId/workspaces/:workspaceId",
+  "type": "ui-route",
+  "scope": "workspace",
+  "tags": [
+    "accounts",
+    "workspaces"
+  ],
+  "value": "PRIVATE ROUTE - accounts/edit/:accountId/workspaces/:workspaceId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.075Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "701ecb40-e5ab-4117-a243-f67eee108378",
+  "name": "PRIVATE ROUTE - accounts/view/:accountId/workspaces/:workspaceId/accountRefs",
+  "type": "ui-route",
+  "scope": "workspace",
+  "tags": [
+    "accounts",
+    "workspaces",
+    "accountRefs"
+  ],
+  "value": "PRIVATE ROUTE - accounts/view/:accountId/workspaces/:workspaceId/accountRefs",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.081Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.700Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "80387e2e-eb27-43bd-a5d3-bc1943a9d164",
+  "name": "PRIVATE ROUTE - accounts/create/:accountId/workspaces/:workspaceId/accountRefs",
+  "type": "ui-route",
+  "scope": "workspace",
+  "tags": [
+    "accounts",
+    "workspaces",
+    "accountRefs"
+  ],
+  "value": "PRIVATE ROUTE - accounts/create/:accountId/workspaces/:workspaceId/accountRefs",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.086Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.705Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "5cb2294f-9345-46b5-b5bb-51468a312eb3",
+  "name": "PRIVATE ROUTE - accounts/view/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId",
+  "type": "ui-route",
+  "scope": "workspace",
+  "tags": [
+    "accounts",
+    "workspaces",
+    "accountRefs"
+  ],
+  "value": "PRIVATE ROUTE - accounts/view/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.091Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.711Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "e4bd875f-aa6b-4207-97ef-6c2aac9e4997",
+  "name": "PRIVATE ROUTE - accounts/edit/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId",
+  "type": "ui-route",
+  "scope": "workspace",
+  "tags": [
+    "accounts",
+    "workspaces",
+    "accountRefs"
+  ],
+  "value": "PRIVATE ROUTE - accounts/edit/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.096Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.718Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "1062641d-ed56-4338-9e6f-457e0bffebe5",
+  "name": "PRIVATE ROUTE - accounts/view/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId/accountConfigs",
+  "type": "ui-route",
+  "scope": "workspace",
+  "tags": [
+    "accounts",
+    "workspaces",
+    "accountRefs",
+    "accountConfigs"
+  ],
+  "value": "PRIVATE ROUTE - accounts/view/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId/accountConfigs",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.103Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.724Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "6efda318-c5f4-4cad-9edc-02c67a96e140",
+  "name": "PRIVATE ROUTE - accounts/view/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "type": "ui-route",
+  "scope": "workspace",
+  "tags": [
+    "accounts",
+    "workspaces",
+    "accountRefs",
+    "accountConfigs"
+  ],
+  "value": "PRIVATE ROUTE - accounts/view/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.108Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.730Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "089e5849-c188-40f8-8c0a-aa0338fccd93",
+  "name": "PRIVATE ROUTE - accounts/edit/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "type": "ui-route",
+  "scope": "workspace",
+  "tags": [
+    "accounts",
+    "workspaces",
+    "accountRefs",
+    "accountConfigs"
+  ],
+  "value": "PRIVATE ROUTE - accounts/edit/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.114Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.735Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "4c2d09dd-8cbc-4023-82a3-7830f75379ac",
+  "name": "PRIVATE ROUTE - accounts/view/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId/roles",
+  "type": "ui-route",
+  "scope": "workspace",
+  "tags": [
+    "accounts",
+    "workspaces",
+    "accountRefs",
+    "roles"
+  ],
+  "value": "PRIVATE ROUTE - accounts/view/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId/roles",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.119Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.741Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "b49fc7c3-ad6a-4006-ac48-da0ec998825d",
+  "name": "PRIVATE ROUTE - accounts/edit/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId/roles",
+  "type": "ui-route",
+  "scope": "workspace",
+  "tags": [
+    "accounts",
+    "workspaces",
+    "accountRefs",
+    "roles"
+  ],
+  "value": "PRIVATE ROUTE - accounts/edit/:accountId/workspaces/:workspaceId/accountRefs/:accountRefId/roles",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.124Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.749Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "d77a8a16-28bf-4aea-a0b5-88e81dea5105",
+  "name": "PRIVATE ROUTE - owner/view",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner"
+  ],
+  "value": "PRIVATE ROUTE - owner/view",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.130Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.756Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "36045ddc-1a79-4af4-a664-f73cc24838d6",
+  "name": "PRIVATE ROUTE - owner/edit",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner"
+  ],
+  "value": "PRIVATE ROUTE - owner/edit",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.135Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.762Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "e25433ce-99f4-4fe1-857a-e38c631b9da4",
+  "name": "PRIVATE ROUTE - owner/view/accountInfos",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountInfos"
+  ],
+  "value": "PRIVATE ROUTE - owner/view/accountInfos",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.140Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.768Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "0e53caf6-e884-40db-946f-7a9ae44db45c",
+  "name": "PRIVATE ROUTE - owner/create/accountInfos",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountInfos"
+  ],
+  "value": "PRIVATE ROUTE - owner/create/accountInfos",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.145Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.774Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "ca60f50a-1e9b-405e-8a21-2deafe43c3ad",
+  "name": "PRIVATE ROUTE - owner/view/accountInfos/:accountInfoId",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountInfos"
+  ],
+  "value": "PRIVATE ROUTE - owner/view/accountInfos/:accountInfoId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.150Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.783Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "e618c0e9-e9f9-4cd7-975f-05d64f10ffc8",
+  "name": "PRIVATE ROUTE - owner/edit/accountInfos/:accountInfoId",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountInfos"
+  ],
+  "value": "PRIVATE ROUTE - owner/edit/accountInfos/:accountInfoId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.155Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.788Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "5fe0d699-6a68-44bc-b883-a6853f08ef6b",
+  "name": "PRIVATE ROUTE - owner/view/accountConfigs",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountConfigs"
+  ],
+  "value": "PRIVATE ROUTE - owner/view/accountConfigs",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.160Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.793Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "f63d7af5-66e1-46fc-ae8a-6d7d8251715d",
+  "name": "PRIVATE ROUTE - owner/view/accountConfigs/:accountConfigId",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountConfigs"
+  ],
+  "value": "PRIVATE ROUTE - owner/view/accountConfigs/:accountConfigId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.166Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.802Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "339bc26c-652d-4485-ab90-6a749bdefb81",
+  "name": "PRIVATE ROUTE - owner/edit/accountConfigs/:accountConfigId",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountConfigs"
+  ],
+  "value": "PRIVATE ROUTE - owner/edit/accountConfigs/:accountConfigId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.171Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.807Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "97215c6a-4c99-4e7c-8d88-85a04ca331a4",
+  "name": "PRIVATE ROUTE - owner/view/contactInfos",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "contactInfos"
+  ],
+  "value": "PRIVATE ROUTE - owner/view/contactInfos",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.177Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.817Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "cc5558ba-7c37-4e00-ab29-07920e67a109",
+  "name": "PRIVATE ROUTE - owner/create/contactInfos",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "contactInfos"
+  ],
+  "value": "PRIVATE ROUTE - owner/create/contactInfos",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.183Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.823Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "6e279974-3c4f-475d-b099-29c1c5c558ee",
+  "name": "PRIVATE ROUTE - owner/view/contactInfos/:contactInfoId",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "contactInfos"
+  ],
+  "value": "PRIVATE ROUTE - owner/view/contactInfos/:contactInfoId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.192Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.829Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "04e9512b-6474-4441-bd1c-de54a26aec3c",
+  "name": "PRIVATE ROUTE - owner/edit/contactInfos/:contactInfoId",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "contactInfos"
+  ],
+  "value": "PRIVATE ROUTE - owner/edit/contactInfos/:contactInfoId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.198Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.835Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "81f305ca-ca4e-4d25-99d9-2f7a0dfd20cb",
+  "name": "PRIVATE ROUTE - owner/view/roles",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "roles"
+  ],
+  "value": "PRIVATE ROUTE - owner/view/roles",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.204Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.841Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "d63328b7-bfce-4a68-b78d-4319b036af87",
+  "name": "PRIVATE ROUTE - owner/view/limitedTransactions",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "limitedTransactions"
+  ],
+  "value": "PRIVATE ROUTE - owner/view/limitedTransactions",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.210Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.850Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "a2154f89-2dc8-4d98-9013-54b861fa3750",
+  "name": "PRIVATE ROUTE - owner/view/limitedTransactions/:limitedTransactionId",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "limitedTransactions"
+  ],
+  "value": "PRIVATE ROUTE - owner/view/limitedTransactions/:limitedTransactionId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.215Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.855Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "4d8dd849-501d-4613-b318-616b24ad9272",
+  "name": "PRIVATE ROUTE - owner/edit/limitedTransactions/:limitedTransactionId",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "limitedTransactions"
+  ],
+  "value": "PRIVATE ROUTE - owner/edit/limitedTransactions/:limitedTransactionId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.220Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.861Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "c4241c82-77ad-4523-b72b-6ba6e68d450f",
+  "name": "PRIVATE ROUTE - owner/view/passwords",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "passwords"
+  ],
+  "value": "PRIVATE ROUTE - owner/view/passwords",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.225Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.867Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "0f7f06d7-3502-42c1-a8f3-0f7a3a17c2c6",
+  "name": "PRIVATE ROUTE - owner/create/passwords",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "passwords"
+  ],
+  "value": "PRIVATE ROUTE - owner/create/passwords",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.231Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.873Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "b795f1f5-2ac1-4b2a-b03e-6568486c40b1",
+  "name": "PRIVATE ROUTE - owner/view/clientDevices",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "clientDevices"
+  ],
+  "value": "PRIVATE ROUTE - owner/view/clientDevices",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.237Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.883Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "2ddbc518-ea32-4a4a-9e6b-a26ea4de42c1",
+  "name": "PRIVATE ROUTE - owner/create/clientDevices",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "clientDevices"
+  ],
+  "value": "PRIVATE ROUTE - owner/create/clientDevices",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.242Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.890Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "49fe90fd-69fb-49f5-b275-43cdce6db323",
+  "name": "PRIVATE ROUTE - owner/view/clientDevices/:clientDeviceId",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "clientDevices"
+  ],
+  "value": "PRIVATE ROUTE - owner/view/clientDevices/:clientDeviceId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.248Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.901Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "3da3b2cf-e1b1-45a5-8530-c39c32f27cc3",
+  "name": "PRIVATE ROUTE - owner/edit/clientDevices/:clientDeviceId",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "clientDevices"
+  ],
+  "value": "PRIVATE ROUTE - owner/edit/clientDevices/:clientDeviceId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.253Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.907Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "509084f9-9940-453f-94d2-e55ba94707e5",
+  "name": "PRIVATE ROUTE - owner/view/clientDevices/:clientDeviceId/clientDeviceTokens",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "clientDevices",
+    "clientDeviceTokens"
+  ],
+  "value": "PRIVATE ROUTE - owner/view/clientDevices/:clientDeviceId/clientDeviceTokens",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.258Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.917Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "9499ddce-63a7-48da-a37d-f623bf1f6e28",
+  "name": "PRIVATE ROUTE - owner/create/clientDevices/:clientDeviceId/clientDeviceTokens",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "clientDevices",
+    "clientDeviceTokens"
+  ],
+  "value": "PRIVATE ROUTE - owner/create/clientDevices/:clientDeviceId/clientDeviceTokens",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.263Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.923Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "48fea5d2-63a9-4300-8c8d-7be0c8cefe2f",
+  "name": "PRIVATE ROUTE - owner/view/clientDevices/:clientDeviceId/clientDeviceTokens/:clientDeviceTokenId",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "clientDevices",
+    "clientDeviceTokens"
+  ],
+  "value": "PRIVATE ROUTE - owner/view/clientDevices/:clientDeviceId/clientDeviceTokens/:clientDeviceTokenId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.268Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.932Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "690116cc-9165-4414-8868-599210833137",
+  "name": "PRIVATE ROUTE - owner/edit/clientDevices/:clientDeviceId/clientDeviceTokens/:clientDeviceTokenId",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "clientDevices",
+    "clientDeviceTokens"
+  ],
+  "value": "PRIVATE ROUTE - owner/edit/clientDevices/:clientDeviceId/clientDeviceTokens/:clientDeviceTokenId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.273Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.941Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "c4c54622-23ff-4629-9344-517bc8714003",
+  "name": "PRIVATE ROUTE - owner/view/accountRefs",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountRefs"
+  ],
+  "value": "PRIVATE ROUTE - owner/view/accountRefs",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.278Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.957Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "15a520aa-5ffa-4d22-bc99-7fa9a41179cf",
+  "name": "PRIVATE ROUTE - owner/create/accountRefs",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountRefs"
+  ],
+  "value": "PRIVATE ROUTE - owner/create/accountRefs",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.282Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.970Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "55aa9ec8-9387-40f7-ba51-45c36c1e0565",
+  "name": "PRIVATE ROUTE - owner/view/accountRefs/:accountRefId",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountRefs"
+  ],
+  "value": "PRIVATE ROUTE - owner/view/accountRefs/:accountRefId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.288Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.976Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "02323e3e-7c85-4d34-a447-a5e68c969b15",
+  "name": "PRIVATE ROUTE - owner/edit/accountRefs/:accountRefId",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountRefs"
+  ],
+  "value": "PRIVATE ROUTE - owner/edit/accountRefs/:accountRefId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.293Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.983Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "f571d3e0-edfa-4444-a904-f09052c2b555",
+  "name": "PRIVATE ROUTE - owner/view/accountRefs/:accountRefId/accountConfigs",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountRefs",
+    "accountConfigs"
+  ],
+  "value": "PRIVATE ROUTE - owner/view/accountRefs/:accountRefId/accountConfigs",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.299Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.989Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "f34f61c7-80e4-4091-85b3-2c231799451d",
+  "name": "PRIVATE ROUTE - owner/view/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountRefs",
+    "accountConfigs"
+  ],
+  "value": "PRIVATE ROUTE - owner/view/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.306Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:03.995Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "426e6c12-2b19-4fb1-919a-8413689f7bd4",
+  "name": "PRIVATE ROUTE - owner/edit/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountRefs",
+    "accountConfigs"
+  ],
+  "value": "PRIVATE ROUTE - owner/edit/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.311Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:04.002Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "8bea0587-38dd-4af2-96b3-8be2aae70f52",
+  "name": "PRIVATE ROUTE - owner/view/accountRefs/:accountRefId/roles",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accountRefs",
+    "roles"
+  ],
+  "value": "PRIVATE ROUTE - owner/view/accountRefs/:accountRefId/roles",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.316Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:04.008Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "9b944979-160a-47a3-8d83-f435b4e50974",
+  "name": "PRIVATE ROUTE - owner/view/workspaces",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "workspaces"
+  ],
+  "value": "PRIVATE ROUTE - owner/view/workspaces",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.320Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:04.016Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "cac5ada4-f58a-4aed-a892-daf6401716a2",
+  "name": "PRIVATE ROUTE - owner/create/workspaces",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "workspaces"
+  ],
+  "value": "PRIVATE ROUTE - owner/create/workspaces",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.325Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:04.022Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "9a0c5de1-0a29-4e83-a477-8851d03a489b",
+  "name": "PRIVATE ROUTE - owner/view/workspaces/:workspaceId",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "workspaces"
+  ],
+  "value": "PRIVATE ROUTE - owner/view/workspaces/:workspaceId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.331Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:04.028Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "08d3c1eb-7118-4931-ad47-4fbc0e2a88f8",
+  "name": "PRIVATE ROUTE - owner/edit/workspaces/:workspaceId",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "workspaces"
+  ],
+  "value": "PRIVATE ROUTE - owner/edit/workspaces/:workspaceId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.336Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:04.035Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "b97a24b4-0636-4032-9e53-78ab723b4c2e",
+  "name": "PRIVATE ROUTE - owner/view/workspaces/:workspaceId/accountRefs",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "workspaces",
+    "accountRefs"
+  ],
+  "value": "PRIVATE ROUTE - owner/view/workspaces/:workspaceId/accountRefs",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.341Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:04.042Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "11dda3ab-a3ca-4411-bfa6-4b3bfbe7919a",
+  "name": "PRIVATE ROUTE - owner/create/workspaces/:workspaceId/accountRefs",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "workspaces",
+    "accountRefs"
+  ],
+  "value": "PRIVATE ROUTE - owner/create/workspaces/:workspaceId/accountRefs",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.346Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:04.050Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "15f37ff8-97ca-4ede-bff4-e498b069f960",
+  "name": "PRIVATE ROUTE - owner/view/workspaces/:workspaceId/accountRefs/:accountRefId",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "workspaces",
+    "accountRefs"
+  ],
+  "value": "PRIVATE ROUTE - owner/view/workspaces/:workspaceId/accountRefs/:accountRefId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.353Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:04.057Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "e572583a-282d-468d-af0f-1f3f26d329b2",
+  "name": "PRIVATE ROUTE - owner/edit/workspaces/:workspaceId/accountRefs/:accountRefId",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "workspaces",
+    "accountRefs"
+  ],
+  "value": "PRIVATE ROUTE - owner/edit/workspaces/:workspaceId/accountRefs/:accountRefId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.358Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:04.068Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "c1185d63-e7fa-4088-8185-51cea1d33293",
+  "name": "PRIVATE ROUTE - owner/view/workspaces/:workspaceId/accountRefs/:accountRefId/accountConfigs",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "workspaces",
+    "accountRefs",
+    "accountConfigs"
+  ],
+  "value": "PRIVATE ROUTE - owner/view/workspaces/:workspaceId/accountRefs/:accountRefId/accountConfigs",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.364Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:04.074Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "7748b0c3-0611-4b60-b635-f6d50ab812be",
+  "name": "PRIVATE ROUTE - owner/view/workspaces/:workspaceId/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "workspaces",
+    "accountRefs",
+    "accountConfigs"
+  ],
+  "value": "PRIVATE ROUTE - owner/view/workspaces/:workspaceId/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.369Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:04.079Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "ed9ebe7e-847a-41c0-ae24-9eec3e73a3c9",
+  "name": "PRIVATE ROUTE - owner/edit/workspaces/:workspaceId/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "workspaces",
+    "accountRefs",
+    "accountConfigs"
+  ],
+  "value": "PRIVATE ROUTE - owner/edit/workspaces/:workspaceId/accountRefs/:accountRefId/accountConfigs/:accountConfigId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.374Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:04.085Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "3d73fd7a-4504-4725-8c5b-63fb25208f93",
+  "name": "PRIVATE ROUTE - owner/view/workspaces/:workspaceId/accountRefs/:accountRefId/roles",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "workspaces",
+    "accountRefs",
+    "roles"
+  ],
+  "value": "PRIVATE ROUTE - owner/view/workspaces/:workspaceId/accountRefs/:accountRefId/roles",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.379Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:04.090Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "9321b1e3-68ec-4b59-9a59-889a4cdcb90f",
+  "name": "PRIVATE MAIN NAV - Dashboard",
+  "type": "ui-main-drawer",
+  "scope": "app",
+  "tags": [
+    "index"
+  ],
+  "value": "PRIVATE MAIN NAV - Dashboard",
+  "description": "One of the ui main drawer nav",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.384Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:04.133Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "12d6909a-b07c-42e5-8269-cde84acb9d67",
+  "name": "PRIVATE MAIN NAV - Features",
+  "type": "ui-main-drawer",
+  "scope": "app",
+  "tags": [
+    "features"
+  ],
+  "value": "PRIVATE MAIN NAV - Features",
+  "description": "One of the ui main drawer nav",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.389Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:04.139Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "6183b2a2-436d-4211-b45b-cfe5e3cc6dc8",
+  "name": "PRIVATE MAIN NAV - Roles",
+  "type": "ui-main-drawer",
+  "scope": "app",
+  "tags": [
+    "roles"
+  ],
+  "value": "PRIVATE MAIN NAV - Roles",
+  "description": "One of the ui main drawer nav",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.394Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:04.144Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "9c3e2df5-1584-437f-a943-9f52e3ff3936",
+  "name": "PRIVATE MAIN NAV - Accounts",
+  "type": "ui-main-drawer",
+  "scope": "app",
+  "tags": [
+    "accounts"
+  ],
+  "value": "PRIVATE MAIN NAV - Accounts",
+  "description": "One of the ui main drawer nav",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.399Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:04.150Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "d36956ae-a112-4abb-92c0-3d7b5ccf4458",
+  "name": "PRIVATE MAIN NAV - System",
+  "type": "ui-main-drawer",
+  "scope": "app",
+  "tags": [
+    "system"
+  ],
+  "value": "PRIVATE MAIN NAV - System",
+  "description": "One of the ui main drawer nav",
+  "createdAt": {
+    "$date": "2025-01-22T14:15:41.405Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:04.155Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "84d1c0e6-d9f1-4fc3-83d1-6177f92c9534",
+  "value": "GET - /api/v1/owner/accessInfo",
+  "createdAt": {
+    "$date": "2025-02-04T07:05:54.905Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/accessInfo",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accessInfo"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "f4fc5999-c3a3-4a3c-a4c6-27f70b38cfe5",
+  "value": "GET - /api/v1/owner/accessInfo/rootAccount/:rootAccountId",
+  "createdAt": {
+    "$date": "2025-02-04T07:05:54.905Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/accessInfo/rootAccount/:rootAccountId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accessInfo",
+    "rootAccount"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "b46baeaf-bc4e-4f88-be19-106e1e6a5629",
+  "value": "GET - /api/v1/owner/accessInfo/rootAccount/:rootAccountId/rootWorkspace/:rootWorkspaceId",
+  "createdAt": {
+    "$date": "2025-02-04T07:05:54.905Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/accessInfo/rootAccount/:rootAccountId/rootWorkspace/:rootWorkspaceId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "accessInfo",
+    "rootAccount",
+    "rootWorkspace"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "b39e8097-099e-4128-8800-157d6c8bfbde",
+  "value": "GET - /api/v1/accounts/:accountId/accessInfo",
+  "createdAt": {
+    "$date": "2025-02-04T07:39:24.517Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/accessInfo",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "accessInfo"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "f558fde8-1069-46c7-baea-c1acd8a087be",
+  "value": "GET - /api/v1/accounts/:accountId/notifications",
+  "createdAt": {
+    "$date": "2025-02-12T15:19:16.448Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/notifications",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "notifications"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "4e21f59c-07d9-4329-8913-e38d5fcbc32a",
+  "value": "POST - /api/v1/accounts/:accountId/notifications",
+  "createdAt": {
+    "$date": "2025-02-12T15:19:16.448Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "POST - /api/v1/accounts/:accountId/notifications",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "notifications"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "a7678e3e-b043-432d-a084-db2908dd555e",
+  "value": "GET - /api/v1/accounts/:accountId/notifications/:notificationId",
+  "createdAt": {
+    "$date": "2025-02-12T15:19:16.448Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/notifications/:notificationId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "notifications"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "ea9a0a79-d337-4837-928a-233091d32fe7",
+  "value": "PUT - /api/v1/accounts/:accountId/notifications/:notificationId",
+  "createdAt": {
+    "$date": "2025-02-12T15:19:16.448Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/accounts/:accountId/notifications/:notificationId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "notifications"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "2fc30897-2b39-40df-b314-8644e7c7f54e",
+  "value": "DELETE - /api/v1/accounts/:accountId/notifications/:notificationId",
+  "createdAt": {
+    "$date": "2025-02-12T15:19:16.448Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/accounts/:accountId/notifications/:notificationId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "notifications"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "a98a3fc8-4748-4314-856c-26208a08520c",
+  "value": "GET - /api/v1/owner/notifications",
+  "createdAt": {
+    "$date": "2025-02-12T15:19:16.448Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/notifications",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "notifications"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "5eab99e0-d729-4e2c-a1b8-1982608ecc5c",
+  "value": "POST - /api/v1/owner/notifications",
+  "createdAt": {
+    "$date": "2025-02-12T15:19:16.448Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "POST - /api/v1/owner/notifications",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "notifications"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "f38bd2c7-aff0-442b-b65a-8f13b4b64861",
+  "value": "GET - /api/v1/owner/notifications/:notificationId",
+  "createdAt": {
+    "$date": "2025-02-12T15:19:16.448Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/notifications/:notificationId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "notifications"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "7256ea15-4cf5-42e8-9bc8-f5b79ad4c714",
+  "value": "PUT - /api/v1/owner/notifications/:notificationId",
+  "createdAt": {
+    "$date": "2025-02-12T15:19:16.448Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/owner/notifications/:notificationId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "notifications"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "e3d5f910-8c9e-4952-a419-eac9799a61b7",
+  "value": "DELETE - /api/v1/owner/notifications/:notificationId",
+  "createdAt": {
+    "$date": "2025-02-12T15:19:16.448Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/owner/notifications/:notificationId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "notifications"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "6447a083-2b4d-4984-9456-9bb5e06b6a9a",
+  "name": "PRIVATE ROUTE - accounts/view/:accountId/notifications",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "notifications"
+  ],
+  "value": "PRIVATE ROUTE - accounts/view/:accountId/notifications",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-02-18T14:48:28.492Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:04.096Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "0044a46a-50a6-43cf-9f9a-fd463d155e88",
+  "name": "PRIVATE ROUTE - owner/view/notifications",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "notifications"
+  ],
+  "value": "PRIVATE ROUTE - owner/view/notifications",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-02-20T05:40:22.265Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:04.101Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "3dc1a5c4-b814-4802-9221-d6fdde0707a4",
+  "value": "GET - /api/v1/accounts/:accountId/quickCheck/activeNotifications",
+  "createdAt": {
+    "$date": "2025-03-04T23:46:18.441Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/quickCheck/activeNotifications",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "quickCheck",
+    "activeNotifications"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "f0527476-7755-4abe-8a5c-97f7bb6e9189",
+  "value": "GET - /api/v1/owner/quickCheck/activeNotifications",
+  "createdAt": {
+    "$date": "2025-03-04T23:46:18.441Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/quickCheck/activeNotifications",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "quickCheck",
+    "activeNotifications"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "8217cc35-ed21-4078-a3de-69470b125393",
+  "name": "PRIVATE ROUTE - accounts/view/:accountId/actions/:actionType/module/:moduleType/:moduleId/ref/:refType/:refId",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "actions",
+    "module",
+    "ref"
+  ],
+  "value": "PRIVATE ROUTE - accounts/view/:accountId/actions/:actionType/module/:moduleType/:moduleId/ref/:refType/:refId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-03-05T03:18:51.962Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:04.106Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "0982ef54-a046-4c4c-afd1-e565c54b3853",
+  "name": "PRIVATE ROUTE - accounts/view/:accountId/actions/:actionType/module/:moduleType/:moduleId/subModule/:subModuleType/:subModuleId/ref/:refType/:refId",
+  "type": "ui-route",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "actions",
+    "module",
+    "subModule",
+    "ref"
+  ],
+  "value": "PRIVATE ROUTE - accounts/view/:accountId/actions/:actionType/module/:moduleType/:moduleId/subModule/:subModuleType/:subModuleId/ref/:refType/:refId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-03-05T03:18:51.970Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:04.112Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "32d121ac-b476-4092-a8e1-c64bb9e38eb2",
+  "name": "PRIVATE ROUTE - owner/view/:accountId/actions/:actionType/module/:moduleType/:moduleId/ref/:refType/:refId",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "actions",
+    "module",
+    "ref"
+  ],
+  "value": "PRIVATE ROUTE - owner/view/:accountId/actions/:actionType/module/:moduleType/:moduleId/ref/:refType/:refId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-03-05T03:18:51.976Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-07T00:22:01.448Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "ffcfbbb1-1866-40e4-912c-c2193c80e107",
+  "name": "PRIVATE ROUTE - owner/view/:accountId/actions/:actionType/module/:moduleType/:moduleId/subModule/:subModuleType/:subModuleId/ref/:refType/:refId",
+  "type": "ui-route",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "actions",
+    "module",
+    "subModule",
+    "ref"
+  ],
+  "value": "PRIVATE ROUTE - owner/view/:accountId/actions/:actionType/module/:moduleType/:moduleId/subModule/:subModuleType/:subModuleId/ref/:refType/:refId",
+  "description": "One of the ui private route",
+  "createdAt": {
+    "$date": "2025-03-05T03:18:51.981Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-05T03:19:04.124Z"
+  },
+  "__v": 0
+},
+{
+  "_id": "ab719520-edb5-4694-8050-e8d22659e6e7",
+  "value": "GET - /api/v1/accounts/:accountId/actions/:actionType/module/:moduleType/:moduleId/ref/:refType/:refId",
+  "createdAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/actions/:actionType/module/:moduleType/:moduleId/ref/:refType/:refId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "actions",
+    "module",
+    "ref"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "67b5d23e-d57f-46fd-aff1-86c11aa0952e",
+  "value": "GET - /api/v1/accounts/:accountId/actions/:actionType/module/:moduleType/:moduleId/subModule/:subModuleType/:subModuleId/ref/:refType/:refId",
+  "createdAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/accounts/:accountId/actions/:actionType/module/:moduleType/:moduleId/subModule/:subModuleType/:subModuleId/ref/:refType/:refId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "actions",
+    "module",
+    "subModule",
+    "ref"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "3d429859-c033-4f68-9c12-a605fb58a89e",
+  "value": "PUT - /api/v1/accounts/:accountId/actions/:actionType/module/:moduleType/:moduleId/ref/:refType/:refId",
+  "createdAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/accounts/:accountId/actions/:actionType/module/:moduleType/:moduleId/ref/:refType/:refId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "actions",
+    "module",
+    "ref"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "c2f4c3e4-9b6e-4bda-ba61-3f0c5f11fc33",
+  "value": "DELETE - /api/v1/accounts/:accountId/actions/:actionType/module/:moduleType/:moduleId/ref/:refType/:refId",
+  "createdAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/accounts/:accountId/actions/:actionType/module/:moduleType/:moduleId/ref/:refType/:refId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "actions",
+    "module",
+    "ref"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "00b81338-46aa-4f52-b939-98527c6c89fe",
+  "value": "PUT - /api/v1/accounts/:accountId/actions/:actionType/module/:moduleType/:moduleId/subModule/:subModuleType/:subModuleId/ref/:refType/:refId",
+  "createdAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/accounts/:accountId/actions/:actionType/module/:moduleType/:moduleId/subModule/:subModuleType/:subModuleId/ref/:refType/:refId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "actions",
+    "module",
+    "subModule",
+    "ref"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "9cdf84ae-5d12-4bba-b6c9-585e7b03e12f",
+  "value": "DELETE - /api/v1/accounts/:accountId/actions/:actionType/module/:moduleType/:moduleId/subModule/:subModuleType/:subModuleId/ref/:refType/:refId",
+  "createdAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/accounts/:accountId/actions/:actionType/module/:moduleType/:moduleId/subModule/:subModuleType/:subModuleId/ref/:refType/:refId",
+  "scope": "account",
+  "tags": [
+    "accounts",
+    "actions",
+    "module",
+    "subModule",
+    "ref"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "f26ae7c1-c047-4df5-af56-d4428e862804",
+  "value": "GET - /api/v1/owner/:accountId/actions/:actionType/module/:moduleType/:moduleId/ref/:refType/:refId",
+  "createdAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/:accountId/actions/:actionType/module/:moduleType/:moduleId/ref/:refType/:refId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "actions",
+    "module",
+    "ref"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "4328cccc-3066-4090-a5b4-22430ca575f8",
+  "value": "GET - /api/v1/owner/:accountId/actions/:actionType/module/:moduleType/:moduleId/subModule/:subModuleType/:subModuleId/ref/:refType/:refId",
+  "createdAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "GET - /api/v1/owner/:accountId/actions/:actionType/module/:moduleType/:moduleId/subModule/:subModuleType/:subModuleId/ref/:refType/:refId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "actions",
+    "module",
+    "subModule",
+    "ref"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "4f400d39-6027-4681-a1a9-967a2283e719",
+  "value": "PUT - /api/v1/owner/:accountId/actions/:actionType/module/:moduleType/:moduleId/ref/:refType/:refId",
+  "createdAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/owner/:accountId/actions/:actionType/module/:moduleType/:moduleId/ref/:refType/:refId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "actions",
+    "module",
+    "ref"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "59f52b86-be3f-4143-89be-c7d7a997c1ed",
+  "value": "DELETE - /api/v1/owner/:accountId/actions/:actionType/module/:moduleType/:moduleId/ref/:refType/:refId",
+  "createdAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/owner/:accountId/actions/:actionType/module/:moduleType/:moduleId/ref/:refType/:refId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "actions",
+    "module",
+    "ref"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "32ff5fc3-08a3-47d7-a87a-fd480b1424a3",
+  "value": "PUT - /api/v1/owner/:accountId/actions/:actionType/module/:moduleType/:moduleId/subModule/:subModuleType/:subModuleId/ref/:refType/:refId",
+  "createdAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "PUT - /api/v1/owner/:accountId/actions/:actionType/module/:moduleType/:moduleId/subModule/:subModuleType/:subModuleId/ref/:refType/:refId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "actions",
+    "module",
+    "subModule",
+    "ref"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+},
+{
+  "_id": "2b4ec4d4-6cb4-4e2a-87d3-964dd66aab75",
+  "value": "DELETE - /api/v1/owner/:accountId/actions/:actionType/module/:moduleType/:moduleId/subModule/:subModuleType/:subModuleId/ref/:refType/:refId",
+  "createdAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  },
+  "description": "One of the server endpoint",
+  "name": "DELETE - /api/v1/owner/:accountId/actions/:actionType/module/:moduleType/:moduleId/subModule/:subModuleType/:subModuleId/ref/:refType/:refId",
+  "scope": "app",
+  "tags": [
+    "owner",
+    "actions",
+    "module",
+    "subModule",
+    "ref"
+  ],
+  "type": "api-route",
+  "updatedAt": {
+    "$date": "2025-03-05T03:20:48.915Z"
+  }
+}]

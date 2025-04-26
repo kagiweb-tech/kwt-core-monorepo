@@ -1,0 +1,78 @@
+post:
+    tags :
+      - Auths
+    security: []
+    summary: Create a account account.
+    description: |
+      Create a account account. This will register initial account information like nameId password and account contact.
+      However the created account is still disabled and not yet verified, You still need to contact administrator
+      to enable and verify your account.
+    produces:
+      - application/json
+    requestBody:
+      content:
+        application/x-www-form-urlencoded:
+          schema:
+            type: object
+            required:
+              - nameId
+              - password
+            properties:
+              nameId:
+                type: string
+              password:
+                type: string
+              email:
+                type: string
+                description: email address (optional)
+              phone:
+                type: string
+                description: mobile phone number (optional)
+    responses:
+      200:
+        description: jwrt response
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                nameId:
+                  type: string
+            example:
+              nameId: master
+      400:
+        description: Incorrect content in the request.
+        content:
+          application/json:
+            schema:
+              type: object
+              $ref: ../global/errorDefinition.yml
+            example:
+              message: Incorrect content in the request.
+      404:
+        description: Resource not found.
+        content:
+          application/json:
+            schema:
+              type: object
+              $ref: ../global/errorDefinition.yml
+            example:
+              message: Resource not found.
+      423:
+        description: locked
+        content:
+          application/json:
+            schema:
+              type: object
+              $ref: ../global/errorDefinition.yml
+            example:
+              message: locked
+      500:
+        description: Internal server error.
+        content:
+          application/json:
+            schema:
+              type: object
+              $ref: ../global/errorDefinition.yml
+            example:
+              message: Internal server error.

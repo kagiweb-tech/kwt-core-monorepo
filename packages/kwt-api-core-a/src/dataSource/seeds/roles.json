@@ -1,0 +1,6453 @@
+[{
+  "_id": "798c16ff-d75c-41b6-b9f5-69e21b08879a",
+  "__v": 0,
+  "absoluteAuthority": true,
+  "createdAt": {
+    "$date": "2023-12-24T04:04:50.138Z"
+  },
+  "description": "The highest role for this app, this has access to all resurces",
+  "featuresRefs": [],
+  "level": 0,
+  "name": "Master",
+  "updatedAt": {
+    "$date": "2024-08-18T14:14:21.947Z"
+  },
+  "reqLimitPerSec": 10,
+  "scope": "app"
+},
+{
+  "_id": "cbe58c3c-9d86-466c-a8b4-1b26c379f276",
+  "__v": 2766,
+  "absoluteAuthority": false,
+  "createdAt": {
+    "$date": "2023-12-24T04:04:50.138Z"
+  },
+  "description": "Have access to most of the resources.",
+  "featuresRefs": [
+    {
+      "featureId": "971ba54d-0419-4f02-bb2e-1f9ff8abb556",
+      "_id": "0d5fd77d-3507-40f1-8e64-471ad53bbb75",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.012Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.012Z"
+      }
+    },
+    {
+      "featureId": "1a79b78f-9020-4dc5-b054-a8c6737abdd6",
+      "_id": "fb1926e5-c081-47dd-8958-4457220c64a0",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.019Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.019Z"
+      }
+    },
+    {
+      "featureId": "3984853f-78f1-4092-9931-90fcf1fbb970",
+      "_id": "8d5b76de-3eca-4601-87c2-9910210ca029",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.027Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.027Z"
+      }
+    },
+    {
+      "featureId": "af5cf696-ad98-4a91-8caf-89913cf3b650",
+      "_id": "b1c1c70f-3398-4516-b50d-e60446ba14d7",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.033Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.033Z"
+      }
+    },
+    {
+      "featureId": "e6beb68d-9ceb-4fe6-853c-1c3ce2355885",
+      "_id": "570362d0-d569-42c3-ae13-81a0fc8dac6f",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.039Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.039Z"
+      }
+    },
+    {
+      "featureId": "2d57667c-2a7d-44c1-bf64-3752bb2c81af",
+      "_id": "1155ec6f-b3d4-480a-894f-f23868c227d5",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.045Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.045Z"
+      }
+    },
+    {
+      "featureId": "81b2d579-0dc3-4d9c-adc6-116c3767abeb",
+      "_id": "70862539-6ec1-449b-96f7-9a12327b28b2",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.052Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.052Z"
+      }
+    },
+    {
+      "featureId": "044413c6-d919-49bd-b16c-e4ec2879c0fa",
+      "_id": "d7c1b07d-0482-4c73-bc04-de9ed6e201e5",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.060Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.060Z"
+      }
+    },
+    {
+      "featureId": "c94d2687-346e-4994-a0fb-456dcdd63205",
+      "_id": "0a3ff424-0450-43a8-9b17-e4a89fd6f740",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.066Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.066Z"
+      }
+    },
+    {
+      "featureId": "ea36a2c9-cdc9-4da4-964b-a6df5c37ca3b",
+      "_id": "36fdb408-6be7-4486-a823-b90ee871b8b6",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.074Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.074Z"
+      }
+    },
+    {
+      "featureId": "f486399b-9f5f-4d1c-8908-ebcf1e03877b",
+      "_id": "57a97cea-44a8-4e38-af77-96db4b0b9d8f",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.081Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.081Z"
+      }
+    },
+    {
+      "featureId": "1b751e43-99be-4601-8faf-3170e44054c3",
+      "_id": "e06fff5e-7cb6-4638-b922-4f2f63d31b8c",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.088Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.088Z"
+      }
+    },
+    {
+      "featureId": "a4f8ccd9-1c4f-4ca8-be96-d3b1cf96337e",
+      "_id": "4444aab0-647d-40e4-a8a6-a01163810a78",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.096Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.096Z"
+      }
+    },
+    {
+      "featureId": "67c03ff7-f98a-47a0-938a-1b807d244c55",
+      "_id": "861f9fd9-0fff-42d4-b534-b7026e729cca",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.108Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.108Z"
+      }
+    },
+    {
+      "featureId": "d5a5bf74-8d9b-448f-8c52-6ceb87516431",
+      "_id": "db2626cc-262d-490e-8a29-e4fd44456f71",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.120Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.120Z"
+      }
+    },
+    {
+      "featureId": "f2b4f302-7132-4053-9f04-cd8d1af0f9d2",
+      "_id": "ea942c14-e45f-48ed-ac7d-194be67bde36",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.135Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.135Z"
+      }
+    },
+    {
+      "featureId": "c9aa9909-9d9b-4e9a-9655-d5a4b2ba8443",
+      "_id": "47c77646-af77-4166-bdd8-fefeefb9398b",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.147Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.147Z"
+      }
+    },
+    {
+      "featureId": "76450ab0-672c-411f-8241-2cca9a43fd03",
+      "_id": "cf8c25d5-a466-4f29-b2a8-06284c25b689",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.154Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.154Z"
+      }
+    },
+    {
+      "featureId": "65d224cc-b1d1-4cc8-a143-022f27d83cc4",
+      "_id": "2f75538f-ccb3-4403-8785-0545c9b4db56",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.162Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.162Z"
+      }
+    },
+    {
+      "featureId": "110ebf8c-a577-4f92-a55c-9ac75528f1ee",
+      "_id": "d81993e8-f993-4462-87bb-ada2c5cbf14f",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.169Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.169Z"
+      }
+    },
+    {
+      "featureId": "f6b5f579-20b2-4a8d-9acc-45c6b8b9abab",
+      "_id": "20b2542f-8919-4762-8248-ac45a4ce306a",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.178Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.178Z"
+      }
+    },
+    {
+      "featureId": "44a613ce-7c47-4ffc-8c2c-5763afe252ec",
+      "_id": "9f37f895-f2ec-4d46-88e6-024d0a1b8868",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.186Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.186Z"
+      }
+    },
+    {
+      "featureId": "9cd29b5c-edb8-48bc-826d-c7722918768e",
+      "_id": "53a17340-0102-4996-af30-a825508d1f3b",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.193Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.193Z"
+      }
+    },
+    {
+      "featureId": "5414cb77-1d0d-49f2-80ae-99ae9c753058",
+      "_id": "ff0b9440-fd1f-4d3a-82cd-3dfed0108bf8",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.200Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.200Z"
+      }
+    },
+    {
+      "featureId": "4ff2c26d-76f9-4d5a-a104-3c7248002f59",
+      "_id": "e8c85098-aba6-41c2-b934-58a075a46814",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.207Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.207Z"
+      }
+    },
+    {
+      "featureId": "58674842-32e6-4235-b649-b0ae3a85e919",
+      "_id": "6b4cec21-f173-4025-b1f8-16923bd078e5",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.215Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.215Z"
+      }
+    },
+    {
+      "featureId": "5e113d4a-1604-4932-afd4-8ee35818e5be",
+      "_id": "a203cef5-4dd0-41d5-b951-ba37b275ff10",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.225Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.225Z"
+      }
+    },
+    {
+      "featureId": "d7eb2ca7-70c4-4446-8b03-a30492194091",
+      "_id": "62546b20-4045-4055-ab46-53afcb433d5c",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.232Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.232Z"
+      }
+    },
+    {
+      "featureId": "dfc6d6c6-e737-44e2-982d-d42be01f5b06",
+      "_id": "8333c0a3-8c75-45eb-8d85-67b9a3b1c57c",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.240Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.240Z"
+      }
+    },
+    {
+      "featureId": "b44a2c6d-4c4f-4be3-a238-5e1f8d59e7a3",
+      "_id": "398051ef-717c-4eac-9ed7-47875ce93af6",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.248Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.248Z"
+      }
+    },
+    {
+      "featureId": "b6803fb8-683f-461f-9c6c-ffe530063629",
+      "_id": "51c98a2a-96cf-4f8f-9def-4a2d318360f7",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.256Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.256Z"
+      }
+    },
+    {
+      "featureId": "cab7bb18-f804-4154-92ad-dc0fb436481e",
+      "_id": "2c7e14f6-13eb-4793-8909-80f3218833d3",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.263Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.263Z"
+      }
+    },
+    {
+      "featureId": "ec91bf92-244b-4e92-826e-d1c0c0066fdd",
+      "_id": "76b689f5-6f97-4355-af11-4b472a1e38df",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.271Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.271Z"
+      }
+    },
+    {
+      "featureId": "3c6f6ce8-0757-441b-8516-60fb94b437f9",
+      "_id": "b2d4ee18-3b07-497f-a50a-7740f7fabfbb",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.279Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.279Z"
+      }
+    },
+    {
+      "featureId": "35f13448-a622-48c0-8321-bcd48ab30840",
+      "_id": "17ac4d78-1afd-495f-8200-a283746d2240",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.286Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.286Z"
+      }
+    },
+    {
+      "featureId": "1a33d464-30fb-4dce-a00f-3fbe5f094afe",
+      "_id": "4ad0723c-1bfa-44e4-849c-3199b81a982b",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.295Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.295Z"
+      }
+    },
+    {
+      "featureId": "7f4bd265-6702-4d4f-9974-14b7e141efb7",
+      "_id": "a76400e3-fb42-4363-b30f-1288f65f3f4b",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.303Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.303Z"
+      }
+    },
+    {
+      "featureId": "37cadd10-5dcf-4bed-b2ef-438df5491e8e",
+      "_id": "01ff630d-0b7b-41df-af2d-e941d8ba4aa5",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.312Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.312Z"
+      }
+    },
+    {
+      "featureId": "98a696bc-81ed-4b56-9a12-7525afcea9e3",
+      "_id": "579e4083-a3e7-425f-8b90-544b2d2b4bba",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.319Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.319Z"
+      }
+    },
+    {
+      "featureId": "c1cdbd4c-d589-434f-ba91-ce8a0ea6ccdf",
+      "_id": "e3d439a8-bdde-4015-954e-75eaaecb260a",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.328Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.328Z"
+      }
+    },
+    {
+      "featureId": "d79e7302-23fd-4f81-8011-ab204d08c1da",
+      "_id": "cfa0e217-769e-4481-aa9d-0d33405282aa",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.335Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.335Z"
+      }
+    },
+    {
+      "featureId": "233bf012-0c1c-46a0-9120-2f51cf13e881",
+      "_id": "aa9b3635-ffea-4a13-b839-96564c81bd00",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.343Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.343Z"
+      }
+    },
+    {
+      "featureId": "5893e865-aa0d-436e-ab88-9df7be69a6b2",
+      "_id": "7657fc31-3be0-4b13-ad0c-c524214d9e57",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.351Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.351Z"
+      }
+    },
+    {
+      "featureId": "dbeb61b3-0393-42c6-9af1-12314cd3f01e",
+      "_id": "93f1520d-19ef-46b1-9e68-46277bf61c51",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.360Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.360Z"
+      }
+    },
+    {
+      "featureId": "e253c8a4-4f80-4c1d-86e4-f0a63aeb7381",
+      "_id": "ae513a5e-3e8b-479e-8614-98a25bc236de",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.368Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.368Z"
+      }
+    },
+    {
+      "featureId": "23b5f5e5-71ed-4a25-a200-4bbfef2dba64",
+      "_id": "1e657642-ee1e-4804-ae40-7ce343972544",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.376Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.376Z"
+      }
+    },
+    {
+      "featureId": "b45b105a-511e-467d-a9e4-071f3a517f46",
+      "_id": "60c822c6-d0d2-4c01-96ef-7852b27df3b3",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.383Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.383Z"
+      }
+    },
+    {
+      "featureId": "de171ab7-3ad3-4303-b1e4-f3f5402498da",
+      "_id": "5edd6291-7e5e-4e0c-9e40-3e7b1e4fe07c",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.391Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.391Z"
+      }
+    },
+    {
+      "featureId": "5f71bbb3-1d9d-4d7c-989f-a498aad046fe",
+      "_id": "f11f5f3e-35d3-4925-87c8-234d9c1a186c",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.399Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.399Z"
+      }
+    },
+    {
+      "featureId": "ef896376-b7b3-4483-a03d-3752803bb209",
+      "_id": "abc387f3-a595-4a01-9e67-f0a5d8373ff7",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.407Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.407Z"
+      }
+    },
+    {
+      "featureId": "ef891368-262a-4069-9d4a-4dfcce6752e3",
+      "_id": "94bb3fa3-0cdd-419b-bc9e-15ba582f15a5",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.415Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.415Z"
+      }
+    },
+    {
+      "featureId": "38242a1a-5366-46a1-9dc5-f2cf2f612805",
+      "_id": "050de275-15de-4781-9155-e549ca1daa94",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.424Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.424Z"
+      }
+    },
+    {
+      "featureId": "e7edc2ed-b7bf-40de-8f94-5c1d276a9f54",
+      "_id": "fbd4d9d4-5294-4427-b7d0-17c7ae768106",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.432Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.432Z"
+      }
+    },
+    {
+      "featureId": "4687927d-4343-420a-afeb-c10dbaf36cec",
+      "_id": "765d093c-f431-4b5d-ae78-d29240062013",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.440Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.440Z"
+      }
+    },
+    {
+      "featureId": "d8c7560d-3928-4359-8288-d931a2bcac79",
+      "_id": "e98f37f9-15f4-4b6a-ab2a-bb8075f2adef",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.449Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.449Z"
+      }
+    },
+    {
+      "featureId": "08604bc7-0688-4bda-aaf7-ba9026499257",
+      "_id": "45f79b76-18d4-42ae-b338-988566d675e6",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.457Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.457Z"
+      }
+    },
+    {
+      "featureId": "92d2e3b3-15b6-4015-b468-1c336414f074",
+      "_id": "d7da6fff-db45-460f-925b-209f4d56556e",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.465Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.465Z"
+      }
+    },
+    {
+      "featureId": "5ce5d9d2-bb2e-4e13-b433-bcb79aabd7a0",
+      "_id": "a829b41c-5857-487b-8792-ba33e51e2be6",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.475Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.475Z"
+      }
+    },
+    {
+      "featureId": "e61a3e71-c0a9-440e-82c4-f53742c0c92b",
+      "_id": "b0e94bf5-39a9-400e-8752-e41168478fd1",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.487Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.487Z"
+      }
+    },
+    {
+      "featureId": "284268a7-2192-4631-85fb-9fef2a737859",
+      "_id": "466ac34a-9da0-4604-af27-1af64ca35d0d",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.495Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.495Z"
+      }
+    },
+    {
+      "featureId": "c86cca5a-fc76-4989-823d-e44423db4339",
+      "_id": "1fae8ddf-1ae5-402a-bc1d-e85095d1cdbb",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.504Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.504Z"
+      }
+    },
+    {
+      "featureId": "66a683d8-2784-4d40-8d70-a0a8144b6b0c",
+      "_id": "ccce247c-884c-411f-a3b1-58095abc2c8d",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.513Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.513Z"
+      }
+    },
+    {
+      "featureId": "5832c86b-8070-4c90-9ef3-3f60136294e7",
+      "_id": "dff23cf2-329d-41b2-aa73-3a25448f09ee",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.522Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.522Z"
+      }
+    },
+    {
+      "featureId": "b8cc8611-01c3-4905-8fb3-ede3a82375d1",
+      "_id": "bd58b424-9d4c-404f-9df3-c3a4630cd618",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.531Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.531Z"
+      }
+    },
+    {
+      "featureId": "48c463cb-594d-4cb3-8618-8cd478e1676b",
+      "_id": "6ffb0f4d-4dd3-40e5-9a5b-05f098b780ea",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.541Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.541Z"
+      }
+    },
+    {
+      "featureId": "3abcdd1d-26fe-4ae4-a5c4-53aca7ab8ce1",
+      "_id": "3117d0aa-87bf-411d-819e-59ac33292f95",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.549Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.549Z"
+      }
+    },
+    {
+      "featureId": "d77a8a16-28bf-4aea-a0b5-88e81dea5105",
+      "_id": "d350614e-0c0b-415e-8dc8-fbcf68bfe8bc",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.557Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.557Z"
+      }
+    },
+    {
+      "featureId": "36045ddc-1a79-4af4-a664-f73cc24838d6",
+      "_id": "50fe2b1b-31f8-4393-bd2c-fccbfa1d7435",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.566Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.566Z"
+      }
+    },
+    {
+      "featureId": "e25433ce-99f4-4fe1-857a-e38c631b9da4",
+      "_id": "62bc69f1-4e94-4ee4-9f51-980ab544484f",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.574Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.574Z"
+      }
+    },
+    {
+      "featureId": "0e53caf6-e884-40db-946f-7a9ae44db45c",
+      "_id": "82bb2755-6040-4020-a14d-9c95bdd5857e",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.583Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.583Z"
+      }
+    },
+    {
+      "featureId": "ca60f50a-1e9b-405e-8a21-2deafe43c3ad",
+      "_id": "0dcf3577-0e7f-4e98-bcb3-729208c1cf40",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.593Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.593Z"
+      }
+    },
+    {
+      "featureId": "e618c0e9-e9f9-4cd7-975f-05d64f10ffc8",
+      "_id": "79ae0c12-c3a3-4f98-8314-00f2c4de36ff",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.601Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.601Z"
+      }
+    },
+    {
+      "featureId": "5fe0d699-6a68-44bc-b883-a6853f08ef6b",
+      "_id": "138a8fff-f9d8-4f53-8058-2835b02a8ae5",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.610Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.610Z"
+      }
+    },
+    {
+      "featureId": "f63d7af5-66e1-46fc-ae8a-6d7d8251715d",
+      "_id": "bc2f14d0-30ff-4fd4-ac85-b9a2faa5caf8",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.618Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.618Z"
+      }
+    },
+    {
+      "featureId": "339bc26c-652d-4485-ab90-6a749bdefb81",
+      "_id": "ce216494-a75b-46fa-98d4-3018389e5d5c",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.627Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.627Z"
+      }
+    },
+    {
+      "featureId": "97215c6a-4c99-4e7c-8d88-85a04ca331a4",
+      "_id": "41d08edc-02a7-4cc1-a61f-99bced6cbda7",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.635Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.635Z"
+      }
+    },
+    {
+      "featureId": "cc5558ba-7c37-4e00-ab29-07920e67a109",
+      "_id": "878eb44b-6966-4d72-9fa1-532feb27eec2",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.643Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.643Z"
+      }
+    },
+    {
+      "featureId": "6e279974-3c4f-475d-b099-29c1c5c558ee",
+      "_id": "4e222ad1-22a7-4018-8d8b-063120d87610",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.651Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.651Z"
+      }
+    },
+    {
+      "featureId": "04e9512b-6474-4441-bd1c-de54a26aec3c",
+      "_id": "ae87dc30-cb01-4b83-9b21-4e49aa8a4e35",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.660Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.660Z"
+      }
+    },
+    {
+      "featureId": "81f305ca-ca4e-4d25-99d9-2f7a0dfd20cb",
+      "_id": "04e9ecb7-fab2-4d95-bd13-854dfb6c5169",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.668Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.668Z"
+      }
+    },
+    {
+      "featureId": "d63328b7-bfce-4a68-b78d-4319b036af87",
+      "_id": "69fb6020-3a8d-4d2f-9235-1269815d91fa",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.676Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.676Z"
+      }
+    },
+    {
+      "featureId": "a2154f89-2dc8-4d98-9013-54b861fa3750",
+      "_id": "d1cea1ba-09c7-42c4-a893-86871505f243",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.684Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.684Z"
+      }
+    },
+    {
+      "featureId": "4d8dd849-501d-4613-b318-616b24ad9272",
+      "_id": "4596ad51-c41f-405f-ad78-d1f385bcd1de",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.693Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.693Z"
+      }
+    },
+    {
+      "featureId": "c4241c82-77ad-4523-b72b-6ba6e68d450f",
+      "_id": "c24a65e6-063e-460b-9987-119b1748c81a",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.701Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.701Z"
+      }
+    },
+    {
+      "featureId": "0f7f06d7-3502-42c1-a8f3-0f7a3a17c2c6",
+      "_id": "4cb61c05-6b52-4260-af30-291d70e0df6f",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.710Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.710Z"
+      }
+    },
+    {
+      "featureId": "b795f1f5-2ac1-4b2a-b03e-6568486c40b1",
+      "_id": "10bf1c4f-ab67-4376-ac10-c90e5ee969e2",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.718Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.718Z"
+      }
+    },
+    {
+      "featureId": "2ddbc518-ea32-4a4a-9e6b-a26ea4de42c1",
+      "_id": "53985efa-0873-44af-9658-856f16e9ecd8",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.728Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.728Z"
+      }
+    },
+    {
+      "featureId": "49fe90fd-69fb-49f5-b275-43cdce6db323",
+      "_id": "19128f31-b8d7-47a7-b70a-ae343a394bcd",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.737Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.737Z"
+      }
+    },
+    {
+      "featureId": "3da3b2cf-e1b1-45a5-8530-c39c32f27cc3",
+      "_id": "8637a059-d3a5-4595-abf4-6d53f4392eff",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.746Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.746Z"
+      }
+    },
+    {
+      "featureId": "509084f9-9940-453f-94d2-e55ba94707e5",
+      "_id": "637385e9-6ba1-4a42-b94a-8314e19f5b25",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.755Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.755Z"
+      }
+    },
+    {
+      "featureId": "9499ddce-63a7-48da-a37d-f623bf1f6e28",
+      "_id": "fa8dbe32-62e8-49cd-8bc4-48667f04c565",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.763Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.763Z"
+      }
+    },
+    {
+      "featureId": "48fea5d2-63a9-4300-8c8d-7be0c8cefe2f",
+      "_id": "e9ae75e3-673b-44db-8189-9cbdb5d4c111",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.771Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.771Z"
+      }
+    },
+    {
+      "featureId": "690116cc-9165-4414-8868-599210833137",
+      "_id": "31babdc3-ced9-4860-afae-15ebb8fb8806",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.779Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.779Z"
+      }
+    },
+    {
+      "featureId": "c4c54622-23ff-4629-9344-517bc8714003",
+      "_id": "2e2b0017-a848-46d5-86d0-b8e44cf19931",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.788Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.788Z"
+      }
+    },
+    {
+      "featureId": "15a520aa-5ffa-4d22-bc99-7fa9a41179cf",
+      "_id": "00d86201-4b3e-41ab-add8-b1cbf1dd6ae8",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.797Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.797Z"
+      }
+    },
+    {
+      "featureId": "55aa9ec8-9387-40f7-ba51-45c36c1e0565",
+      "_id": "4e1dd028-9b7e-4a75-a505-d5a9f72b3806",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.806Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.806Z"
+      }
+    },
+    {
+      "featureId": "02323e3e-7c85-4d34-a447-a5e68c969b15",
+      "_id": "a0470a44-c911-417f-8114-07d43e514b1f",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.815Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.815Z"
+      }
+    },
+    {
+      "featureId": "f571d3e0-edfa-4444-a904-f09052c2b555",
+      "_id": "31ef222e-a93d-4136-89b4-8368661ad562",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.825Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.825Z"
+      }
+    },
+    {
+      "featureId": "f34f61c7-80e4-4091-85b3-2c231799451d",
+      "_id": "26a494be-fcc9-4cca-b6e4-d36894fe2e0c",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.834Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.834Z"
+      }
+    },
+    {
+      "featureId": "426e6c12-2b19-4fb1-919a-8413689f7bd4",
+      "_id": "38dca57f-07dc-4cc8-8284-8a65c622a377",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.843Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.843Z"
+      }
+    },
+    {
+      "featureId": "8bea0587-38dd-4af2-96b3-8be2aae70f52",
+      "_id": "1b47c072-e0f1-4bfb-86d2-7821171d14be",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.852Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.852Z"
+      }
+    },
+    {
+      "featureId": "9b944979-160a-47a3-8d83-f435b4e50974",
+      "_id": "8ac2dad0-3130-413d-aac3-1a1306af1a0e",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.863Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.863Z"
+      }
+    },
+    {
+      "featureId": "cac5ada4-f58a-4aed-a892-daf6401716a2",
+      "_id": "a8b7a8d6-6965-417d-bfeb-e500e3f4cd10",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.872Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.872Z"
+      }
+    },
+    {
+      "featureId": "9a0c5de1-0a29-4e83-a477-8851d03a489b",
+      "_id": "0b254722-f147-4738-9081-9d317ddab381",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.882Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.882Z"
+      }
+    },
+    {
+      "featureId": "08d3c1eb-7118-4931-ad47-4fbc0e2a88f8",
+      "_id": "09d920e1-fc9f-4d66-ae68-202995fe2612",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.891Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.891Z"
+      }
+    },
+    {
+      "featureId": "b97a24b4-0636-4032-9e53-78ab723b4c2e",
+      "_id": "00420bfd-b60e-4edb-92b5-4230694a2866",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.901Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.901Z"
+      }
+    },
+    {
+      "featureId": "11dda3ab-a3ca-4411-bfa6-4b3bfbe7919a",
+      "_id": "0b2f81df-fb68-4bf2-98bf-2f3e5dddb9b6",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.911Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.911Z"
+      }
+    },
+    {
+      "featureId": "15f37ff8-97ca-4ede-bff4-e498b069f960",
+      "_id": "faa817ab-fe2a-4c33-8f89-7267615fc8e3",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.921Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.921Z"
+      }
+    },
+    {
+      "featureId": "e572583a-282d-468d-af0f-1f3f26d329b2",
+      "_id": "bf71e108-0a8d-4d91-b64e-a7ad41e86dd3",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.930Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.930Z"
+      }
+    },
+    {
+      "featureId": "c1185d63-e7fa-4088-8185-51cea1d33293",
+      "_id": "9b95f637-38b1-4423-91e3-013b1ae0ad2f",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.940Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.940Z"
+      }
+    },
+    {
+      "featureId": "7748b0c3-0611-4b60-b635-f6d50ab812be",
+      "_id": "157e17ad-98af-4108-a9a2-dd22b78b6ed2",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.950Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.950Z"
+      }
+    },
+    {
+      "featureId": "ed9ebe7e-847a-41c0-ae24-9eec3e73a3c9",
+      "_id": "5712f586-04da-4d3a-b507-cc5f5d142d6e",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.960Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.960Z"
+      }
+    },
+    {
+      "featureId": "3d73fd7a-4504-4725-8c5b-63fb25208f93",
+      "_id": "c195cb3e-f63a-48bc-b985-a36e9dcd9258",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.970Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.970Z"
+      }
+    },
+    {
+      "featureId": "84d1c0e6-d9f1-4fc3-83d1-6177f92c9534",
+      "_id": "f5e2ff41-9816-491a-8bc4-1108101a6e65",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.980Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.980Z"
+      }
+    },
+    {
+      "featureId": "f4fc5999-c3a3-4a3c-a4c6-27f70b38cfe5",
+      "_id": "0dc18e89-98a2-41ae-a58a-d03551bbe914",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:19.990Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:19.990Z"
+      }
+    },
+    {
+      "featureId": "b46baeaf-bc4e-4f88-be19-106e1e6a5629",
+      "_id": "8b2d4296-9dbb-4106-a5b2-2f4868346c98",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:20.000Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:20.000Z"
+      }
+    },
+    {
+      "featureId": "62ff1680-bba2-4950-b4fa-5db33503e134",
+      "_id": "3d3c8af7-db8e-432a-b569-aa7eb6f6358f",
+      "createdAt": {
+        "$date": "2025-02-05T06:53:34.252Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:53:34.252Z"
+      }
+    },
+    {
+      "featureId": "4582b22c-6e14-4fc9-a961-1096d774c239",
+      "_id": "cd1fa116-a4aa-4dc3-acb0-544da7eead92",
+      "createdAt": {
+        "$date": "2025-02-05T06:54:01.562Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:54:01.562Z"
+      }
+    },
+    {
+      "featureId": "b9bfe1c0-5b7b-4ce5-8415-8c89907a6bf1",
+      "_id": "81a837aa-5dd8-4087-885a-15876051b9a5",
+      "createdAt": {
+        "$date": "2025-02-05T06:54:19.855Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:54:19.855Z"
+      }
+    },
+    {
+      "featureId": "9c3e2df5-1584-437f-a943-9f52e3ff3936",
+      "_id": "838e5059-2239-4780-836b-8d1e5c75419c",
+      "createdAt": {
+        "$date": "2025-02-05T06:56:16.148Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:56:16.148Z"
+      }
+    },
+    {
+      "featureId": "abe53e67-c5aa-4403-95d1-1d8a391589dd",
+      "_id": "a7bfb1c2-e9d6-44a5-bb45-f5c0504812e0",
+      "createdAt": {
+        "$date": "2025-02-05T07:05:45.404Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:05:45.404Z"
+      }
+    },
+    {
+      "featureId": "dc1ebcac-ad38-4f50-94be-520596c3ec80",
+      "_id": "ae1e8194-54e8-40de-8cbb-e8973f05a8d3",
+      "createdAt": {
+        "$date": "2025-02-05T07:05:45.426Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:05:45.426Z"
+      }
+    },
+    {
+      "featureId": "d36956ae-a112-4abb-92c0-3d7b5ccf4458",
+      "_id": "b44ad2c4-eee4-44d2-8b10-94c1aa59801b",
+      "createdAt": {
+        "$date": "2025-02-05T07:05:45.437Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:05:45.437Z"
+      }
+    },
+    {
+      "featureId": "f7528b35-4400-4ab0-805c-c01021e97d05",
+      "_id": "a1becd68-2919-477f-a830-f0aa6a28cac9",
+      "createdAt": {
+        "$date": "2025-02-05T07:07:15.935Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:07:15.935Z"
+      }
+    },
+    {
+      "featureId": "4d25e1b9-6cd4-4c2c-a757-7206a3c2082f",
+      "_id": "a83e15dc-3874-43df-95f5-612c59fb4e05",
+      "createdAt": {
+        "$date": "2025-02-05T07:07:15.946Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:07:15.946Z"
+      }
+    },
+    {
+      "featureId": "b9a54d01-2b35-4d59-b8dd-118aead298b0",
+      "_id": "7b150ad6-0fb2-4081-bd99-ebb63718bcbc",
+      "createdAt": {
+        "$date": "2025-02-05T07:07:15.956Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:07:15.956Z"
+      }
+    },
+    {
+      "featureId": "25ce7898-bbf3-4782-b480-6b622148a755",
+      "_id": "76a668b7-9fb6-4692-ad29-10212d2654cd",
+      "createdAt": {
+        "$date": "2025-02-05T07:07:15.968Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:07:15.968Z"
+      }
+    },
+    {
+      "featureId": "12d6909a-b07c-42e5-8269-cde84acb9d67",
+      "_id": "5b56e8f2-58ef-4445-83ef-f626f24d7f87",
+      "createdAt": {
+        "$date": "2025-02-05T07:07:15.979Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:07:15.979Z"
+      }
+    },
+    {
+      "featureId": "58730eb7-5c71-4a92-92ea-49f20997704c",
+      "_id": "e54f7e33-04fe-4102-91e9-72c73d86a9ed",
+      "createdAt": {
+        "$date": "2025-02-05T07:08:07.947Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:08:07.947Z"
+      }
+    },
+    {
+      "featureId": "bce3db3c-7080-44a8-9d55-02fb52407dc8",
+      "_id": "d5f6ca9c-763c-485b-b59d-89c86c77e6c5",
+      "createdAt": {
+        "$date": "2025-02-05T07:08:07.959Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:08:07.959Z"
+      }
+    },
+    {
+      "featureId": "ddaa0d9a-a4b8-4553-a033-824b3cdfe713",
+      "_id": "8e4248ee-a7b3-4858-b11b-8bc66c9e66d9",
+      "createdAt": {
+        "$date": "2025-02-05T07:08:07.970Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:08:07.970Z"
+      }
+    },
+    {
+      "featureId": "f5d9a3f4-12d0-40c6-8605-abfad0a011ab",
+      "_id": "5a945f3e-e971-4cfc-b183-de170a0ce016",
+      "createdAt": {
+        "$date": "2025-02-05T07:08:07.981Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:08:07.981Z"
+      }
+    },
+    {
+      "featureId": "297188af-a01a-4d28-84f9-dc4728026035",
+      "_id": "35dc64ec-600a-46a2-a8f2-4e0a9d4c3dff",
+      "createdAt": {
+        "$date": "2025-02-05T07:08:07.993Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:08:07.993Z"
+      }
+    },
+    {
+      "featureId": "57a37955-4eb2-4ba2-9140-f2ca898f42e1",
+      "_id": "55f159d3-983e-44a8-ad42-62b5b1a9584f",
+      "createdAt": {
+        "$date": "2025-02-05T07:08:08.004Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:08:08.004Z"
+      }
+    },
+    {
+      "featureId": "1200d375-3f96-4b1c-bc26-55633bb178da",
+      "_id": "7d9b9bd2-5588-4726-abab-dcbe6359b5f1",
+      "createdAt": {
+        "$date": "2025-02-05T07:08:08.015Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:08:08.015Z"
+      }
+    },
+    {
+      "featureId": "6183b2a2-436d-4211-b45b-cfe5e3cc6dc8",
+      "_id": "121760a8-21d2-4960-b555-8dba37a2d226",
+      "createdAt": {
+        "$date": "2025-02-05T07:08:08.026Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:08:08.026Z"
+      }
+    },
+    {
+      "featureId": "9321b1e3-68ec-4b59-9a59-889a4cdcb90f",
+      "_id": "10c1b1ef-2e9d-4dc7-9553-fd8a06b22a02",
+      "createdAt": {
+        "$date": "2025-02-05T07:37:43.521Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:37:43.521Z"
+      }
+    },
+    {
+      "featureId": "a98a3fc8-4748-4314-856c-26208a08520c",
+      "_id": "11aab4de-198d-4628-91ab-eddb9d8f6cbb",
+      "createdAt": {
+        "$date": "2025-02-12T15:21:18.789Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-12T15:21:18.789Z"
+      }
+    },
+    {
+      "featureId": "5eab99e0-d729-4e2c-a1b8-1982608ecc5c",
+      "_id": "7f6b255e-d8da-4f6f-9e31-9fe10e0acae8",
+      "createdAt": {
+        "$date": "2025-02-12T15:21:18.819Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-12T15:21:18.819Z"
+      }
+    },
+    {
+      "featureId": "f38bd2c7-aff0-442b-b65a-8f13b4b64861",
+      "_id": "7e8c016f-6aad-497d-ba1b-a2067041c198",
+      "createdAt": {
+        "$date": "2025-02-12T15:21:18.841Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-12T15:21:18.841Z"
+      }
+    },
+    {
+      "featureId": "7256ea15-4cf5-42e8-9bc8-f5b79ad4c714",
+      "_id": "79afd908-fdb1-4350-a7b2-36e73b8a5e49",
+      "createdAt": {
+        "$date": "2025-02-12T15:21:18.866Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-12T15:21:18.866Z"
+      }
+    },
+    {
+      "featureId": "e3d5f910-8c9e-4952-a419-eac9799a61b7",
+      "_id": "07987546-aeab-4793-a65a-ad6d5e6dc270",
+      "createdAt": {
+        "$date": "2025-02-12T15:21:18.887Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-12T15:21:18.887Z"
+      }
+    },
+    {
+      "featureId": "f558fde8-1069-46c7-baea-c1acd8a087be",
+      "_id": "068d73bb-8dbb-4f5b-9411-c5a277d123d9",
+      "createdAt": {
+        "$date": "2025-02-18T14:49:51.499Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-18T14:49:51.499Z"
+      }
+    },
+    {
+      "featureId": "4e21f59c-07d9-4329-8913-e38d5fcbc32a",
+      "_id": "8f9817f6-8654-4965-9361-0ae32e391d1b",
+      "createdAt": {
+        "$date": "2025-02-18T14:49:51.525Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-18T14:49:51.525Z"
+      }
+    },
+    {
+      "featureId": "a7678e3e-b043-432d-a084-db2908dd555e",
+      "_id": "ccca0793-4bfa-46db-bc61-74b9c2caa914",
+      "createdAt": {
+        "$date": "2025-02-18T14:49:51.542Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-18T14:49:51.542Z"
+      }
+    },
+    {
+      "featureId": "ea9a0a79-d337-4837-928a-233091d32fe7",
+      "_id": "476da1dd-b9e4-42f3-93f4-c962f7ba4cae",
+      "createdAt": {
+        "$date": "2025-02-18T14:49:51.557Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-18T14:49:51.557Z"
+      }
+    },
+    {
+      "featureId": "2fc30897-2b39-40df-b314-8644e7c7f54e",
+      "_id": "f48a115d-c017-4a33-8b00-7640df2d58db",
+      "createdAt": {
+        "$date": "2025-02-18T14:49:51.575Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-18T14:49:51.575Z"
+      }
+    },
+    {
+      "featureId": "6447a083-2b4d-4984-9456-9bb5e06b6a9a",
+      "_id": "232f0bca-581f-4bb3-aa61-d1197b44ce3b",
+      "createdAt": {
+        "$date": "2025-02-18T14:49:51.592Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-18T14:49:51.592Z"
+      }
+    },
+    {
+      "featureId": "0044a46a-50a6-43cf-9f9a-fd463d155e88",
+      "_id": "2f8e4a40-c9f0-49cb-99bc-a6e83ed4a961",
+      "createdAt": {
+        "$date": "2025-04-12T00:50:01.439Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-12T00:50:01.439Z"
+      }
+    },
+    {
+      "featureId": "f0527476-7755-4abe-8a5c-97f7bb6e9189",
+      "_id": "d10167f8-c683-4e40-946c-0580279d1cf4",
+      "createdAt": {
+        "$date": "2025-04-12T00:50:01.496Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-12T00:50:01.496Z"
+      }
+    },
+    {
+      "featureId": "32d121ac-b476-4092-a8e1-c64bb9e38eb2",
+      "_id": "f32f18ef-83a3-49be-8183-6f4eee1b0d62",
+      "createdAt": {
+        "$date": "2025-04-12T00:50:01.525Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-12T00:50:01.525Z"
+      }
+    },
+    {
+      "featureId": "ffcfbbb1-1866-40e4-912c-c2193c80e107",
+      "_id": "f30de56a-a009-4711-a220-6ec7ca6f12bc",
+      "createdAt": {
+        "$date": "2025-04-12T00:50:01.543Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-12T00:50:01.543Z"
+      }
+    },
+    {
+      "featureId": "f26ae7c1-c047-4df5-af56-d4428e862804",
+      "_id": "3a3dfd94-7595-4478-a025-4dbaa2911b11",
+      "createdAt": {
+        "$date": "2025-04-12T00:50:01.564Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-12T00:50:01.564Z"
+      }
+    },
+    {
+      "featureId": "4328cccc-3066-4090-a5b4-22430ca575f8",
+      "_id": "ac2aee65-74f3-4dac-bf48-03c7bf011d1c",
+      "createdAt": {
+        "$date": "2025-04-12T00:50:01.584Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-12T00:50:01.584Z"
+      }
+    },
+    {
+      "featureId": "4f400d39-6027-4681-a1a9-967a2283e719",
+      "_id": "b249c0d3-7f1b-49f1-84b4-b1f85cc4b253",
+      "createdAt": {
+        "$date": "2025-04-12T00:50:01.600Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-12T00:50:01.600Z"
+      }
+    },
+    {
+      "featureId": "59f52b86-be3f-4143-89be-c7d7a997c1ed",
+      "_id": "5fa5e80e-6e40-4087-ba04-5d6b9744aa61",
+      "createdAt": {
+        "$date": "2025-04-12T00:50:01.614Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-12T00:50:01.614Z"
+      }
+    },
+    {
+      "featureId": "32ff5fc3-08a3-47d7-a87a-fd480b1424a3",
+      "_id": "0ecf2da3-dce8-477c-b142-f49e54ddf1d9",
+      "createdAt": {
+        "$date": "2025-04-12T00:50:01.629Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-12T00:50:01.629Z"
+      }
+    },
+    {
+      "featureId": "2b4ec4d4-6cb4-4e2a-87d3-964dd66aab75",
+      "_id": "6dc00e6c-0bf6-47bf-bf9d-3cb244b29d8a",
+      "createdAt": {
+        "$date": "2025-04-12T00:50:01.648Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-12T00:50:01.648Z"
+      }
+    }
+  ],
+  "level": 2,
+  "name": "Professional",
+  "updatedAt": {
+    "$date": "2025-04-21T00:18:23.582Z"
+  },
+  "reqLimitPerSec": 10,
+  "scope": "app"
+},
+{
+  "_id": "70fb7106-0715-467d-b7d2-94ade5588cf1",
+  "name": "Starter",
+  "level": 3,
+  "reqLimitPerSec": 120,
+  "description": "A default role with the lowest access rights.",
+  "absoluteAuthority": false,
+  "featuresRefs": [
+    {
+      "featureId": "971ba54d-0419-4f02-bb2e-1f9ff8abb556",
+      "_id": "1438d891-4c29-41ef-a4f6-22f082baffe8",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.093Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.093Z"
+      }
+    },
+    {
+      "featureId": "1a79b78f-9020-4dc5-b054-a8c6737abdd6",
+      "_id": "d170e3ad-afc4-4eb6-a950-fc917691c07f",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.095Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.095Z"
+      }
+    },
+    {
+      "featureId": "3984853f-78f1-4092-9931-90fcf1fbb970",
+      "_id": "ec4b72a0-c87c-485c-8f50-b1140dfdcd26",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.096Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.096Z"
+      }
+    },
+    {
+      "featureId": "af5cf696-ad98-4a91-8caf-89913cf3b650",
+      "_id": "2ce5b519-a69e-4141-9fff-4e372d333c9f",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.098Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.098Z"
+      }
+    },
+    {
+      "featureId": "e6beb68d-9ceb-4fe6-853c-1c3ce2355885",
+      "_id": "ab5bed3c-2f7c-48d4-b505-541e6ce2c28d",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.100Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.100Z"
+      }
+    },
+    {
+      "featureId": "2d57667c-2a7d-44c1-bf64-3752bb2c81af",
+      "_id": "6ec7daad-b4b0-45c4-a04a-34e8baea04d8",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.102Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.102Z"
+      }
+    },
+    {
+      "featureId": "81b2d579-0dc3-4d9c-adc6-116c3767abeb",
+      "_id": "f4999abc-32b4-4133-94f4-87c590e03e7e",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.103Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.103Z"
+      }
+    },
+    {
+      "featureId": "044413c6-d919-49bd-b16c-e4ec2879c0fa",
+      "_id": "e55e3a89-5a2b-453b-acdc-c4fd3d62491a",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.105Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.105Z"
+      }
+    },
+    {
+      "featureId": "c94d2687-346e-4994-a0fb-456dcdd63205",
+      "_id": "a9912329-f2e0-48c2-bd53-93a0746c9ef5",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.107Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.107Z"
+      }
+    },
+    {
+      "featureId": "ea36a2c9-cdc9-4da4-964b-a6df5c37ca3b",
+      "_id": "c1ed2bc4-8b14-4b14-9c41-3f950646e23b",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.108Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.108Z"
+      }
+    },
+    {
+      "featureId": "f486399b-9f5f-4d1c-8908-ebcf1e03877b",
+      "_id": "51bb0b99-f531-4f69-9aca-cb0c179bac4e",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.111Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.111Z"
+      }
+    },
+    {
+      "featureId": "1b751e43-99be-4601-8faf-3170e44054c3",
+      "_id": "a08fc999-d5b0-476a-b619-a5ae7adb00f0",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.113Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.113Z"
+      }
+    },
+    {
+      "featureId": "a4f8ccd9-1c4f-4ca8-be96-d3b1cf96337e",
+      "_id": "f25fc791-30e9-4dc2-965d-70aeff8c26c3",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.116Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.116Z"
+      }
+    },
+    {
+      "featureId": "67c03ff7-f98a-47a0-938a-1b807d244c55",
+      "_id": "7c0641b5-a8d8-4f90-ba81-341d804a189f",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.118Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.118Z"
+      }
+    },
+    {
+      "featureId": "d5a5bf74-8d9b-448f-8c52-6ceb87516431",
+      "_id": "a4cfefa5-398e-4a34-8b0c-c66042051890",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.120Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.120Z"
+      }
+    },
+    {
+      "featureId": "f2b4f302-7132-4053-9f04-cd8d1af0f9d2",
+      "_id": "d08e0b53-a653-4786-b286-6c431b06c152",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.122Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.122Z"
+      }
+    },
+    {
+      "featureId": "c9aa9909-9d9b-4e9a-9655-d5a4b2ba8443",
+      "_id": "92db5d89-5eed-4d97-9458-3bca34b19a92",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.124Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.124Z"
+      }
+    },
+    {
+      "featureId": "76450ab0-672c-411f-8241-2cca9a43fd03",
+      "_id": "1ee67c4b-9406-415e-9f7a-1bc050c6a125",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.126Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.126Z"
+      }
+    },
+    {
+      "featureId": "65d224cc-b1d1-4cc8-a143-022f27d83cc4",
+      "_id": "2fbef6b0-b39e-4d7b-b8cf-23e1f1b66ecb",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.128Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.128Z"
+      }
+    },
+    {
+      "featureId": "110ebf8c-a577-4f92-a55c-9ac75528f1ee",
+      "_id": "ee6feb03-14f7-413f-b418-38f8a4d019df",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.130Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.130Z"
+      }
+    },
+    {
+      "featureId": "f6b5f579-20b2-4a8d-9acc-45c6b8b9abab",
+      "_id": "58a4d76f-d233-483a-80a0-c7ef67890999",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.132Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.132Z"
+      }
+    },
+    {
+      "featureId": "44a613ce-7c47-4ffc-8c2c-5763afe252ec",
+      "_id": "6d0f496c-e70c-4b34-8dc1-bdaaf6ec865c",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.134Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.134Z"
+      }
+    },
+    {
+      "featureId": "9cd29b5c-edb8-48bc-826d-c7722918768e",
+      "_id": "bc951ba2-3493-422f-a6e2-486216672234",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.136Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.136Z"
+      }
+    },
+    {
+      "featureId": "5414cb77-1d0d-49f2-80ae-99ae9c753058",
+      "_id": "96f744cc-ee02-4f09-8dc0-e853cba1657d",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.139Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.139Z"
+      }
+    },
+    {
+      "featureId": "4ff2c26d-76f9-4d5a-a104-3c7248002f59",
+      "_id": "319d2554-8142-498c-952b-1b6267e24631",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.141Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.141Z"
+      }
+    },
+    {
+      "featureId": "58674842-32e6-4235-b649-b0ae3a85e919",
+      "_id": "ccc3f9b9-f72f-4710-85a5-33db0711d11b",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.143Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.143Z"
+      }
+    },
+    {
+      "featureId": "5e113d4a-1604-4932-afd4-8ee35818e5be",
+      "_id": "4d4ebd08-e04b-48d9-81e7-1cfec4304e61",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.145Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.145Z"
+      }
+    },
+    {
+      "featureId": "d7eb2ca7-70c4-4446-8b03-a30492194091",
+      "_id": "a4b965c3-af26-4dae-a74e-457b9b543571",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.147Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.147Z"
+      }
+    },
+    {
+      "featureId": "dfc6d6c6-e737-44e2-982d-d42be01f5b06",
+      "_id": "0c3ff4d7-c4b3-4243-b6d0-4f03f7a632fe",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.151Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.151Z"
+      }
+    },
+    {
+      "featureId": "b44a2c6d-4c4f-4be3-a238-5e1f8d59e7a3",
+      "_id": "06b42170-00c3-4ecd-b7f6-03ea165f5d7e",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.154Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.154Z"
+      }
+    },
+    {
+      "featureId": "b6803fb8-683f-461f-9c6c-ffe530063629",
+      "_id": "e2ec8888-b850-4b03-b94c-988a5678d1a1",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.158Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.158Z"
+      }
+    },
+    {
+      "featureId": "cab7bb18-f804-4154-92ad-dc0fb436481e",
+      "_id": "caffb6c3-2483-4ca7-9fc1-f7b5542ee749",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.165Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.165Z"
+      }
+    },
+    {
+      "featureId": "ec91bf92-244b-4e92-826e-d1c0c0066fdd",
+      "_id": "6c7bfbb9-0c78-444b-9e12-b82c9600af1e",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.168Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.168Z"
+      }
+    },
+    {
+      "featureId": "3c6f6ce8-0757-441b-8516-60fb94b437f9",
+      "_id": "ce2910c0-5b2f-496d-ba08-9664a57e8d1e",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.170Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.170Z"
+      }
+    },
+    {
+      "featureId": "35f13448-a622-48c0-8321-bcd48ab30840",
+      "_id": "61cae5fd-ad20-4db0-833f-b5d7e06f5b36",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.173Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.173Z"
+      }
+    },
+    {
+      "featureId": "1a33d464-30fb-4dce-a00f-3fbe5f094afe",
+      "_id": "363db8e3-2102-4ac6-9162-21d0057f0e87",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.175Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.175Z"
+      }
+    },
+    {
+      "featureId": "7f4bd265-6702-4d4f-9974-14b7e141efb7",
+      "_id": "322fd7a1-8792-4393-abc9-2855750c66b1",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.178Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.178Z"
+      }
+    },
+    {
+      "featureId": "37cadd10-5dcf-4bed-b2ef-438df5491e8e",
+      "_id": "bef048f2-7238-4bd1-a312-25d3b47f4668",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.181Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.181Z"
+      }
+    },
+    {
+      "featureId": "98a696bc-81ed-4b56-9a12-7525afcea9e3",
+      "_id": "65c9ae42-3316-4fb1-99d8-89e0fc7ded25",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.184Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.184Z"
+      }
+    },
+    {
+      "featureId": "c1cdbd4c-d589-434f-ba91-ce8a0ea6ccdf",
+      "_id": "b4a55206-587d-42e5-a88c-de65a1622197",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.186Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.186Z"
+      }
+    },
+    {
+      "featureId": "d79e7302-23fd-4f81-8011-ab204d08c1da",
+      "_id": "8ed7cb31-1357-4430-83d2-94d74631d853",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.189Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.189Z"
+      }
+    },
+    {
+      "featureId": "233bf012-0c1c-46a0-9120-2f51cf13e881",
+      "_id": "65684d2a-6319-4432-95c4-def49080d377",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.192Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.192Z"
+      }
+    },
+    {
+      "featureId": "5893e865-aa0d-436e-ab88-9df7be69a6b2",
+      "_id": "8634718d-765d-44e2-af6d-054f258b8ace",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.195Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.195Z"
+      }
+    },
+    {
+      "featureId": "dbeb61b3-0393-42c6-9af1-12314cd3f01e",
+      "_id": "cc035f24-3a2e-493c-a9bc-da1113009f39",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.198Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.198Z"
+      }
+    },
+    {
+      "featureId": "e253c8a4-4f80-4c1d-86e4-f0a63aeb7381",
+      "_id": "2033a406-683a-4ea8-a51b-280d8519176c",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.201Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.201Z"
+      }
+    },
+    {
+      "featureId": "23b5f5e5-71ed-4a25-a200-4bbfef2dba64",
+      "_id": "4fe0366a-59db-40f4-8509-f7413c2714e5",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.204Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.204Z"
+      }
+    },
+    {
+      "featureId": "b45b105a-511e-467d-a9e4-071f3a517f46",
+      "_id": "4e3eba61-87f7-4996-a8a6-4c364dc09ce4",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.207Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.207Z"
+      }
+    },
+    {
+      "featureId": "de171ab7-3ad3-4303-b1e4-f3f5402498da",
+      "_id": "4d3145ae-f422-4dc0-895f-75527d29bbc8",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.210Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.210Z"
+      }
+    },
+    {
+      "featureId": "5f71bbb3-1d9d-4d7c-989f-a498aad046fe",
+      "_id": "0cbd5143-fadc-4d14-a62a-058502c67ac9",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.213Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.213Z"
+      }
+    },
+    {
+      "featureId": "ef896376-b7b3-4483-a03d-3752803bb209",
+      "_id": "80f69606-44e4-4eb3-9925-db1ff8afe070",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.216Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.216Z"
+      }
+    },
+    {
+      "featureId": "ef891368-262a-4069-9d4a-4dfcce6752e3",
+      "_id": "39b5c39e-ebd4-42bd-a359-51bbfb7a74b7",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.218Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.218Z"
+      }
+    },
+    {
+      "featureId": "38242a1a-5366-46a1-9dc5-f2cf2f612805",
+      "_id": "3ebcfac5-912e-469a-a56e-7cd479b41499",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.221Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.221Z"
+      }
+    },
+    {
+      "featureId": "e7edc2ed-b7bf-40de-8f94-5c1d276a9f54",
+      "_id": "5612a5ae-b2a9-4267-b243-af0cc15d9da3",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.224Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.224Z"
+      }
+    },
+    {
+      "featureId": "4687927d-4343-420a-afeb-c10dbaf36cec",
+      "_id": "770c42ee-e9fb-4330-9f97-15b6816629df",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.228Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.228Z"
+      }
+    },
+    {
+      "featureId": "d8c7560d-3928-4359-8288-d931a2bcac79",
+      "_id": "e973a648-8846-49b2-acdd-e7b8ed695032",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.232Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.232Z"
+      }
+    },
+    {
+      "featureId": "08604bc7-0688-4bda-aaf7-ba9026499257",
+      "_id": "112ef0c0-0a2c-4b04-b733-b5584350bb2a",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.235Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.235Z"
+      }
+    },
+    {
+      "featureId": "92d2e3b3-15b6-4015-b468-1c336414f074",
+      "_id": "8ee04c92-80bd-4d09-906d-5e0bce95510f",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.238Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.238Z"
+      }
+    },
+    {
+      "featureId": "5ce5d9d2-bb2e-4e13-b433-bcb79aabd7a0",
+      "_id": "84cf4480-1c65-4875-a2c0-837d532ef396",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.242Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.242Z"
+      }
+    },
+    {
+      "featureId": "e61a3e71-c0a9-440e-82c4-f53742c0c92b",
+      "_id": "c0df7bb1-d02b-48ce-9969-1b8663f05545",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.245Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.245Z"
+      }
+    },
+    {
+      "featureId": "284268a7-2192-4631-85fb-9fef2a737859",
+      "_id": "383d52ba-3b86-45ef-a95d-430e9558e9c0",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.248Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.248Z"
+      }
+    },
+    {
+      "featureId": "c86cca5a-fc76-4989-823d-e44423db4339",
+      "_id": "4050b468-5bd3-4b38-b931-4ddfc845b786",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.252Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.252Z"
+      }
+    },
+    {
+      "featureId": "66a683d8-2784-4d40-8d70-a0a8144b6b0c",
+      "_id": "1b25d856-d3ac-49c8-b09b-6d3f2ce52989",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.256Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.256Z"
+      }
+    },
+    {
+      "featureId": "5832c86b-8070-4c90-9ef3-3f60136294e7",
+      "_id": "18295ce6-4ea3-4c6e-93ea-6cca37664056",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.259Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.259Z"
+      }
+    },
+    {
+      "featureId": "b8cc8611-01c3-4905-8fb3-ede3a82375d1",
+      "_id": "d1018f57-eb41-4c4f-a980-f7d90d52a351",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.263Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.263Z"
+      }
+    },
+    {
+      "featureId": "48c463cb-594d-4cb3-8618-8cd478e1676b",
+      "_id": "9ed51696-8f68-4bbf-802e-fb63e4ddbced",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.266Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.266Z"
+      }
+    },
+    {
+      "featureId": "3abcdd1d-26fe-4ae4-a5c4-53aca7ab8ce1",
+      "_id": "6f3a2030-44df-4fc8-8902-f6d11d37795c",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.270Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.270Z"
+      }
+    },
+    {
+      "featureId": "d77a8a16-28bf-4aea-a0b5-88e81dea5105",
+      "_id": "61776dc3-89be-4f16-bc9b-29a5c83c599e",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.273Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.273Z"
+      }
+    },
+    {
+      "featureId": "36045ddc-1a79-4af4-a664-f73cc24838d6",
+      "_id": "7481b6e4-6731-4b14-b8dd-c4379b13f2be",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.277Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.277Z"
+      }
+    },
+    {
+      "featureId": "e25433ce-99f4-4fe1-857a-e38c631b9da4",
+      "_id": "d0c0c268-2ab8-4973-9d22-3006458b12d1",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.281Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.281Z"
+      }
+    },
+    {
+      "featureId": "0e53caf6-e884-40db-946f-7a9ae44db45c",
+      "_id": "6c1bd7e3-91e6-499e-b389-ac97431ea503",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.284Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.284Z"
+      }
+    },
+    {
+      "featureId": "ca60f50a-1e9b-405e-8a21-2deafe43c3ad",
+      "_id": "e57fb93a-4d88-4fb9-8903-d158e70f1dfd",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.288Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.288Z"
+      }
+    },
+    {
+      "featureId": "e618c0e9-e9f9-4cd7-975f-05d64f10ffc8",
+      "_id": "c70a5e04-3471-4fa7-a156-b6d8e77e0934",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.292Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.292Z"
+      }
+    },
+    {
+      "featureId": "5fe0d699-6a68-44bc-b883-a6853f08ef6b",
+      "_id": "47178466-34de-4bc8-82bc-25b0af5298f9",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.295Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.295Z"
+      }
+    },
+    {
+      "featureId": "f63d7af5-66e1-46fc-ae8a-6d7d8251715d",
+      "_id": "8ff3776e-94e6-46c0-b314-c0c794259396",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.299Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.299Z"
+      }
+    },
+    {
+      "featureId": "339bc26c-652d-4485-ab90-6a749bdefb81",
+      "_id": "76380ec6-5bb0-48fe-8d03-d14dd844ea53",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.303Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.303Z"
+      }
+    },
+    {
+      "featureId": "97215c6a-4c99-4e7c-8d88-85a04ca331a4",
+      "_id": "8db74e8f-58ee-4db8-84af-70df79a3bd71",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.307Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.307Z"
+      }
+    },
+    {
+      "featureId": "cc5558ba-7c37-4e00-ab29-07920e67a109",
+      "_id": "33e0a812-bf18-44f2-8a97-75d02567a65f",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.311Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.311Z"
+      }
+    },
+    {
+      "featureId": "6e279974-3c4f-475d-b099-29c1c5c558ee",
+      "_id": "04fae61b-acfd-492e-bc5b-e00f4060902d",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.315Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.315Z"
+      }
+    },
+    {
+      "featureId": "04e9512b-6474-4441-bd1c-de54a26aec3c",
+      "_id": "38932a8e-9079-44c1-9afe-1ae797c3ca27",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.319Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.319Z"
+      }
+    },
+    {
+      "featureId": "81f305ca-ca4e-4d25-99d9-2f7a0dfd20cb",
+      "_id": "e5d60533-6f1b-425a-ba83-192267032001",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.323Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.323Z"
+      }
+    },
+    {
+      "featureId": "d63328b7-bfce-4a68-b78d-4319b036af87",
+      "_id": "1961a834-0d89-4bff-97aa-faa1d883831f",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.327Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.327Z"
+      }
+    },
+    {
+      "featureId": "a2154f89-2dc8-4d98-9013-54b861fa3750",
+      "_id": "f12f6a84-2b64-4361-8448-c8df683709b5",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.331Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.331Z"
+      }
+    },
+    {
+      "featureId": "4d8dd849-501d-4613-b318-616b24ad9272",
+      "_id": "3a658340-74ab-4ad4-9718-ef5841b48eeb",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.335Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.335Z"
+      }
+    },
+    {
+      "featureId": "c4241c82-77ad-4523-b72b-6ba6e68d450f",
+      "_id": "224070b8-a52a-44fd-9775-7bfa9feb3cb0",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.340Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.340Z"
+      }
+    },
+    {
+      "featureId": "0f7f06d7-3502-42c1-a8f3-0f7a3a17c2c6",
+      "_id": "f3c1d5c3-5d4d-4938-aeba-912518f6ee1a",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.344Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.344Z"
+      }
+    },
+    {
+      "featureId": "b795f1f5-2ac1-4b2a-b03e-6568486c40b1",
+      "_id": "9b11749c-847e-468d-9951-dc968c0f96b4",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.349Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.349Z"
+      }
+    },
+    {
+      "featureId": "2ddbc518-ea32-4a4a-9e6b-a26ea4de42c1",
+      "_id": "5674681e-e4fb-4f71-915d-a3f46bdd985f",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.353Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.353Z"
+      }
+    },
+    {
+      "featureId": "49fe90fd-69fb-49f5-b275-43cdce6db323",
+      "_id": "f2dd8af7-fed0-47df-96ec-f9a0b1c6ec5e",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.357Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.357Z"
+      }
+    },
+    {
+      "featureId": "3da3b2cf-e1b1-45a5-8530-c39c32f27cc3",
+      "_id": "79468d66-eb26-482c-9e65-257557b408b5",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.362Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.362Z"
+      }
+    },
+    {
+      "featureId": "509084f9-9940-453f-94d2-e55ba94707e5",
+      "_id": "8cc04568-7253-46bc-a84b-013886a624f7",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.366Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.366Z"
+      }
+    },
+    {
+      "featureId": "9499ddce-63a7-48da-a37d-f623bf1f6e28",
+      "_id": "492ae442-f013-49bd-8803-b927c778b635",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.370Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.370Z"
+      }
+    },
+    {
+      "featureId": "48fea5d2-63a9-4300-8c8d-7be0c8cefe2f",
+      "_id": "45001a25-7645-4e3b-87c8-a1a453fa134c",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.374Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.374Z"
+      }
+    },
+    {
+      "featureId": "690116cc-9165-4414-8868-599210833137",
+      "_id": "e4d8e222-50d0-4853-8c07-51815931a746",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.379Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.379Z"
+      }
+    },
+    {
+      "featureId": "c4c54622-23ff-4629-9344-517bc8714003",
+      "_id": "a30cde91-61bc-4b5f-96ad-4abcd45ce434",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.383Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.383Z"
+      }
+    },
+    {
+      "featureId": "15a520aa-5ffa-4d22-bc99-7fa9a41179cf",
+      "_id": "0638292c-0d50-4988-bb93-3aad105b7f50",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.388Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.388Z"
+      }
+    },
+    {
+      "featureId": "55aa9ec8-9387-40f7-ba51-45c36c1e0565",
+      "_id": "af372db6-971e-48b1-afb0-1d508cb97b46",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.392Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.392Z"
+      }
+    },
+    {
+      "featureId": "02323e3e-7c85-4d34-a447-a5e68c969b15",
+      "_id": "4a118bee-18a8-497a-aa03-bfefaa3aa856",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.396Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.396Z"
+      }
+    },
+    {
+      "featureId": "f571d3e0-edfa-4444-a904-f09052c2b555",
+      "_id": "22c351ba-f2c0-4fdd-a71a-d3f35d5fb424",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.401Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.401Z"
+      }
+    },
+    {
+      "featureId": "f34f61c7-80e4-4091-85b3-2c231799451d",
+      "_id": "af76d709-0c26-4871-b4ac-ee5fe210fe8b",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.405Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.405Z"
+      }
+    },
+    {
+      "featureId": "426e6c12-2b19-4fb1-919a-8413689f7bd4",
+      "_id": "5828e9d0-f4f1-438c-a1c2-d46bbc09ab04",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.410Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.410Z"
+      }
+    },
+    {
+      "featureId": "8bea0587-38dd-4af2-96b3-8be2aae70f52",
+      "_id": "1cd5503d-d6bc-423e-9870-70a427bdbf25",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.415Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.415Z"
+      }
+    },
+    {
+      "featureId": "9b944979-160a-47a3-8d83-f435b4e50974",
+      "_id": "236abec2-4964-4f5b-8bd6-691bc8aee0cc",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.419Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.419Z"
+      }
+    },
+    {
+      "featureId": "cac5ada4-f58a-4aed-a892-daf6401716a2",
+      "_id": "831ceb73-c34b-44ca-bdd7-0e899ee9a0ff",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.424Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.424Z"
+      }
+    },
+    {
+      "featureId": "9a0c5de1-0a29-4e83-a477-8851d03a489b",
+      "_id": "e0125a8f-fa12-4b9e-a082-de12655dace7",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.428Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.428Z"
+      }
+    },
+    {
+      "featureId": "08d3c1eb-7118-4931-ad47-4fbc0e2a88f8",
+      "_id": "cbc75ed6-29b4-4df1-a196-e6388587a6c4",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.434Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.434Z"
+      }
+    },
+    {
+      "featureId": "b97a24b4-0636-4032-9e53-78ab723b4c2e",
+      "_id": "db0991f5-ddac-42bb-8b6d-a4741ed4b81b",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.438Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.438Z"
+      }
+    },
+    {
+      "featureId": "11dda3ab-a3ca-4411-bfa6-4b3bfbe7919a",
+      "_id": "ee966fad-a11c-4b3e-bffa-b6cb80b66f62",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.443Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.443Z"
+      }
+    },
+    {
+      "featureId": "15f37ff8-97ca-4ede-bff4-e498b069f960",
+      "_id": "d786ee61-977a-4f0e-8093-ddf03ad7fc9f",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.448Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.448Z"
+      }
+    },
+    {
+      "featureId": "e572583a-282d-468d-af0f-1f3f26d329b2",
+      "_id": "43c1b2b5-945c-40f8-81be-30fb23647110",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.453Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.453Z"
+      }
+    },
+    {
+      "featureId": "c1185d63-e7fa-4088-8185-51cea1d33293",
+      "_id": "64714938-a77d-4434-91e0-160e88644fc5",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.458Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.458Z"
+      }
+    },
+    {
+      "featureId": "7748b0c3-0611-4b60-b635-f6d50ab812be",
+      "_id": "8454484f-cd68-4d97-8c40-36c8dc515155",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.463Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.463Z"
+      }
+    },
+    {
+      "featureId": "ed9ebe7e-847a-41c0-ae24-9eec3e73a3c9",
+      "_id": "2582a674-4bba-44b4-8f4d-0dc9e71a2cf5",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.468Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.468Z"
+      }
+    },
+    {
+      "featureId": "3d73fd7a-4504-4725-8c5b-63fb25208f93",
+      "_id": "c06fc7f6-8f22-4fae-ba41-2a2f8157eb0a",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.473Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.473Z"
+      }
+    },
+    {
+      "featureId": "84d1c0e6-d9f1-4fc3-83d1-6177f92c9534",
+      "_id": "e31cad2d-fb9c-4588-8248-6af485264780",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.478Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.478Z"
+      }
+    },
+    {
+      "featureId": "f4fc5999-c3a3-4a3c-a4c6-27f70b38cfe5",
+      "_id": "259a1309-1f61-4124-bf84-22dfa37b6041",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.483Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.483Z"
+      }
+    },
+    {
+      "featureId": "b46baeaf-bc4e-4f88-be19-106e1e6a5629",
+      "_id": "110c9b05-213d-454a-9a7f-594940d6e61e",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.488Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.488Z"
+      }
+    },
+    {
+      "featureId": "62ff1680-bba2-4950-b4fa-5db33503e134",
+      "_id": "d55d2f46-6fd4-4eb4-87e3-417959de6fc4",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.493Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.493Z"
+      }
+    },
+    {
+      "featureId": "4582b22c-6e14-4fc9-a961-1096d774c239",
+      "_id": "2f7d16eb-b4be-470b-941f-5d5b360c02e2",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.498Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.498Z"
+      }
+    },
+    {
+      "featureId": "b9bfe1c0-5b7b-4ce5-8415-8c89907a6bf1",
+      "_id": "506d3622-e898-4a2d-8c62-657c9714f615",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.504Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.504Z"
+      }
+    },
+    {
+      "featureId": "9c3e2df5-1584-437f-a943-9f52e3ff3936",
+      "_id": "6ffca90c-c95d-4b64-8785-18a4a16ee379",
+      "createdAt": {
+        "$date": "2025-02-05T06:58:41.509Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T06:58:41.509Z"
+      }
+    },
+    {
+      "featureId": "9321b1e3-68ec-4b59-9a59-889a4cdcb90f",
+      "_id": "4de5eed9-6bbf-4dc9-a542-c5327187a1ae",
+      "createdAt": {
+        "$date": "2025-02-05T07:38:50.699Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:38:50.699Z"
+      }
+    },
+    {
+      "featureId": "a98a3fc8-4748-4314-856c-26208a08520c",
+      "_id": "75a3ba15-0369-47a9-9e21-c49e656cf601",
+      "createdAt": {
+        "$date": "2025-02-12T15:21:52.865Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-12T15:21:52.865Z"
+      }
+    },
+    {
+      "featureId": "5eab99e0-d729-4e2c-a1b8-1982608ecc5c",
+      "_id": "084a0fb8-d606-45c2-b5c3-0bf72186a17b",
+      "createdAt": {
+        "$date": "2025-02-12T15:21:52.890Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-12T15:21:52.890Z"
+      }
+    },
+    {
+      "featureId": "f38bd2c7-aff0-442b-b65a-8f13b4b64861",
+      "_id": "898da271-2c27-4b74-be62-70562e8c59b0",
+      "createdAt": {
+        "$date": "2025-02-12T15:21:52.903Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-12T15:21:52.903Z"
+      }
+    },
+    {
+      "featureId": "7256ea15-4cf5-42e8-9bc8-f5b79ad4c714",
+      "_id": "3f633b78-948a-45f4-8948-5e84bb739b93",
+      "createdAt": {
+        "$date": "2025-02-12T15:21:52.916Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-12T15:21:52.916Z"
+      }
+    },
+    {
+      "featureId": "e3d5f910-8c9e-4952-a419-eac9799a61b7",
+      "_id": "7b83d3b3-b108-4d04-8609-51a0a0b7b6ad",
+      "createdAt": {
+        "$date": "2025-02-12T15:21:52.928Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-12T15:21:52.928Z"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-08-21T00:45:08.486Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-21T00:18:11.197Z"
+  },
+  "__v": 788,
+  "scope": "app"
+},
+{
+  "_id": "bd795500-e86d-4eb6-a956-db83d23d5c9c",
+  "name": "Workspace - Admin",
+  "scope": "workspace",
+  "level": 100,
+  "reqLimitPerSec": 120,
+  "description": "A workspace administrator can update workspace configuration",
+  "absoluteAuthority": false,
+  "featuresRefs": [
+    {
+      "featureId": "4b11c7a6-297a-4f53-ba9a-dcb7de77e05c",
+      "_id": "15c0d38d-cd76-48bf-ab65-5fec4142caff",
+      "createdAt": {
+        "$date": "2025-02-04T07:53:12.461Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-04T07:53:12.461Z"
+      }
+    },
+    {
+      "featureId": "d962c04e-a7ac-408e-afa3-0c06406cb4f5",
+      "_id": "c0a070c0-7372-44a4-8f53-6031adf39163",
+      "createdAt": {
+        "$date": "2025-02-04T07:53:12.470Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-04T07:53:12.470Z"
+      }
+    },
+    {
+      "featureId": "0ed71f16-7549-4daf-b828-11e25b6d2213",
+      "_id": "d7a85c1f-1673-4f5b-8cf4-42a90639aded",
+      "createdAt": {
+        "$date": "2025-02-04T07:53:12.477Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-04T07:53:12.477Z"
+      }
+    },
+    {
+      "featureId": "a4160733-7a56-4e31-966d-8e8099c70aea",
+      "_id": "e7678e7a-80e1-457d-91e8-209e57141d8b",
+      "createdAt": {
+        "$date": "2025-02-04T07:53:12.483Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-04T07:53:12.483Z"
+      }
+    },
+    {
+      "featureId": "c83d6a66-0fc2-498a-93fa-2a182a87ce1c",
+      "_id": "f36715ac-457e-4dd9-ae7d-f21f742b129b",
+      "createdAt": {
+        "$date": "2025-02-04T07:53:12.491Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-04T07:53:12.491Z"
+      }
+    },
+    {
+      "featureId": "151e10a8-6b68-41f5-9458-7478ef64fdd5",
+      "_id": "5a784193-aaf0-4b59-800f-7d5dfc2fa2cd",
+      "createdAt": {
+        "$date": "2025-02-04T07:53:12.498Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-04T07:53:12.498Z"
+      }
+    },
+    {
+      "featureId": "2d9982e2-1926-49c1-a859-8f6fd8c60f7c",
+      "_id": "554999b4-0893-4396-bab5-b2dad305be30",
+      "createdAt": {
+        "$date": "2025-02-04T07:53:12.505Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-04T07:53:12.505Z"
+      }
+    },
+    {
+      "featureId": "978edea7-7a1d-4947-a2d0-9958b0127a04",
+      "_id": "4168da3b-ab88-41d6-8f95-47404347fbba",
+      "createdAt": {
+        "$date": "2025-02-04T07:53:12.513Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-04T07:53:12.513Z"
+      }
+    },
+    {
+      "featureId": "23efc9d9-1c43-4fd9-a710-a8fb096feb51",
+      "_id": "1f073773-a203-4b2c-b3f1-35c8e5681a61",
+      "createdAt": {
+        "$date": "2025-02-04T07:53:12.521Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-04T07:53:12.521Z"
+      }
+    },
+    {
+      "featureId": "e1084c0c-4b65-40cc-9681-8d2ca76325d4",
+      "_id": "2d364134-da88-4489-ba64-aee932938869",
+      "createdAt": {
+        "$date": "2025-02-04T07:53:12.529Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-04T07:53:12.529Z"
+      }
+    },
+    {
+      "featureId": "e66fbba7-0e68-472e-84f4-47ae6d1bb553",
+      "_id": "59ca223f-cc81-496e-b8bb-a97df82bdeee",
+      "createdAt": {
+        "$date": "2025-02-04T07:53:12.537Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-04T07:53:12.537Z"
+      }
+    },
+    {
+      "featureId": "b75e2608-9606-4d20-9c53-5d5d3e80439e",
+      "_id": "58f093b5-cbfc-4233-a544-ab9534109815",
+      "createdAt": {
+        "$date": "2025-02-04T07:53:12.545Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-04T07:53:12.545Z"
+      }
+    },
+    {
+      "featureId": "e8fcaade-bf06-4a9d-81bf-4e2515ccda23",
+      "_id": "99740cbe-2155-43fc-826e-4cb49c474e25",
+      "createdAt": {
+        "$date": "2025-02-04T07:53:12.553Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-04T07:53:12.553Z"
+      }
+    },
+    {
+      "featureId": "310fb187-b1d8-4aee-84e4-6dbd8c6098f9",
+      "_id": "04bfc3f9-b862-4c4e-a568-330c4b74343f",
+      "createdAt": {
+        "$date": "2025-02-04T07:53:12.561Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-04T07:53:12.561Z"
+      }
+    },
+    {
+      "featureId": "83f9e4c8-9a1e-4307-bc4f-2dbbd13bde0f",
+      "_id": "2f05f69a-9fa7-445b-8267-e39ad1c8b6aa",
+      "createdAt": {
+        "$date": "2025-02-04T07:53:12.569Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-04T07:53:12.569Z"
+      }
+    },
+    {
+      "featureId": "599d7b1e-8d48-4d8f-a040-96e30bd3aad6",
+      "_id": "793068af-3b74-407d-bed3-587fffda0ef5",
+      "createdAt": {
+        "$date": "2025-02-04T07:53:12.577Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-04T07:53:12.577Z"
+      }
+    },
+    {
+      "featureId": "78aa7b28-ec54-4cc3-8e6f-3fcaa4af5714",
+      "_id": "e6fbdc3d-2829-4b68-b6a5-8aed498c4643",
+      "createdAt": {
+        "$date": "2025-02-04T07:53:12.584Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-04T07:53:12.584Z"
+      }
+    },
+    {
+      "featureId": "bb569883-92df-4e76-9716-970bfb730991",
+      "_id": "83928d24-7d30-4281-9210-846fd8d3a486",
+      "createdAt": {
+        "$date": "2025-02-04T07:53:12.594Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-04T07:53:12.594Z"
+      }
+    },
+    {
+      "featureId": "106a85da-63fd-4a8a-906b-84bf04eb30a7",
+      "_id": "2f982c4f-0c87-41f9-8aa4-d47a6a8d4055",
+      "createdAt": {
+        "$date": "2025-02-04T07:53:12.604Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-04T07:53:12.604Z"
+      }
+    },
+    {
+      "featureId": "34c08499-fe57-4d5c-b6a1-95a3204bcb85",
+      "_id": "3ba71926-0029-425b-b5d9-c014d5d956ad",
+      "createdAt": {
+        "$date": "2025-02-04T07:53:12.619Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-04T07:53:12.619Z"
+      }
+    },
+    {
+      "featureId": "36c6d9fb-4ddf-4f02-b096-f9d7a9bad964",
+      "_id": "e580bd1d-f11d-49fb-a623-d6f56b13171e",
+      "createdAt": {
+        "$date": "2025-02-04T07:53:12.632Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-04T07:53:12.632Z"
+      }
+    },
+    {
+      "featureId": "9a92930b-2c3b-4cbb-a4d3-36c681d66a4e",
+      "_id": "2af92ec6-902a-4eae-bb8a-1515b83f50c4",
+      "createdAt": {
+        "$date": "2025-02-04T07:53:12.641Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-04T07:53:12.641Z"
+      }
+    },
+    {
+      "featureId": "701ecb40-e5ab-4117-a243-f67eee108378",
+      "_id": "a11d74c0-4e7f-4fa8-83b6-0df7af13c33d",
+      "createdAt": {
+        "$date": "2025-02-04T07:53:12.649Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-04T07:53:12.649Z"
+      }
+    },
+    {
+      "featureId": "80387e2e-eb27-43bd-a5d3-bc1943a9d164",
+      "_id": "fd6a8879-6c65-423a-af63-57830e58d63a",
+      "createdAt": {
+        "$date": "2025-02-04T07:53:12.665Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-04T07:53:12.665Z"
+      }
+    },
+    {
+      "featureId": "5cb2294f-9345-46b5-b5bb-51468a312eb3",
+      "_id": "99f69b3f-dd42-474b-b2c3-f70446c98607",
+      "createdAt": {
+        "$date": "2025-02-04T07:53:12.675Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-04T07:53:12.675Z"
+      }
+    },
+    {
+      "featureId": "e4bd875f-aa6b-4207-97ef-6c2aac9e4997",
+      "_id": "1fb439cd-e459-4654-a596-0833e85437b9",
+      "createdAt": {
+        "$date": "2025-02-04T07:53:12.686Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-04T07:53:12.686Z"
+      }
+    },
+    {
+      "featureId": "1062641d-ed56-4338-9e6f-457e0bffebe5",
+      "_id": "40e4f456-da6f-4364-bf4b-561150f02fb8",
+      "createdAt": {
+        "$date": "2025-02-04T07:53:12.695Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-04T07:53:12.695Z"
+      }
+    },
+    {
+      "featureId": "6efda318-c5f4-4cad-9edc-02c67a96e140",
+      "_id": "31f7ddbf-5bd3-4e27-ac8d-1e7845ef4cfd",
+      "createdAt": {
+        "$date": "2025-02-04T07:53:12.702Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-04T07:53:12.702Z"
+      }
+    },
+    {
+      "featureId": "089e5849-c188-40f8-8c0a-aa0338fccd93",
+      "_id": "62131b3f-e601-4b7b-80d2-8f4a404b4f48",
+      "createdAt": {
+        "$date": "2025-02-04T07:53:12.711Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-04T07:53:12.711Z"
+      }
+    },
+    {
+      "featureId": "4c2d09dd-8cbc-4023-82a3-7830f75379ac",
+      "_id": "31270ad4-3502-4d70-b3a8-a45ed3b0646d",
+      "createdAt": {
+        "$date": "2025-02-04T07:53:12.719Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-04T07:53:12.719Z"
+      }
+    },
+    {
+      "featureId": "b49fc7c3-ad6a-4006-ac48-da0ec998825d",
+      "_id": "f1db1051-92a8-4663-9943-c2a325cd60fb",
+      "createdAt": {
+        "$date": "2025-02-04T07:53:12.728Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-04T07:53:12.728Z"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-10-26T23:42:02.583Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-04T07:53:12.728Z"
+  },
+  "__v": 97
+},
+{
+  "_id": "120cfac2-ca41-490f-8921-271992d99cc6",
+  "name": "Workspace - Member",
+  "scope": "workspace",
+  "level": 101,
+  "reqLimitPerSec": 120,
+  "description": "just a normal workspace member",
+  "absoluteAuthority": false,
+  "featuresRefs": [
+    {
+      "featureId": "4b11c7a6-297a-4f53-ba9a-dcb7de77e05c",
+      "_id": "7ea6b7ed-4802-43b0-b62d-85c16e4d5315",
+      "createdAt": {
+        "$date": "2025-02-05T08:11:51.043Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:11:51.043Z"
+      }
+    },
+    {
+      "featureId": "0ed71f16-7549-4daf-b828-11e25b6d2213",
+      "_id": "4b9648d6-1d24-4fcc-bdd0-5c36eb752372",
+      "createdAt": {
+        "$date": "2025-02-05T08:11:51.047Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:11:51.047Z"
+      }
+    },
+    {
+      "featureId": "151e10a8-6b68-41f5-9458-7478ef64fdd5",
+      "_id": "f5d4ff90-7d48-4882-b4c3-1942e57b2dc4",
+      "createdAt": {
+        "$date": "2025-02-05T08:11:51.052Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:11:51.052Z"
+      }
+    },
+    {
+      "featureId": "978edea7-7a1d-4947-a2d0-9958b0127a04",
+      "_id": "822a2e33-1f87-4dce-9957-df38141cdd5a",
+      "createdAt": {
+        "$date": "2025-02-05T08:11:51.055Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:11:51.055Z"
+      }
+    },
+    {
+      "featureId": "e66fbba7-0e68-472e-84f4-47ae6d1bb553",
+      "_id": "8e721fc4-387e-4f34-ba56-cfcd24b85b4b",
+      "createdAt": {
+        "$date": "2025-02-05T08:11:51.061Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:11:51.061Z"
+      }
+    },
+    {
+      "featureId": "b75e2608-9606-4d20-9c53-5d5d3e80439e",
+      "_id": "ffa4d221-1afe-4cf9-971f-68ab1e2cac6d",
+      "createdAt": {
+        "$date": "2025-02-05T08:11:51.063Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:11:51.063Z"
+      }
+    },
+    {
+      "featureId": "310fb187-b1d8-4aee-84e4-6dbd8c6098f9",
+      "_id": "6a844bfe-2156-479c-acab-0a22b39f8521",
+      "createdAt": {
+        "$date": "2025-02-05T08:11:51.067Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:11:51.067Z"
+      }
+    },
+    {
+      "featureId": "83f9e4c8-9a1e-4307-bc4f-2dbbd13bde0f",
+      "_id": "aef3ab3f-a217-40a5-b00a-c85aabd7eb13",
+      "createdAt": {
+        "$date": "2025-02-05T08:11:51.069Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:11:51.069Z"
+      }
+    },
+    {
+      "featureId": "106a85da-63fd-4a8a-906b-84bf04eb30a7",
+      "_id": "8f2b4e71-130a-44fd-8e1e-1a0ab22f45a1",
+      "createdAt": {
+        "$date": "2025-02-05T08:11:51.078Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:11:51.078Z"
+      }
+    },
+    {
+      "featureId": "36c6d9fb-4ddf-4f02-b096-f9d7a9bad964",
+      "_id": "6063d892-2109-498a-8f29-ef3a48418266",
+      "createdAt": {
+        "$date": "2025-02-05T08:11:51.082Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:11:51.082Z"
+      }
+    },
+    {
+      "featureId": "701ecb40-e5ab-4117-a243-f67eee108378",
+      "_id": "74eefc1d-87cd-4a69-9bf9-fd0f806a6144",
+      "createdAt": {
+        "$date": "2025-02-05T08:11:51.087Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:11:51.087Z"
+      }
+    },
+    {
+      "featureId": "5cb2294f-9345-46b5-b5bb-51468a312eb3",
+      "_id": "a4499e1a-8205-4b33-b237-6127ecac46c1",
+      "createdAt": {
+        "$date": "2025-02-05T08:11:51.092Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:11:51.092Z"
+      }
+    },
+    {
+      "featureId": "1062641d-ed56-4338-9e6f-457e0bffebe5",
+      "_id": "80e20a78-0408-4d95-a15d-74836be6ec2e",
+      "createdAt": {
+        "$date": "2025-02-05T08:11:51.097Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:11:51.097Z"
+      }
+    },
+    {
+      "featureId": "6efda318-c5f4-4cad-9edc-02c67a96e140",
+      "_id": "0e27df0c-8383-4f3f-ad2e-7ec907a52cef",
+      "createdAt": {
+        "$date": "2025-02-05T08:11:51.100Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:11:51.100Z"
+      }
+    },
+    {
+      "featureId": "4c2d09dd-8cbc-4023-82a3-7830f75379ac",
+      "_id": "ed40c388-f7f2-4d45-b1a7-df59827b4b1b",
+      "createdAt": {
+        "$date": "2025-02-05T08:11:51.105Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:11:51.105Z"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-10-26T23:59:29.044Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-05T08:13:19.657Z"
+  },
+  "__v": 235
+},
+{
+  "_id": "f1c67206-1564-4cf5-b4b4-f7f1269c28a6",
+  "name": "Account - Admin",
+  "scope": "account",
+  "level": 50,
+  "reqLimitPerSec": 120,
+  "description": "administrative access to account",
+  "absoluteAuthority": false,
+  "featuresRefs": [
+    {
+      "featureId": "4582b22c-6e14-4fc9-a961-1096d774c239",
+      "_id": "70afe610-20ab-4311-ad7c-37270fa62619",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.154Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.154Z"
+      }
+    },
+    {
+      "featureId": "ffda9770-1722-4c0c-8145-dbe90b051a72",
+      "_id": "c4762f01-7673-4b8c-8885-b88318495d46",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.170Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.170Z"
+      }
+    },
+    {
+      "featureId": "a116072d-a0da-4ccc-a1bd-c8b3e3c72e9a",
+      "_id": "310e197d-df54-4677-81b5-ed600ed22214",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.175Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.175Z"
+      }
+    },
+    {
+      "featureId": "ffb4e819-0451-4576-8f3c-5c944ec7bdd1",
+      "_id": "7f07f8d8-d672-4acd-b8dd-6db86a2cfc9c",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.182Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.182Z"
+      }
+    },
+    {
+      "featureId": "d6620d3e-fe88-4780-bbec-2ea9c49b2730",
+      "_id": "60714aa6-4910-4eab-a565-0745493491b3",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.188Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.188Z"
+      }
+    },
+    {
+      "featureId": "3510e8e0-f89b-442c-bbfe-0f6fb705c28b",
+      "_id": "a386d7ef-8e02-4f20-83b3-4960a5413b2e",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.196Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.196Z"
+      }
+    },
+    {
+      "featureId": "0e94aedd-e692-43ad-a4f4-b5b3c56d8d61",
+      "_id": "d2a37a27-ed07-480b-9010-46fff1bab823",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.203Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.203Z"
+      }
+    },
+    {
+      "featureId": "71d604a1-8003-4fb2-a017-0a9c11ea52f1",
+      "_id": "24e7a91c-03bc-41de-a722-3d1eecd11bcf",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.209Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.209Z"
+      }
+    },
+    {
+      "featureId": "b94d37e5-7b11-4e45-9b03-1dfea90e866d",
+      "_id": "0d711e09-09ac-491e-b5a3-e37b4619a5d3",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.215Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.215Z"
+      }
+    },
+    {
+      "featureId": "02f7df0f-7368-486d-882c-ffaf52128f3d",
+      "_id": "5a330fd9-7133-4d04-b8a6-9725204d112b",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.221Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.221Z"
+      }
+    },
+    {
+      "featureId": "5e5433fd-4be4-4d21-8c87-6b5126f092b8",
+      "_id": "e14c49e0-3092-4993-a73d-73c39cc6320a",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.227Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.227Z"
+      }
+    },
+    {
+      "featureId": "8ca5f7df-aea3-412d-859a-303a6a4ffaba",
+      "_id": "0d48afa5-04ed-4d01-9c01-106d66f19a5a",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.235Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.235Z"
+      }
+    },
+    {
+      "featureId": "34e90389-fddc-40fc-b0ca-c72fe4daffad",
+      "_id": "35a6a4d6-f6d9-4632-9713-531c0ce18c46",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.241Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.241Z"
+      }
+    },
+    {
+      "featureId": "286ec041-dd87-4563-8c5d-0e68f5399b95",
+      "_id": "d6628456-bff8-4ae0-ae19-26423804bf20",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.248Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.248Z"
+      }
+    },
+    {
+      "featureId": "5e0a1ec8-4ae4-4f2a-817b-74d10b3fc7b0",
+      "_id": "669cfd14-a0ae-476e-bee2-e273c17b3d5e",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.255Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.255Z"
+      }
+    },
+    {
+      "featureId": "74eab579-bf00-45a8-ba25-ccdf05941de6",
+      "_id": "71c0a4ae-9f12-42c2-b9af-a6decda67891",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.261Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.261Z"
+      }
+    },
+    {
+      "featureId": "571d4835-6ea8-47c1-ac0a-c439bcab6010",
+      "_id": "47fb6b47-8969-4a3e-96d2-64863eef73f5",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.268Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.268Z"
+      }
+    },
+    {
+      "featureId": "fe0656a9-9e7a-4f8c-8bf3-68f64ba7b7d9",
+      "_id": "c63450c4-0f10-4b1d-95ae-5f06d81e164c",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.275Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.275Z"
+      }
+    },
+    {
+      "featureId": "6262fa13-3582-4dd6-b885-fa812b39dbb8",
+      "_id": "3f803e60-cbbb-451c-b5ec-8d44af8439bf",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.282Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.282Z"
+      }
+    },
+    {
+      "featureId": "b99ff7ce-83bc-4c65-a017-f4a4acc54fc8",
+      "_id": "c9d40649-9bc8-4679-8c4c-5109c5bb8016",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.290Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.290Z"
+      }
+    },
+    {
+      "featureId": "63454281-6b89-4319-bb07-eb010984936e",
+      "_id": "1f7468f1-55b2-4151-8ab6-2a8cf0922d54",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.298Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.298Z"
+      }
+    },
+    {
+      "featureId": "3f737faa-fdae-47c2-85b2-5ac029c0fa28",
+      "_id": "209f9e68-1989-4882-a082-6284f83e28fa",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.306Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.306Z"
+      }
+    },
+    {
+      "featureId": "bef49038-b1c3-47d2-bf41-47b9eda3a007",
+      "_id": "046f28d6-242c-4320-8b01-8f757577bd5d",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.313Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.313Z"
+      }
+    },
+    {
+      "featureId": "92864dce-986c-4b57-8e97-d006719a89a3",
+      "_id": "dfbdccbd-bfee-48ff-8856-d22b9b1aa343",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.320Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.320Z"
+      }
+    },
+    {
+      "featureId": "f23deb97-1af4-4c33-9801-df42dabf1cbf",
+      "_id": "94c8acde-321e-451d-9995-eef2fd96d520",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.327Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.327Z"
+      }
+    },
+    {
+      "featureId": "39c3ea5b-e523-4253-bf89-f357a2e4cbe1",
+      "_id": "98b3b0fb-c9fc-4d0d-be10-c7d5ae1eb78a",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.335Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.335Z"
+      }
+    },
+    {
+      "featureId": "3255b4c4-54e7-4c34-bdc4-678b49279f22",
+      "_id": "a7dee85b-f36b-4225-a271-f82f797a38ce",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.342Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.342Z"
+      }
+    },
+    {
+      "featureId": "50de46cf-25a7-4123-b925-f7a84c13dba8",
+      "_id": "aa554f1b-2bbb-4145-b720-37a5b4e7fd51",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.350Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.350Z"
+      }
+    },
+    {
+      "featureId": "7946ad8c-5ced-494d-a122-1f2dd8b2fe77",
+      "_id": "f7354bd5-50ff-409f-aa74-1cf72ff3cd53",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.357Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.357Z"
+      }
+    },
+    {
+      "featureId": "a8d4b51f-17b5-4a48-ae6d-90a4b181c9a5",
+      "_id": "9676e119-116f-422e-8e23-945358d5ea70",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.365Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.365Z"
+      }
+    },
+    {
+      "featureId": "8a7bcc08-7a8a-4dab-bd8f-7805fdf906f8",
+      "_id": "3a823098-4623-4569-bd30-eabd0855d4db",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.372Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.372Z"
+      }
+    },
+    {
+      "featureId": "754bcd4a-ab98-4a9c-8fac-d4dd967dcdab",
+      "_id": "f7e1a779-72d5-4c9b-bea9-669731b3a680",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.379Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.379Z"
+      }
+    },
+    {
+      "featureId": "b4a73344-6758-43b6-afb3-f54521d8cd1f",
+      "_id": "65361743-6f41-403d-8a0e-d4bede61824c",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.386Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.386Z"
+      }
+    },
+    {
+      "featureId": "5d72fd61-4f5b-4300-a095-146128fb4ff7",
+      "_id": "b758f463-785b-43f0-90e4-e5836488308a",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.393Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.393Z"
+      }
+    },
+    {
+      "featureId": "922834f8-437b-4104-b4d1-edd0f9288f1a",
+      "_id": "a4683156-2a21-4f15-a533-e46e8a553e71",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.402Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.402Z"
+      }
+    },
+    {
+      "featureId": "094c56f6-9947-446b-810b-900af8c32ff0",
+      "_id": "5c1e2849-8f68-4843-8eb0-1b3f4c29afbf",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.409Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.409Z"
+      }
+    },
+    {
+      "featureId": "eaf7c25c-37af-461d-a1b1-8c21286de67a",
+      "_id": "212cd927-125a-47ad-89eb-83b8a90ebefd",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.417Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.417Z"
+      }
+    },
+    {
+      "featureId": "49e7202c-06fc-4ff3-95ed-d43fca296ce9",
+      "_id": "b0f2fc95-3a59-4d2b-be8f-908bdf071de3",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.425Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.425Z"
+      }
+    },
+    {
+      "featureId": "e5f734b0-8be0-493d-b60c-af819584d62a",
+      "_id": "6ecb5c2a-c805-44a2-bc17-cfc73c32e934",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.432Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.432Z"
+      }
+    },
+    {
+      "featureId": "768fd6a6-c1e5-4ead-8fd3-c7cacf8ed29f",
+      "_id": "e3516096-6682-40ed-bd4e-2eb2f50d05d0",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.441Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.441Z"
+      }
+    },
+    {
+      "featureId": "d602d043-b623-4290-89e0-57c349f4ba09",
+      "_id": "8224d81b-5d61-4c58-a129-f8e501a8393a",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.448Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.448Z"
+      }
+    },
+    {
+      "featureId": "940bd4f3-b7b5-49ca-bc84-7d5d5566d433",
+      "_id": "6e96dc8b-4382-4151-9b66-5509781b2684",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.455Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.455Z"
+      }
+    },
+    {
+      "featureId": "bc000c4e-6ae6-4a72-80a0-d4c732022efd",
+      "_id": "de5fb3d3-7c7b-47dc-aca0-3e14958fbeec",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.463Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.463Z"
+      }
+    },
+    {
+      "featureId": "c88d36bf-0f1c-4124-9c4b-50b0ede80a90",
+      "_id": "4610e72b-9dab-40e7-9d04-53f87033fa46",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.470Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.470Z"
+      }
+    },
+    {
+      "featureId": "9d318dc8-2d29-48c7-bf7d-3384355e0c0f",
+      "_id": "f32ca2ba-8836-4ad2-97d2-3c71e320ab5b",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.477Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.477Z"
+      }
+    },
+    {
+      "featureId": "65dec9ca-48e3-4d36-925c-577f4b28cbb0",
+      "_id": "7bc7e756-cf13-48cf-8962-873d4fbd4b24",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.486Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.486Z"
+      }
+    },
+    {
+      "featureId": "f7608043-026f-490f-92f8-fb8c008a756e",
+      "_id": "e24b082c-a9bb-4188-bae1-70e6881ee1ed",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.493Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.493Z"
+      }
+    },
+    {
+      "featureId": "0dbd33f2-d6f1-4fdb-8a1d-f69adbdbdbee",
+      "_id": "9a34f84b-c548-42bf-ad91-fa32fd033d9e",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.500Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.500Z"
+      }
+    },
+    {
+      "featureId": "3d7acfbf-5c48-45ec-b5e6-6d0673d9fc01",
+      "_id": "ff485849-9681-4877-94f4-42907f879387",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.508Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.508Z"
+      }
+    },
+    {
+      "featureId": "4a102862-f7ed-41a4-a93c-7aaf5cb34f55",
+      "_id": "c532c9b8-1f10-4d93-8984-6db30e40096d",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.515Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.515Z"
+      }
+    },
+    {
+      "featureId": "abab1e1d-eb5b-4bd8-9685-b319fb962ae8",
+      "_id": "fadbee81-35e8-4d88-95da-2b732de86a63",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.523Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.523Z"
+      }
+    },
+    {
+      "featureId": "2505365b-dcb1-4f18-b713-705c8f81abd8",
+      "_id": "821a6298-8ffa-4efa-b7d5-9ccbbd19b2d8",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.530Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.530Z"
+      }
+    },
+    {
+      "featureId": "916aee38-719b-472d-a915-4182fc6207ff",
+      "_id": "80fb264c-2fc0-479e-81af-cdd06cf08edd",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.538Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.538Z"
+      }
+    },
+    {
+      "featureId": "b9bfe1c0-5b7b-4ce5-8415-8c89907a6bf1",
+      "_id": "817c76b2-62e5-492d-b5e8-f15a39712c22",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.693Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.693Z"
+      }
+    },
+    {
+      "featureId": "1b79e851-3d92-41be-bea3-4eada825b9bb",
+      "_id": "3a28073e-3433-45ac-b586-07845de5ddf3",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.701Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.701Z"
+      }
+    },
+    {
+      "featureId": "6c1db6b7-de7d-4579-8a59-23a8996d3d18",
+      "_id": "d2d23747-0349-429a-875a-26ce47dc7134",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.710Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.710Z"
+      }
+    },
+    {
+      "featureId": "87fbc46d-1ec2-4e60-8aee-1aff896f3dd5",
+      "_id": "5f9b80b1-1039-47f7-9bcf-a7116093f4b3",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.718Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.718Z"
+      }
+    },
+    {
+      "featureId": "35072dfc-3766-40a3-8dec-5e8f5230af1d",
+      "_id": "6f20c03e-6a08-4b72-bed7-a63caaf29a50",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.726Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.726Z"
+      }
+    },
+    {
+      "featureId": "aa485ff3-17ae-4c0e-b43d-8a5232913272",
+      "_id": "4124ff09-e786-4d0a-bcce-6368d61bb27f",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.734Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.734Z"
+      }
+    },
+    {
+      "featureId": "cfcf925b-dda2-4c2a-89ad-2c8c543405c6",
+      "_id": "ee24b55d-cbd5-4b20-9f96-afced7bcb010",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.742Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.742Z"
+      }
+    },
+    {
+      "featureId": "000b1d56-3156-40ec-96ee-0805235e25fe",
+      "_id": "2558a02b-02df-4521-b50a-2ed028c3b194",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.749Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.749Z"
+      }
+    },
+    {
+      "featureId": "1a4a57d5-b547-4d00-9d10-2006e79174f4",
+      "_id": "f9afa2f9-895f-4915-a5c9-232c4ae63dcb",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.757Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.757Z"
+      }
+    },
+    {
+      "featureId": "3c5d65fa-ca4f-4ec0-835d-36a32740d6a9",
+      "_id": "661242d4-d52c-4196-b0e1-25f109913ece",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.765Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.765Z"
+      }
+    },
+    {
+      "featureId": "21c4e8c2-63ac-481e-a1d3-170e0c2aee02",
+      "_id": "3d0eba42-60d8-447e-864f-a576b2ed45ad",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.773Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.773Z"
+      }
+    },
+    {
+      "featureId": "afe901e5-3be0-4c8d-a723-7e4a68ccb742",
+      "_id": "296478f0-6114-4a65-b1e7-7d21f5ebed7f",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.781Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.781Z"
+      }
+    },
+    {
+      "featureId": "44f9c067-aeef-40dc-bd06-d80e5b5c7e55",
+      "_id": "96972db4-08c8-4b13-a1d6-2d7eb4d4f158",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.789Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.789Z"
+      }
+    },
+    {
+      "featureId": "6c45676a-e12a-4c46-be78-21627ef874a9",
+      "_id": "41caa9a5-6f9f-4eca-9473-5d26f21d2733",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.798Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.798Z"
+      }
+    },
+    {
+      "featureId": "1619f8da-0256-4aa7-ad2c-a7b23594c4be",
+      "_id": "49796bc7-f05d-4894-a83f-8502aad666e2",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.806Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.806Z"
+      }
+    },
+    {
+      "featureId": "dab068de-f785-4985-b482-85530b36f68f",
+      "_id": "2944a260-265a-4211-aace-7cc237887d7b",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.814Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.814Z"
+      }
+    },
+    {
+      "featureId": "270d96e5-867b-406e-bbca-927374c0ae88",
+      "_id": "3b36dc25-a446-4658-ba85-54186bb864f9",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.822Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.822Z"
+      }
+    },
+    {
+      "featureId": "0b62d6d2-d16c-43a3-b243-2fc2bf48e3b3",
+      "_id": "98703c02-85b8-4522-af81-9515653c4354",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.830Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.830Z"
+      }
+    },
+    {
+      "featureId": "d3fc6c8f-fa8f-4957-82cb-2884088fccbb",
+      "_id": "9a1e8e4f-0022-49fb-b585-4bbe9d901b6c",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.838Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.838Z"
+      }
+    },
+    {
+      "featureId": "476b5cb8-9d53-498e-8971-c6e938a35dc7",
+      "_id": "8e15ac30-ee48-48b6-96af-60657ca6a7ee",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.847Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.847Z"
+      }
+    },
+    {
+      "featureId": "5a6c14cf-a056-419d-9648-6cd0058cd199",
+      "_id": "33cd55bd-a362-4713-8361-2065356ff8e9",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.855Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.855Z"
+      }
+    },
+    {
+      "featureId": "6dc2238e-6ebb-41fb-9b88-6288e2351de6",
+      "_id": "8f8eb5f4-7fc0-4eab-a695-dc794cf9ab83",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.863Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.863Z"
+      }
+    },
+    {
+      "featureId": "2faae524-e56d-4602-8ac2-9b1a8218a566",
+      "_id": "508f4429-bc2a-4695-82ad-2239920830bf",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.872Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.872Z"
+      }
+    },
+    {
+      "featureId": "6ad01627-c1bc-431f-a8df-132ab121cd36",
+      "_id": "0943f3fd-f6de-4c5a-b1a4-a9091ca60ddf",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.880Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.880Z"
+      }
+    },
+    {
+      "featureId": "f28e8e44-c674-4c42-80cb-22446e9c25c1",
+      "_id": "1f6a0513-c675-4723-accc-9ac4312f6071",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.889Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.889Z"
+      }
+    },
+    {
+      "featureId": "5a015122-9a9c-42fe-beaf-d0236743102a",
+      "_id": "94e01307-099d-4422-a3d4-98af9e4bb893",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.897Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.897Z"
+      }
+    },
+    {
+      "featureId": "9aa0bcac-2b6a-4ae0-a68c-276b061d1ada",
+      "_id": "0f723cbb-c0ef-481d-8af3-842bc07ab307",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.906Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.906Z"
+      }
+    },
+    {
+      "featureId": "ea56cbf0-bd38-4516-9002-33f886fcc7bd",
+      "_id": "6f046598-e444-4fb8-aa52-aec037b2ae1b",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.914Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.914Z"
+      }
+    },
+    {
+      "featureId": "39090cf2-02ed-401f-8067-0a66097bb60b",
+      "_id": "253ab2c7-96a8-4ae6-88fb-1927a5f0830d",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.923Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.923Z"
+      }
+    },
+    {
+      "featureId": "f19f7d2f-c604-4e63-951c-45f39b73cb94",
+      "_id": "95f17f95-1eea-4a0d-8dd9-7bdf37e09301",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.931Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.931Z"
+      }
+    },
+    {
+      "featureId": "d94e5d8f-8546-4e29-b2a4-8feb1971ec37",
+      "_id": "54daaf8d-e6a4-4079-8cbb-5d784f320c95",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.941Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.941Z"
+      }
+    },
+    {
+      "featureId": "378d687a-6dc7-4d83-aaea-28e7c62fc468",
+      "_id": "d95fb4d5-73d3-49ae-af29-58280a118022",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.949Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.949Z"
+      }
+    },
+    {
+      "featureId": "ef47fae0-5eee-49ef-8e3d-da3909da90a9",
+      "_id": "9d812333-2971-4f58-9d78-eab05190afa3",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.958Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.958Z"
+      }
+    },
+    {
+      "featureId": "22401bb8-573a-48d2-83a9-4ccc20893cd2",
+      "_id": "824b991b-d7bf-4704-9cef-466c790b00a5",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.966Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.966Z"
+      }
+    },
+    {
+      "featureId": "a4c0a087-4926-47b3-aced-bb783a80712f",
+      "_id": "9c8a79ca-4e41-4dd1-b2e1-acd1f1c87597",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.976Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.976Z"
+      }
+    },
+    {
+      "featureId": "90346cd5-6cf8-4725-8845-fbba002b4837",
+      "_id": "93ae5d86-3765-43c1-bf8e-d946f0f6990d",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.985Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.985Z"
+      }
+    },
+    {
+      "featureId": "ca731066-11f5-41f9-9d29-937591ef072f",
+      "_id": "2778b92b-f991-4b67-b84e-3abd63613f61",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:35.994Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:35.994Z"
+      }
+    },
+    {
+      "featureId": "c1cdc0e7-fbf4-4f4f-a180-eebb90520bb7",
+      "_id": "4b18cd6e-f500-4145-8345-276db45e36e3",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:36.004Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:36.004Z"
+      }
+    },
+    {
+      "featureId": "15d35f62-6068-4b35-9a72-2bd9b3d4847b",
+      "_id": "31bd1022-7126-49c0-acbf-fcdd888a530e",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:36.013Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:36.013Z"
+      }
+    },
+    {
+      "featureId": "b39e8097-099e-4128-8800-157d6c8bfbde",
+      "_id": "0d68112c-90c4-4ed8-bfe2-d4486a65812f",
+      "createdAt": {
+        "$date": "2025-02-05T07:58:36.147Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T07:58:36.147Z"
+      }
+    },
+    {
+      "featureId": "4b11c7a6-297a-4f53-ba9a-dcb7de77e05c",
+      "_id": "f27c08ff-94ac-459d-a986-b865c96f12e3",
+      "createdAt": {
+        "$date": "2025-02-05T08:01:00.953Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:01:00.953Z"
+      }
+    },
+    {
+      "featureId": "106a85da-63fd-4a8a-906b-84bf04eb30a7",
+      "_id": "cd659064-d5e9-48d4-97e3-d42a8e276491",
+      "createdAt": {
+        "$date": "2025-02-05T08:01:00.964Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:01:00.964Z"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-12-06T09:48:24.648Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-05T08:01:00.964Z"
+  },
+  "__v": 349
+},
+{
+  "_id": "433cdfc3-5467-4fab-9705-45eb284869eb",
+  "name": "Account - Member",
+  "scope": "account",
+  "level": 51,
+  "reqLimitPerSec": 120,
+  "description": "read only access",
+  "absoluteAuthority": false,
+  "featuresRefs": [
+    {
+      "featureId": "4582b22c-6e14-4fc9-a961-1096d774c239",
+      "_id": "36dabb28-5df8-4e78-9067-ee47fd5d8860",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.399Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.399Z"
+      }
+    },
+    {
+      "featureId": "a116072d-a0da-4ccc-a1bd-c8b3e3c72e9a",
+      "_id": "4bff2616-5174-43d0-b010-6660a312a1bb",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.403Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.403Z"
+      }
+    },
+    {
+      "featureId": "3510e8e0-f89b-442c-bbfe-0f6fb705c28b",
+      "_id": "19302c06-5365-4fd2-92ac-271dbcf0c262",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.413Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.413Z"
+      }
+    },
+    {
+      "featureId": "0e94aedd-e692-43ad-a4f4-b5b3c56d8d61",
+      "_id": "7c68e7c8-bd19-48a8-ba98-100ddab6048c",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.416Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.416Z"
+      }
+    },
+    {
+      "featureId": "5e5433fd-4be4-4d21-8c87-6b5126f092b8",
+      "_id": "979b79bc-8a11-43a1-84e1-6d3dcfe3d662",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.423Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.423Z"
+      }
+    },
+    {
+      "featureId": "34e90389-fddc-40fc-b0ca-c72fe4daffad",
+      "_id": "a67d4442-4492-46b5-bbec-31afedb793aa",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.427Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.427Z"
+      }
+    },
+    {
+      "featureId": "74eab579-bf00-45a8-ba25-ccdf05941de6",
+      "_id": "2ebd4eef-fd3f-4b5f-beef-090531e1fc65",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.432Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.432Z"
+      }
+    },
+    {
+      "featureId": "571d4835-6ea8-47c1-ac0a-c439bcab6010",
+      "_id": "b9299a9b-37c1-445e-a662-68b68258d395",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.434Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.434Z"
+      }
+    },
+    {
+      "featureId": "6262fa13-3582-4dd6-b885-fa812b39dbb8",
+      "_id": "6209a847-df61-4920-877b-0b2d79411480",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.438Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.438Z"
+      }
+    },
+    {
+      "featureId": "63454281-6b89-4319-bb07-eb010984936e",
+      "_id": "c4797bc3-6b51-417d-baa4-caa0a0b85b01",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.443Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.443Z"
+      }
+    },
+    {
+      "featureId": "92864dce-986c-4b57-8e97-d006719a89a3",
+      "_id": "cfa9196b-3fed-4b23-bfdc-5e44830cb304",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.449Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.449Z"
+      }
+    },
+    {
+      "featureId": "39c3ea5b-e523-4253-bf89-f357a2e4cbe1",
+      "_id": "e5811a6e-d7c2-4131-8c75-72b3ff18b7c4",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.454Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.454Z"
+      }
+    },
+    {
+      "featureId": "50de46cf-25a7-4123-b925-f7a84c13dba8",
+      "_id": "aead1ef3-68a8-4195-9a73-f9b3ecb4ec49",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.459Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.459Z"
+      }
+    },
+    {
+      "featureId": "7946ad8c-5ced-494d-a122-1f2dd8b2fe77",
+      "_id": "21b173a7-b285-4857-85f9-455e569cad77",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.461Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.461Z"
+      }
+    },
+    {
+      "featureId": "8a7bcc08-7a8a-4dab-bd8f-7805fdf906f8",
+      "_id": "e1219366-d079-4ae1-a990-6116fe5669df",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.466Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.466Z"
+      }
+    },
+    {
+      "featureId": "b4a73344-6758-43b6-afb3-f54521d8cd1f",
+      "_id": "5245d504-0969-41c4-aeb5-8663a307ea27",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.471Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.471Z"
+      }
+    },
+    {
+      "featureId": "094c56f6-9947-446b-810b-900af8c32ff0",
+      "_id": "df5c085e-0587-4a81-bc14-b5ce3cf204f0",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.478Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.478Z"
+      }
+    },
+    {
+      "featureId": "49e7202c-06fc-4ff3-95ed-d43fca296ce9",
+      "_id": "9181ae82-f1de-4c0b-a1a5-0af34d4bcac5",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.484Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.484Z"
+      }
+    },
+    {
+      "featureId": "d602d043-b623-4290-89e0-57c349f4ba09",
+      "_id": "07038f0e-1a6f-433b-9351-fe6b76b852a5",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.493Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.493Z"
+      }
+    },
+    {
+      "featureId": "bc000c4e-6ae6-4a72-80a0-d4c732022efd",
+      "_id": "53661280-08b1-44f8-8c2e-7fb012858b32",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.498Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.498Z"
+      }
+    },
+    {
+      "featureId": "65dec9ca-48e3-4d36-925c-577f4b28cbb0",
+      "_id": "69e13270-6374-44fa-8b86-ea3cc3a5946a",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.508Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.508Z"
+      }
+    },
+    {
+      "featureId": "f7608043-026f-490f-92f8-fb8c008a756e",
+      "_id": "e3bbe6bb-8c72-4385-89e5-97f175a9cb8b",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.511Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.511Z"
+      }
+    },
+    {
+      "featureId": "3d7acfbf-5c48-45ec-b5e6-6d0673d9fc01",
+      "_id": "c87e7ec7-66ef-4f5d-899d-9d1ca664a23c",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.518Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.518Z"
+      }
+    },
+    {
+      "featureId": "4a102862-f7ed-41a4-a93c-7aaf5cb34f55",
+      "_id": "69935bd5-206e-42a2-94f2-031b16a9419f",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.522Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.522Z"
+      }
+    },
+    {
+      "featureId": "b9bfe1c0-5b7b-4ce5-8415-8c89907a6bf1",
+      "_id": "1f30006a-856c-4305-97a0-c5cde7bdd614",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.536Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.536Z"
+      }
+    },
+    {
+      "featureId": "6c1db6b7-de7d-4579-8a59-23a8996d3d18",
+      "_id": "dcdefdb7-6c5a-40c0-a1fc-b42083dfe67f",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.543Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.543Z"
+      }
+    },
+    {
+      "featureId": "35072dfc-3766-40a3-8dec-5e8f5230af1d",
+      "_id": "7e853769-dd13-45c3-bdaa-fbd0d021c4f6",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.551Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.551Z"
+      }
+    },
+    {
+      "featureId": "cfcf925b-dda2-4c2a-89ad-2c8c543405c6",
+      "_id": "e1064187-1945-425b-80b8-cad0dcdadd34",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.558Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.558Z"
+      }
+    },
+    {
+      "featureId": "1a4a57d5-b547-4d00-9d10-2006e79174f4",
+      "_id": "8ab35ca4-56c7-4cc9-9e79-eaf576e1751e",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.565Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.565Z"
+      }
+    },
+    {
+      "featureId": "3c5d65fa-ca4f-4ec0-835d-36a32740d6a9",
+      "_id": "7dc62768-f3fc-4f99-aa27-7188d0bf0cd0",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.569Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.569Z"
+      }
+    },
+    {
+      "featureId": "afe901e5-3be0-4c8d-a723-7e4a68ccb742",
+      "_id": "c85fc5e7-f23c-415d-8dab-434b08ff0416",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.577Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.577Z"
+      }
+    },
+    {
+      "featureId": "6c45676a-e12a-4c46-be78-21627ef874a9",
+      "_id": "e61072bf-34b1-4c27-a50c-282b2398faa4",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.585Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.585Z"
+      }
+    },
+    {
+      "featureId": "dab068de-f785-4985-b482-85530b36f68f",
+      "_id": "caf7c92d-9400-4b4b-ae46-d78f09c0d9a8",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.593Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.593Z"
+      }
+    },
+    {
+      "featureId": "0b62d6d2-d16c-43a3-b243-2fc2bf48e3b3",
+      "_id": "86400e1a-6c4f-4d49-8e94-bd70bfbb6fde",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.601Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.601Z"
+      }
+    },
+    {
+      "featureId": "476b5cb8-9d53-498e-8971-c6e938a35dc7",
+      "_id": "6e59258f-6799-4381-8dc7-51c052fa414b",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.609Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.609Z"
+      }
+    },
+    {
+      "featureId": "5a6c14cf-a056-419d-9648-6cd0058cd199",
+      "_id": "12ee01ea-3fcd-4ea8-96d0-fe730d3899ec",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.614Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.614Z"
+      }
+    },
+    {
+      "featureId": "6ad01627-c1bc-431f-a8df-132ab121cd36",
+      "_id": "05c6e14a-be03-4f80-b2de-004f8ecbb2bc",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.626Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.626Z"
+      }
+    },
+    {
+      "featureId": "f28e8e44-c674-4c42-80cb-22446e9c25c1",
+      "_id": "6456043b-3ae6-47e8-8eaa-1f00f2e86062",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.630Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.630Z"
+      }
+    },
+    {
+      "featureId": "ea56cbf0-bd38-4516-9002-33f886fcc7bd",
+      "_id": "cd458547-5bde-40c3-8636-cf083f6313e8",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.643Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.643Z"
+      }
+    },
+    {
+      "featureId": "39090cf2-02ed-401f-8067-0a66097bb60b",
+      "_id": "a817633e-ea08-43cf-8e41-38e00fc373f5",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.648Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.648Z"
+      }
+    },
+    {
+      "featureId": "d94e5d8f-8546-4e29-b2a4-8feb1971ec37",
+      "_id": "befef7a8-651b-4854-84c9-0f22ae4cb8ad",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.657Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.657Z"
+      }
+    },
+    {
+      "featureId": "ef47fae0-5eee-49ef-8e3d-da3909da90a9",
+      "_id": "3781ac9b-b47d-4640-8033-e15ca9880e4a",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.665Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.665Z"
+      }
+    },
+    {
+      "featureId": "a4c0a087-4926-47b3-aced-bb783a80712f",
+      "_id": "d0337c71-e97f-4904-8bb2-b0f9e8e23e01",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.675Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.675Z"
+      }
+    },
+    {
+      "featureId": "90346cd5-6cf8-4725-8845-fbba002b4837",
+      "_id": "145130a1-c3ea-4475-940b-7dfe49d2e3f1",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.679Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.679Z"
+      }
+    },
+    {
+      "featureId": "c1cdc0e7-fbf4-4f4f-a180-eebb90520bb7",
+      "_id": "83fb2f61-771e-40e8-999b-3032e2a75c24",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.689Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.689Z"
+      }
+    },
+    {
+      "featureId": "b39e8097-099e-4128-8800-157d6c8bfbde",
+      "_id": "a1cbfc4b-0652-4c2c-86b5-5a2641b651bc",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.698Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.698Z"
+      }
+    },
+    {
+      "featureId": "4b11c7a6-297a-4f53-ba9a-dcb7de77e05c",
+      "_id": "62643785-6f87-4a15-be40-2d882cd685ee",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.702Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.702Z"
+      }
+    },
+    {
+      "featureId": "106a85da-63fd-4a8a-906b-84bf04eb30a7",
+      "_id": "9e848b69-1adf-4de1-b47e-64864396066d",
+      "createdAt": {
+        "$date": "2025-02-05T08:05:14.707Z"
+      },
+      "updatedAt": {
+        "$date": "2025-02-05T08:05:14.707Z"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-12-06T09:49:09.744Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-05T08:07:23.986Z"
+  },
+  "__v": 450
+},
+{
+  "_id": "eece84ac-3236-4787-a832-7685bbe98d36",
+  "name": "Premium",
+  "scope": "app",
+  "level": 1,
+  "reqLimitPerSec": 120,
+  "description": "Have access to most of the resources.",
+  "absoluteAuthority": false,
+  "featuresRefs": [
+    {
+      "featureId": "971ba54d-0419-4f02-bb2e-1f9ff8abb556",
+      "_id": "ce11e7ba-5fe0-4ac6-a7b5-4d25c1f3f951",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.701Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.701Z"
+      }
+    },
+    {
+      "featureId": "1a79b78f-9020-4dc5-b054-a8c6737abdd6",
+      "_id": "98346e87-9ebd-42fb-9c65-9bb32598c8ce",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.709Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.709Z"
+      }
+    },
+    {
+      "featureId": "3984853f-78f1-4092-9931-90fcf1fbb970",
+      "_id": "2e5190d5-8e74-4b91-9778-38c639eba157",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.713Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.713Z"
+      }
+    },
+    {
+      "featureId": "af5cf696-ad98-4a91-8caf-89913cf3b650",
+      "_id": "6c2c2bde-3917-413e-98fe-9f265e8d7260",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.715Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.715Z"
+      }
+    },
+    {
+      "featureId": "e6beb68d-9ceb-4fe6-853c-1c3ce2355885",
+      "_id": "0629cfcb-1255-428e-8914-0dfbb1ec919a",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.718Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.718Z"
+      }
+    },
+    {
+      "featureId": "2d57667c-2a7d-44c1-bf64-3752bb2c81af",
+      "_id": "b1b81a46-0bb3-4e68-b006-08f5d597f379",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.721Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.721Z"
+      }
+    },
+    {
+      "featureId": "81b2d579-0dc3-4d9c-adc6-116c3767abeb",
+      "_id": "429a0d67-3b68-444e-8a95-4b9d4fba12d7",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.725Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.725Z"
+      }
+    },
+    {
+      "featureId": "044413c6-d919-49bd-b16c-e4ec2879c0fa",
+      "_id": "3c0a66bc-3ca0-46fc-8d78-7e0fbc509271",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.728Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.728Z"
+      }
+    },
+    {
+      "featureId": "c94d2687-346e-4994-a0fb-456dcdd63205",
+      "_id": "afd5dda2-07ef-49f8-ae4a-a4ac6f31852b",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.730Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.730Z"
+      }
+    },
+    {
+      "featureId": "ea36a2c9-cdc9-4da4-964b-a6df5c37ca3b",
+      "_id": "d0bf1b02-d785-4859-8dde-dd628fc9b6f7",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.733Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.733Z"
+      }
+    },
+    {
+      "featureId": "f486399b-9f5f-4d1c-8908-ebcf1e03877b",
+      "_id": "ad08bf15-c669-4ce0-87c2-609277f5e7c5",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.736Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.736Z"
+      }
+    },
+    {
+      "featureId": "1b751e43-99be-4601-8faf-3170e44054c3",
+      "_id": "b8fc916b-7d6b-40ff-a4de-fc409c7afaee",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.739Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.739Z"
+      }
+    },
+    {
+      "featureId": "a4f8ccd9-1c4f-4ca8-be96-d3b1cf96337e",
+      "_id": "a11adb6e-13f2-4075-b30b-30bf605f7426",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.743Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.743Z"
+      }
+    },
+    {
+      "featureId": "67c03ff7-f98a-47a0-938a-1b807d244c55",
+      "_id": "e7c7e09f-26cf-4d3a-8a3a-e0ec1b42d974",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.746Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.746Z"
+      }
+    },
+    {
+      "featureId": "d5a5bf74-8d9b-448f-8c52-6ceb87516431",
+      "_id": "302e37a4-c394-48e7-ab0c-4cd59f39370a",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.749Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.749Z"
+      }
+    },
+    {
+      "featureId": "f2b4f302-7132-4053-9f04-cd8d1af0f9d2",
+      "_id": "04ffd2ac-4f6e-4c8e-9791-646b7f512f5e",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.753Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.753Z"
+      }
+    },
+    {
+      "featureId": "c9aa9909-9d9b-4e9a-9655-d5a4b2ba8443",
+      "_id": "32f7e73d-9906-4601-a0c1-e2ced87461fa",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.757Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.757Z"
+      }
+    },
+    {
+      "featureId": "76450ab0-672c-411f-8241-2cca9a43fd03",
+      "_id": "7bcded6c-e8f6-4534-b0a1-664d9538b205",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.761Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.761Z"
+      }
+    },
+    {
+      "featureId": "65d224cc-b1d1-4cc8-a143-022f27d83cc4",
+      "_id": "7bfacc09-248c-4b0e-bb77-c0905b60e299",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.765Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.765Z"
+      }
+    },
+    {
+      "featureId": "110ebf8c-a577-4f92-a55c-9ac75528f1ee",
+      "_id": "a201fa8b-5dbb-4bf0-8ea9-ad0141eca435",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.768Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.768Z"
+      }
+    },
+    {
+      "featureId": "f6b5f579-20b2-4a8d-9acc-45c6b8b9abab",
+      "_id": "2de1ab13-ab44-49b8-8788-9d6f1e481cdc",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.771Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.771Z"
+      }
+    },
+    {
+      "featureId": "44a613ce-7c47-4ffc-8c2c-5763afe252ec",
+      "_id": "30c5b4e9-83db-4c64-9d7b-ac217af497b0",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.776Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.776Z"
+      }
+    },
+    {
+      "featureId": "9cd29b5c-edb8-48bc-826d-c7722918768e",
+      "_id": "a2e88c2b-5939-44fb-9eb4-a23365eb3cf9",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.780Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.780Z"
+      }
+    },
+    {
+      "featureId": "5414cb77-1d0d-49f2-80ae-99ae9c753058",
+      "_id": "eab93b76-b226-47ef-9103-b8c6b92bbfee",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.784Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.784Z"
+      }
+    },
+    {
+      "featureId": "4ff2c26d-76f9-4d5a-a104-3c7248002f59",
+      "_id": "e4be53de-2527-42b1-b6a2-2a45e3551a65",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.788Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.788Z"
+      }
+    },
+    {
+      "featureId": "58674842-32e6-4235-b649-b0ae3a85e919",
+      "_id": "86822e03-7548-4dce-a285-1bfa654004a5",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.793Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.793Z"
+      }
+    },
+    {
+      "featureId": "5e113d4a-1604-4932-afd4-8ee35818e5be",
+      "_id": "3fdc7a83-dd8c-46c4-94fa-eaa7f947b3ff",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.797Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.797Z"
+      }
+    },
+    {
+      "featureId": "d7eb2ca7-70c4-4446-8b03-a30492194091",
+      "_id": "0d932516-6cb7-45b1-937d-a8a79aebd445",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.801Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.801Z"
+      }
+    },
+    {
+      "featureId": "dfc6d6c6-e737-44e2-982d-d42be01f5b06",
+      "_id": "daec1200-7820-4408-9a8f-4c485fa9232a",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.805Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.805Z"
+      }
+    },
+    {
+      "featureId": "b44a2c6d-4c4f-4be3-a238-5e1f8d59e7a3",
+      "_id": "b9c7ac3e-1aba-49a7-9632-fe03d311d3fd",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.812Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.812Z"
+      }
+    },
+    {
+      "featureId": "b6803fb8-683f-461f-9c6c-ffe530063629",
+      "_id": "d3959a9b-027a-493a-8261-78a5d1b59788",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.817Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.817Z"
+      }
+    },
+    {
+      "featureId": "cab7bb18-f804-4154-92ad-dc0fb436481e",
+      "_id": "45df868a-004e-4bc3-8cca-511522aeb72f",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.822Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.822Z"
+      }
+    },
+    {
+      "featureId": "ec91bf92-244b-4e92-826e-d1c0c0066fdd",
+      "_id": "8c9f3418-bf6f-4cfc-b972-ac5917b0a7ae",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.828Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.828Z"
+      }
+    },
+    {
+      "featureId": "3c6f6ce8-0757-441b-8516-60fb94b437f9",
+      "_id": "4f17d512-0b75-4d11-b10e-8da931a74db2",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.836Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.836Z"
+      }
+    },
+    {
+      "featureId": "35f13448-a622-48c0-8321-bcd48ab30840",
+      "_id": "2503c631-1688-496b-b257-5bae9c2d408f",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.841Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.841Z"
+      }
+    },
+    {
+      "featureId": "1a33d464-30fb-4dce-a00f-3fbe5f094afe",
+      "_id": "bc092594-f50a-4f3b-b79a-ca472d75f10f",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.846Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.846Z"
+      }
+    },
+    {
+      "featureId": "7f4bd265-6702-4d4f-9974-14b7e141efb7",
+      "_id": "47469a46-5dfe-4afa-b6c9-a3f26d918102",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.850Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.850Z"
+      }
+    },
+    {
+      "featureId": "37cadd10-5dcf-4bed-b2ef-438df5491e8e",
+      "_id": "256c7a41-aa02-4cdc-98b9-f1c3fbdcd4c6",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.855Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.855Z"
+      }
+    },
+    {
+      "featureId": "98a696bc-81ed-4b56-9a12-7525afcea9e3",
+      "_id": "2d206340-d784-4235-a020-91d06ba7d3ab",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.859Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.859Z"
+      }
+    },
+    {
+      "featureId": "c1cdbd4c-d589-434f-ba91-ce8a0ea6ccdf",
+      "_id": "f6428911-fb72-4477-8e27-c96aebd2c068",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.863Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.863Z"
+      }
+    },
+    {
+      "featureId": "d79e7302-23fd-4f81-8011-ab204d08c1da",
+      "_id": "63045815-c342-40b7-98f4-199468e6377d",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.867Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.867Z"
+      }
+    },
+    {
+      "featureId": "233bf012-0c1c-46a0-9120-2f51cf13e881",
+      "_id": "8c679c4d-9d42-432b-ab2f-207a005cb0c1",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.870Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.870Z"
+      }
+    },
+    {
+      "featureId": "5893e865-aa0d-436e-ab88-9df7be69a6b2",
+      "_id": "7d229267-b6e4-4abb-a3c5-0f85a5128a9f",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.875Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.875Z"
+      }
+    },
+    {
+      "featureId": "dbeb61b3-0393-42c6-9af1-12314cd3f01e",
+      "_id": "d0816e26-7067-4b6c-9b4e-90409df4dc46",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.878Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.878Z"
+      }
+    },
+    {
+      "featureId": "e253c8a4-4f80-4c1d-86e4-f0a63aeb7381",
+      "_id": "e9a7a20c-c94b-44ec-8666-4e8adf5b4a5f",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.883Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.883Z"
+      }
+    },
+    {
+      "featureId": "23b5f5e5-71ed-4a25-a200-4bbfef2dba64",
+      "_id": "bf37a436-91a9-4814-b274-d262b7e3be4c",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.886Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.886Z"
+      }
+    },
+    {
+      "featureId": "b45b105a-511e-467d-a9e4-071f3a517f46",
+      "_id": "aba14914-ad1e-4a1a-a4bc-0fcb39adb0e4",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.890Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.890Z"
+      }
+    },
+    {
+      "featureId": "de171ab7-3ad3-4303-b1e4-f3f5402498da",
+      "_id": "1897afeb-dd46-4cea-b6bd-ebc9e1dbf0ad",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.895Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.895Z"
+      }
+    },
+    {
+      "featureId": "5f71bbb3-1d9d-4d7c-989f-a498aad046fe",
+      "_id": "8435c6e0-18b1-466d-9b1d-93dbc7979048",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.900Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.900Z"
+      }
+    },
+    {
+      "featureId": "ef896376-b7b3-4483-a03d-3752803bb209",
+      "_id": "633c5e36-39af-4cb4-89ee-b782f63c9e2d",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.905Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.905Z"
+      }
+    },
+    {
+      "featureId": "ef891368-262a-4069-9d4a-4dfcce6752e3",
+      "_id": "22c62b26-5863-45cc-90c0-c1b1c2fd3dbb",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.911Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.911Z"
+      }
+    },
+    {
+      "featureId": "38242a1a-5366-46a1-9dc5-f2cf2f612805",
+      "_id": "68c9625a-341b-451b-a474-d0c1e7593584",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.917Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.917Z"
+      }
+    },
+    {
+      "featureId": "e7edc2ed-b7bf-40de-8f94-5c1d276a9f54",
+      "_id": "ef6196f0-1363-4cd1-8611-49bd70e742fc",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.921Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.921Z"
+      }
+    },
+    {
+      "featureId": "4687927d-4343-420a-afeb-c10dbaf36cec",
+      "_id": "bb7b14b7-04f2-4a52-8aee-845eff51a199",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.925Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.925Z"
+      }
+    },
+    {
+      "featureId": "d8c7560d-3928-4359-8288-d931a2bcac79",
+      "_id": "8869b3c1-4591-4a9d-a1cb-be8ca21d2892",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.929Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.929Z"
+      }
+    },
+    {
+      "featureId": "08604bc7-0688-4bda-aaf7-ba9026499257",
+      "_id": "b086b016-dc86-4a3c-8f4a-53f0939fe532",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.934Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.934Z"
+      }
+    },
+    {
+      "featureId": "92d2e3b3-15b6-4015-b468-1c336414f074",
+      "_id": "0c042679-4217-4a71-9f51-7e70def770d0",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.939Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.939Z"
+      }
+    },
+    {
+      "featureId": "5ce5d9d2-bb2e-4e13-b433-bcb79aabd7a0",
+      "_id": "5da5dce0-bbb9-443e-a30b-7344c1564dd0",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.946Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.946Z"
+      }
+    },
+    {
+      "featureId": "e61a3e71-c0a9-440e-82c4-f53742c0c92b",
+      "_id": "e9523a28-e5dc-4cd1-8177-58ee0cb2445c",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.950Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.950Z"
+      }
+    },
+    {
+      "featureId": "284268a7-2192-4631-85fb-9fef2a737859",
+      "_id": "a1911c46-d6ef-4851-b060-68f4775df082",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.955Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.955Z"
+      }
+    },
+    {
+      "featureId": "c86cca5a-fc76-4989-823d-e44423db4339",
+      "_id": "bbfadfc1-1c06-45e2-8dbe-66b5ba22e831",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.961Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.961Z"
+      }
+    },
+    {
+      "featureId": "66a683d8-2784-4d40-8d70-a0a8144b6b0c",
+      "_id": "8326d1ea-0368-474d-abf8-1960f45e2e75",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.965Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.965Z"
+      }
+    },
+    {
+      "featureId": "5832c86b-8070-4c90-9ef3-3f60136294e7",
+      "_id": "85b88812-27e4-4325-ad06-a711bcc3c238",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.970Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.970Z"
+      }
+    },
+    {
+      "featureId": "b8cc8611-01c3-4905-8fb3-ede3a82375d1",
+      "_id": "da3b5c1e-40e9-497c-b985-ff0b0b0c5a3e",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.975Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.975Z"
+      }
+    },
+    {
+      "featureId": "48c463cb-594d-4cb3-8618-8cd478e1676b",
+      "_id": "6b722586-29dc-4611-99ba-ea1b217e96bd",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.980Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.980Z"
+      }
+    },
+    {
+      "featureId": "3abcdd1d-26fe-4ae4-a5c4-53aca7ab8ce1",
+      "_id": "f3576bc7-afe4-4b7a-9e82-f6c90e5ff831",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.986Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.986Z"
+      }
+    },
+    {
+      "featureId": "d77a8a16-28bf-4aea-a0b5-88e81dea5105",
+      "_id": "79fa2a57-270c-45b7-b578-bc7089ef87e0",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.991Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.991Z"
+      }
+    },
+    {
+      "featureId": "36045ddc-1a79-4af4-a664-f73cc24838d6",
+      "_id": "8e1c0d06-554f-4c4a-bc46-19159157d5ed",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:16.997Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:16.997Z"
+      }
+    },
+    {
+      "featureId": "e25433ce-99f4-4fe1-857a-e38c631b9da4",
+      "_id": "d3603ed5-81a9-420a-be27-f4bec920dbe3",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.002Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.002Z"
+      }
+    },
+    {
+      "featureId": "0e53caf6-e884-40db-946f-7a9ae44db45c",
+      "_id": "2995066f-7719-4bc5-9ee0-8cdf30f4ce5d",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.009Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.009Z"
+      }
+    },
+    {
+      "featureId": "ca60f50a-1e9b-405e-8a21-2deafe43c3ad",
+      "_id": "995f425c-6159-49b0-8e51-d6c02566dcb6",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.016Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.016Z"
+      }
+    },
+    {
+      "featureId": "e618c0e9-e9f9-4cd7-975f-05d64f10ffc8",
+      "_id": "8fb22de3-1bab-49b3-98ab-dd4d693686ad",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.023Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.023Z"
+      }
+    },
+    {
+      "featureId": "5fe0d699-6a68-44bc-b883-a6853f08ef6b",
+      "_id": "7f2e6393-f2be-46f3-9401-9478a84bc04f",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.029Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.029Z"
+      }
+    },
+    {
+      "featureId": "f63d7af5-66e1-46fc-ae8a-6d7d8251715d",
+      "_id": "02ac196b-64d6-4fbd-aa5f-134c4c8c7544",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.036Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.036Z"
+      }
+    },
+    {
+      "featureId": "339bc26c-652d-4485-ab90-6a749bdefb81",
+      "_id": "be94562d-0c6f-4697-9a1e-7a543f39c1b4",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.042Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.042Z"
+      }
+    },
+    {
+      "featureId": "97215c6a-4c99-4e7c-8d88-85a04ca331a4",
+      "_id": "b3c5a3e2-216d-4204-a6b9-b892cade34cf",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.048Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.048Z"
+      }
+    },
+    {
+      "featureId": "cc5558ba-7c37-4e00-ab29-07920e67a109",
+      "_id": "a73ce700-ade9-468c-aeb1-999f023d5959",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.055Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.055Z"
+      }
+    },
+    {
+      "featureId": "6e279974-3c4f-475d-b099-29c1c5c558ee",
+      "_id": "3e2b859a-8d8f-448b-bcf5-0784aec68b6f",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.061Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.061Z"
+      }
+    },
+    {
+      "featureId": "04e9512b-6474-4441-bd1c-de54a26aec3c",
+      "_id": "fd5d5c7a-b815-4d7d-98fe-3869cbb3bfb8",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.066Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.066Z"
+      }
+    },
+    {
+      "featureId": "81f305ca-ca4e-4d25-99d9-2f7a0dfd20cb",
+      "_id": "3a5ecc82-ec00-4943-bb06-0fbaaa18b352",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.070Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.070Z"
+      }
+    },
+    {
+      "featureId": "d63328b7-bfce-4a68-b78d-4319b036af87",
+      "_id": "f21bf51d-8943-4259-ae59-84973ca42cc2",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.075Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.075Z"
+      }
+    },
+    {
+      "featureId": "a2154f89-2dc8-4d98-9013-54b861fa3750",
+      "_id": "51d1951f-b3cd-4925-a11e-c446eccb0cc3",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.081Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.081Z"
+      }
+    },
+    {
+      "featureId": "4d8dd849-501d-4613-b318-616b24ad9272",
+      "_id": "48888b1e-7c13-4619-98f0-7d626b51483d",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.088Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.088Z"
+      }
+    },
+    {
+      "featureId": "c4241c82-77ad-4523-b72b-6ba6e68d450f",
+      "_id": "fc5a7182-8209-4be5-af0f-b9036e1885be",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.093Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.093Z"
+      }
+    },
+    {
+      "featureId": "0f7f06d7-3502-42c1-a8f3-0f7a3a17c2c6",
+      "_id": "e742ead0-74ee-46e8-b138-30a3dcb1464d",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.097Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.097Z"
+      }
+    },
+    {
+      "featureId": "b795f1f5-2ac1-4b2a-b03e-6568486c40b1",
+      "_id": "f3a071e5-4f4e-41c1-b94e-225ff4b06130",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.103Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.103Z"
+      }
+    },
+    {
+      "featureId": "2ddbc518-ea32-4a4a-9e6b-a26ea4de42c1",
+      "_id": "3f868f21-6b0f-4944-b42d-346068b56ed2",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.107Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.107Z"
+      }
+    },
+    {
+      "featureId": "49fe90fd-69fb-49f5-b275-43cdce6db323",
+      "_id": "c29d48a6-e1ba-4510-9118-b74e2e13912d",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.112Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.112Z"
+      }
+    },
+    {
+      "featureId": "3da3b2cf-e1b1-45a5-8530-c39c32f27cc3",
+      "_id": "b877bd12-3ecc-4667-bdb5-4fea1fa0b7c2",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.117Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.117Z"
+      }
+    },
+    {
+      "featureId": "509084f9-9940-453f-94d2-e55ba94707e5",
+      "_id": "75429a4a-955e-4810-8f8f-26bb141024c0",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.122Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.122Z"
+      }
+    },
+    {
+      "featureId": "9499ddce-63a7-48da-a37d-f623bf1f6e28",
+      "_id": "963de6c8-49af-4d57-aa9f-e13cc25f9271",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.128Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.128Z"
+      }
+    },
+    {
+      "featureId": "48fea5d2-63a9-4300-8c8d-7be0c8cefe2f",
+      "_id": "ba2078b6-be92-4643-ba01-96c3dc11a1c6",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.133Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.133Z"
+      }
+    },
+    {
+      "featureId": "690116cc-9165-4414-8868-599210833137",
+      "_id": "11ea876a-ee06-461b-95f9-ad549380245b",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.138Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.138Z"
+      }
+    },
+    {
+      "featureId": "c4c54622-23ff-4629-9344-517bc8714003",
+      "_id": "8a27e449-80f5-44c0-8e16-b0ef40fc2c7c",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.143Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.143Z"
+      }
+    },
+    {
+      "featureId": "15a520aa-5ffa-4d22-bc99-7fa9a41179cf",
+      "_id": "c75b765d-72d4-428f-a970-0728a507d40d",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.148Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.148Z"
+      }
+    },
+    {
+      "featureId": "55aa9ec8-9387-40f7-ba51-45c36c1e0565",
+      "_id": "171145b9-6247-45ad-aff1-9f3eae0defae",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.153Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.153Z"
+      }
+    },
+    {
+      "featureId": "02323e3e-7c85-4d34-a447-a5e68c969b15",
+      "_id": "9e2d2284-18c6-4c87-82e0-b0b6a9151e2b",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.159Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.159Z"
+      }
+    },
+    {
+      "featureId": "f571d3e0-edfa-4444-a904-f09052c2b555",
+      "_id": "823bfad9-74fc-422e-b460-24bc01e67f38",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.164Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.164Z"
+      }
+    },
+    {
+      "featureId": "f34f61c7-80e4-4091-85b3-2c231799451d",
+      "_id": "c5f8adc0-d32e-4369-9148-f8dfbb8a9f78",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.169Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.169Z"
+      }
+    },
+    {
+      "featureId": "426e6c12-2b19-4fb1-919a-8413689f7bd4",
+      "_id": "8712d5d5-68e6-4883-998d-82c74d9a7bc9",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.174Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.174Z"
+      }
+    },
+    {
+      "featureId": "8bea0587-38dd-4af2-96b3-8be2aae70f52",
+      "_id": "9c48fdd4-be76-4d48-9c5c-ef76bb25a099",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.180Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.180Z"
+      }
+    },
+    {
+      "featureId": "9b944979-160a-47a3-8d83-f435b4e50974",
+      "_id": "bc7ed8b4-ef1f-430f-ac20-43b89af82c87",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.185Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.185Z"
+      }
+    },
+    {
+      "featureId": "cac5ada4-f58a-4aed-a892-daf6401716a2",
+      "_id": "1e8e8d6d-0621-4f79-a414-df86e7fc2707",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.190Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.190Z"
+      }
+    },
+    {
+      "featureId": "9a0c5de1-0a29-4e83-a477-8851d03a489b",
+      "_id": "b00bf5da-a532-49da-9c60-754be5981008",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.196Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.196Z"
+      }
+    },
+    {
+      "featureId": "08d3c1eb-7118-4931-ad47-4fbc0e2a88f8",
+      "_id": "f67e3faa-27d7-4f14-abe7-e6ecb9f29903",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.203Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.203Z"
+      }
+    },
+    {
+      "featureId": "b97a24b4-0636-4032-9e53-78ab723b4c2e",
+      "_id": "ca57d2b0-5361-4304-aacc-697b79055beb",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.209Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.209Z"
+      }
+    },
+    {
+      "featureId": "11dda3ab-a3ca-4411-bfa6-4b3bfbe7919a",
+      "_id": "09697f71-3413-49c1-a5d7-04dd0a29a0c7",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.220Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.220Z"
+      }
+    },
+    {
+      "featureId": "15f37ff8-97ca-4ede-bff4-e498b069f960",
+      "_id": "7b7a2221-6d17-421b-bfde-79cebe381a31",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.227Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.227Z"
+      }
+    },
+    {
+      "featureId": "e572583a-282d-468d-af0f-1f3f26d329b2",
+      "_id": "2e160ea5-b3fc-4daf-be49-f262b45e3200",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.234Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.234Z"
+      }
+    },
+    {
+      "featureId": "c1185d63-e7fa-4088-8185-51cea1d33293",
+      "_id": "85285d2a-02a6-453b-b682-c272313a4c7c",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.243Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.243Z"
+      }
+    },
+    {
+      "featureId": "7748b0c3-0611-4b60-b635-f6d50ab812be",
+      "_id": "21d2053d-4cae-45d3-b2b7-d0ad1307f9a8",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.250Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.250Z"
+      }
+    },
+    {
+      "featureId": "ed9ebe7e-847a-41c0-ae24-9eec3e73a3c9",
+      "_id": "9aa38966-61de-498c-83ad-c817a23c6beb",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.258Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.258Z"
+      }
+    },
+    {
+      "featureId": "3d73fd7a-4504-4725-8c5b-63fb25208f93",
+      "_id": "0c046083-59db-4bf3-b032-f5aff5e50a2d",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.266Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.266Z"
+      }
+    },
+    {
+      "featureId": "84d1c0e6-d9f1-4fc3-83d1-6177f92c9534",
+      "_id": "ce86d0c1-aade-42c8-8ae3-6d2a6e3b783b",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.273Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.273Z"
+      }
+    },
+    {
+      "featureId": "f4fc5999-c3a3-4a3c-a4c6-27f70b38cfe5",
+      "_id": "a7b6c7d5-addc-4571-9f7c-73aa29e187c8",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.280Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.280Z"
+      }
+    },
+    {
+      "featureId": "b46baeaf-bc4e-4f88-be19-106e1e6a5629",
+      "_id": "7cf514db-d549-48c0-ab4e-2acf4cf82224",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.286Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.286Z"
+      }
+    },
+    {
+      "featureId": "62ff1680-bba2-4950-b4fa-5db33503e134",
+      "_id": "3d23799e-c8d5-4eb9-a8ad-853e659341ad",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.292Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.292Z"
+      }
+    },
+    {
+      "featureId": "4582b22c-6e14-4fc9-a961-1096d774c239",
+      "_id": "0405e49e-6d78-4fcd-852f-11b735d4bec8",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.299Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.299Z"
+      }
+    },
+    {
+      "featureId": "b9bfe1c0-5b7b-4ce5-8415-8c89907a6bf1",
+      "_id": "002a2561-5feb-43f2-9754-7bb7e59c18f1",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.304Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.304Z"
+      }
+    },
+    {
+      "featureId": "9c3e2df5-1584-437f-a943-9f52e3ff3936",
+      "_id": "8ed72793-8a1c-4a33-a522-bdf79636d9a5",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.310Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.310Z"
+      }
+    },
+    {
+      "featureId": "abe53e67-c5aa-4403-95d1-1d8a391589dd",
+      "_id": "72b2ef55-7be5-48b4-8969-cab6bf2402cd",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.316Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.316Z"
+      }
+    },
+    {
+      "featureId": "dc1ebcac-ad38-4f50-94be-520596c3ec80",
+      "_id": "934ee259-3f10-4221-ad5d-5fdabbf9400d",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.323Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.323Z"
+      }
+    },
+    {
+      "featureId": "d36956ae-a112-4abb-92c0-3d7b5ccf4458",
+      "_id": "66f838c7-e3f6-40e8-9aa8-8904c971f3ad",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.328Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.328Z"
+      }
+    },
+    {
+      "featureId": "f7528b35-4400-4ab0-805c-c01021e97d05",
+      "_id": "b285126d-9f78-4350-b08e-931086ed8af3",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.334Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.334Z"
+      }
+    },
+    {
+      "featureId": "4d25e1b9-6cd4-4c2c-a757-7206a3c2082f",
+      "_id": "1d6c2a7e-d8f4-4322-9652-4ac3864ba125",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.340Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.340Z"
+      }
+    },
+    {
+      "featureId": "b9a54d01-2b35-4d59-b8dd-118aead298b0",
+      "_id": "a6b2e803-b1f4-4ef6-b77a-579f3e869c89",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.345Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.345Z"
+      }
+    },
+    {
+      "featureId": "25ce7898-bbf3-4782-b480-6b622148a755",
+      "_id": "9735a164-5fcf-4b94-b7ac-4ecf592a67d9",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.351Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.351Z"
+      }
+    },
+    {
+      "featureId": "12d6909a-b07c-42e5-8269-cde84acb9d67",
+      "_id": "8a075040-7c33-48b5-aaa7-5cec9205c916",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.357Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.357Z"
+      }
+    },
+    {
+      "featureId": "58730eb7-5c71-4a92-92ea-49f20997704c",
+      "_id": "ac5fb296-13d2-4742-8915-2ac906e17e33",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.362Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.362Z"
+      }
+    },
+    {
+      "featureId": "bce3db3c-7080-44a8-9d55-02fb52407dc8",
+      "_id": "5bb5f295-423b-452f-ae65-c9d39e1a237d",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.367Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.367Z"
+      }
+    },
+    {
+      "featureId": "ddaa0d9a-a4b8-4553-a033-824b3cdfe713",
+      "_id": "350d4431-c3e0-4e58-bbf9-cdfa3b5760b4",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.372Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.372Z"
+      }
+    },
+    {
+      "featureId": "f5d9a3f4-12d0-40c6-8605-abfad0a011ab",
+      "_id": "aef1e82c-7369-4473-b81d-c592bd8da232",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.378Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.378Z"
+      }
+    },
+    {
+      "featureId": "297188af-a01a-4d28-84f9-dc4728026035",
+      "_id": "f1a62bb3-802d-4f54-ae23-96270adb49f6",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.384Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.384Z"
+      }
+    },
+    {
+      "featureId": "57a37955-4eb2-4ba2-9140-f2ca898f42e1",
+      "_id": "28b6ee80-4f5b-4ebe-ab12-91bf27af85d3",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.390Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.390Z"
+      }
+    },
+    {
+      "featureId": "1200d375-3f96-4b1c-bc26-55633bb178da",
+      "_id": "920bc52c-4164-46e3-a2f7-fe1042bde0cd",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.395Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.395Z"
+      }
+    },
+    {
+      "featureId": "6183b2a2-436d-4211-b45b-cfe5e3cc6dc8",
+      "_id": "f10906ee-44c7-4e7d-8c5c-eef12181e563",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.401Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.401Z"
+      }
+    },
+    {
+      "featureId": "9321b1e3-68ec-4b59-9a59-889a4cdcb90f",
+      "_id": "b06b4159-f15e-48f1-b594-76dca7bfbabf",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.407Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.407Z"
+      }
+    },
+    {
+      "featureId": "a98a3fc8-4748-4314-856c-26208a08520c",
+      "_id": "3cd7d4c8-c237-462a-a3b3-2f59095df298",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.413Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.413Z"
+      }
+    },
+    {
+      "featureId": "5eab99e0-d729-4e2c-a1b8-1982608ecc5c",
+      "_id": "6a4c6015-a8c9-47a3-bd68-e6db03da8666",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.418Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.418Z"
+      }
+    },
+    {
+      "featureId": "f38bd2c7-aff0-442b-b65a-8f13b4b64861",
+      "_id": "14abfa8b-20ef-425b-aafe-9ffa59501bb5",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.424Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.424Z"
+      }
+    },
+    {
+      "featureId": "7256ea15-4cf5-42e8-9bc8-f5b79ad4c714",
+      "_id": "a29b457c-2510-4429-a488-f857c6b64730",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.430Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.430Z"
+      }
+    },
+    {
+      "featureId": "e3d5f910-8c9e-4952-a419-eac9799a61b7",
+      "_id": "49476e46-4114-47dc-8fa0-e4458af252a4",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.436Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.436Z"
+      }
+    },
+    {
+      "featureId": "f558fde8-1069-46c7-baea-c1acd8a087be",
+      "_id": "6b07496b-fde8-49d2-a387-ba32adc0ae49",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.443Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.443Z"
+      }
+    },
+    {
+      "featureId": "4e21f59c-07d9-4329-8913-e38d5fcbc32a",
+      "_id": "360c2207-0a8f-46b3-b10f-3f88324d8f8d",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.449Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.449Z"
+      }
+    },
+    {
+      "featureId": "a7678e3e-b043-432d-a084-db2908dd555e",
+      "_id": "d8bcf29c-915b-4199-b691-8daddc05f24c",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.456Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.456Z"
+      }
+    },
+    {
+      "featureId": "ea9a0a79-d337-4837-928a-233091d32fe7",
+      "_id": "d8339cb7-46ec-42ab-8759-9115ab7265c6",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.463Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.463Z"
+      }
+    },
+    {
+      "featureId": "2fc30897-2b39-40df-b314-8644e7c7f54e",
+      "_id": "a80fd13f-e9bb-443e-8802-107de5ad2347",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.468Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.468Z"
+      }
+    },
+    {
+      "featureId": "6447a083-2b4d-4984-9456-9bb5e06b6a9a",
+      "_id": "22678d07-d27a-4c19-b902-f83dcb8997d5",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.475Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.475Z"
+      }
+    },
+    {
+      "featureId": "0044a46a-50a6-43cf-9f9a-fd463d155e88",
+      "_id": "09407b98-d836-4aa7-bde9-d26dc3669cda",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.482Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.482Z"
+      }
+    },
+    {
+      "featureId": "f0527476-7755-4abe-8a5c-97f7bb6e9189",
+      "_id": "fd6ca7b3-83ea-42e7-be67-0ac0960bafac",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.489Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.489Z"
+      }
+    },
+    {
+      "featureId": "32d121ac-b476-4092-a8e1-c64bb9e38eb2",
+      "_id": "82f9788e-0323-4fca-812c-387ecdb7aac6",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.495Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.495Z"
+      }
+    },
+    {
+      "featureId": "ffcfbbb1-1866-40e4-912c-c2193c80e107",
+      "_id": "1ad0c686-77d4-4c32-bbb3-8e1f13f1272a",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.501Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.501Z"
+      }
+    },
+    {
+      "featureId": "f26ae7c1-c047-4df5-af56-d4428e862804",
+      "_id": "a9a61a4f-5952-4d9d-a410-ced2e7a529dd",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.506Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.506Z"
+      }
+    },
+    {
+      "featureId": "4328cccc-3066-4090-a5b4-22430ca575f8",
+      "_id": "0ec88c6e-c97f-4a7c-b1ab-8d973d4ed078",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.515Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.515Z"
+      }
+    },
+    {
+      "featureId": "4f400d39-6027-4681-a1a9-967a2283e719",
+      "_id": "515d906b-8996-4bf3-af73-3d6aa8844849",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.524Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.524Z"
+      }
+    },
+    {
+      "featureId": "59f52b86-be3f-4143-89be-c7d7a997c1ed",
+      "_id": "8b3ed885-8012-425b-8c37-d343a2b00e74",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.533Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.533Z"
+      }
+    },
+    {
+      "featureId": "32ff5fc3-08a3-47d7-a87a-fd480b1424a3",
+      "_id": "4d173b91-f83f-4582-a37b-81db6563bfd7",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.545Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.545Z"
+      }
+    },
+    {
+      "featureId": "2b4ec4d4-6cb4-4e2a-87d3-964dd66aab75",
+      "_id": "0478d39a-f25b-4126-b837-3964374819b9",
+      "createdAt": {
+        "$date": "2025-04-21T00:19:17.557Z"
+      },
+      "updatedAt": {
+        "$date": "2025-04-21T00:19:17.557Z"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-04-21T00:05:16.946Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-21T00:57:49.522Z"
+  },
+  "__v": 158
+}]

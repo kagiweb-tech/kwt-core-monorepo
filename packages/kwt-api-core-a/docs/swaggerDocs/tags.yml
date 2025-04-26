@@ -1,0 +1,5 @@
+- $ref: ./auths/authTag.yml
+- $ref: ./features/featuresTag.yml
+- $ref: ./roles/rolesTag.yml
+- $ref: ./accounts/accountsTag.yml
+- $ref: ./owner/ownerTag.yml
