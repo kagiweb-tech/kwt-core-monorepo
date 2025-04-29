@@ -29,6 +29,9 @@ const initialState:IAppRefs = {
     features: undefined
 }
 
+/**
+ * @internal
+ */
 export const AppRefs = createSlice({
     name: 'appRefs',
     initialState,
@@ -53,4 +56,7 @@ export const AppRefs = createSlice({
 })
 
 export const { setAppRefs, clearAppRefs, toggleTheme } = AppRefs.actions
+/**
+ * @internal
+ */
 export default AppRefs.reducer

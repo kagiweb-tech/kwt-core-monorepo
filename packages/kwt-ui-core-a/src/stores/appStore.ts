@@ -3,6 +3,9 @@ import { useSelector, useDispatch, TypedUseSelectorHook } from 'react-redux';
 import signedInAccountReducer from './signedInAccountSlice'
 import appRefsReducer from './appRefsSlice';
 
+/**
+ * @internal
+ */
 const store = configureStore({
     reducer: {
       signedInAccount: signedInAccountReducer,
@@ -17,5 +20,8 @@ export type AppState = ReturnType<typeof store.getState>
 // Inferred type: {posts: PostsState, comments: CommentsState, users: UsersState}
 export type AppDispatch = typeof store.dispatch
 
+/**
+ * @internal
+ */
 export const useAppDispatch = () => useDispatch<AppDispatch>()
 export const useAppSelector: TypedUseSelectorHook<AppState> = useSelector

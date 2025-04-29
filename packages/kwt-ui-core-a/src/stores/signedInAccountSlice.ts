@@ -1,4 +1,4 @@
-import { createSlice, PayloadAction, Slice, SliceSelectors, SliceCaseReducers } from "@reduxjs/toolkit";
+import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { IFeature } from "../types/feature";
 import { IRole } from "../types/role";
 import { IAccount, IWorkspace, IAccessToken, IClientDevice } from "../types/account";
@@ -87,7 +87,10 @@ const initialState:IAccessInfo = {
     mergedFeatures: undefined
 }
 
-export const AccessInfo:Slice<IAccessInfo, SliceCaseReducers<IAccessInfo>, string, string, SliceSelectors<IAccessInfo>> = createSlice({
+/**
+ * @internal
+ */
+export const AccessInfo = createSlice({
     name: 'signedInAccount',
     initialState,
 
@@ -152,4 +155,7 @@ export const AccessInfo:Slice<IAccessInfo, SliceCaseReducers<IAccessInfo>, strin
 })
 
 export const { setAccountData, clearAccountData } = AccessInfo.actions
+/**
+ * @internal
+ */
 export default AccessInfo.reducer
