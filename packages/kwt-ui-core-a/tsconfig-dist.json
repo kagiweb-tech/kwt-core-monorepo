@@ -16,14 +16,6 @@
         "target": "es6",
 
         "stripInternal": true
-
-        // "allowJs": true,
-        // "skipLibCheck": true,
-        // "forceConsistentCasingInFileNames": true,
-        // "noFallthroughCasesInSwitch": true,
-        // "resolveJsonModule": true,
-        // "isolatedModules": true,
-        // "noEmit": true,
     },
     "include": ["src/**/*.ts", "src/**/*.tsx"]
 }
